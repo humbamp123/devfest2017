@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import Countdown from 'react-count-count';
 import 'bulma/css/bulma.css';
 import c from './content.json';
+import s from './Timer.css';
 
 class Timer extends Component {
     constructor(props) {

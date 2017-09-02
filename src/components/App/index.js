@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import Header from '../Header';
-import Events from '../Events';
-import Timer from '../Timer';
-import Footer from '../Footer';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Home from '../Home';
+import About from '../About';
+import Codelabs from '../Codelabs';
 import 'bulma/css/bulma.css'
 
 class App extends Component {
   render() {
     return (
-      <div className={'App'}>
-        <Header />
-        <Timer />
-        <Events />
-        <Footer />
+      <div>
+        <Router>
+          <div>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/codelabs" component={Codelabs}/>
+          </div>
+        </Router>
       </div>
     );
   }

@@ -43,9 +43,10 @@ To deploy to production simply follow these steps:
 ```sh
 yarn build
 firebase deploy
-
-https://gdg-bayarea-devfest-2017.firebaseapp.com/
 ```
+
+Project console: [Firebase console](https://console.firebase.google.com/project/gdg-bayarea-devfest-2017/overview)
+Project site: [DevFest site](https://gdg-bayarea-devfest-2017.firebaseapp.com)
 
 ## Contributors
 GDG Bay Area organizers

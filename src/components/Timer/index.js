@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Countdown from 'react-count-count';
 import 'bulma/css/bulma.css';
-import s from './Timer.css'
 import c from './content.json';
 
 class Timer extends Component {
@@ -24,7 +23,7 @@ class Timer extends Component {
         <section className={classNames('hero', 'is-small','is-warning','is-bold')}>
             <div className={'hero-body'}>
                 <div className={'container'}>
-                  <div className={s.countdowns, classNames('has-text-centered')}>
+                  <div className={classNames('has-text-centered')}>
                     <h3 className={classNames('title', 'is-3')}>{dateInfo[this.state.index]}</h3>
                     <Countdown options={sfOptions} />
                   </div>

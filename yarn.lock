@@ -5010,6 +5010,10 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-count-count@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-count-count/-/react-count-count-1.2.0.tgz#72de884278c2f3061949df09170ae7a730bcff6c"
+
 react-dev-utils@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-3.1.1.tgz#09ae7209a81384248db56547e718e65bd3b20eb5"

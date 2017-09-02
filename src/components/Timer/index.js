@@ -6,31 +6,27 @@ import s from './Timer.css'
 import c from './content.json';
 
 class Timer extends Component {
-
+    constructor(props) {
+        super(props)
+        this.state = { index: 0}
+    }
 
   render() {
-    const hello = () => {
-      console.log('hello')
+    let date = ['11/21/2017 10:00 AM', '11/28/2017 9:00 AM', '11/4/2017 10:00 AM']
+    let dateInfo = [c.berkleyTitle ,c.sfTitle, c.fremontTitle]
+    const cb = () => {
+        if (this.state.index < 3) {
+            this.setState({index: this.state.index + 1})
+        }
     }
-    const sfOptions = {endDate: '09/02/2017 12:17 PM', prefix: '', hello} 
-    const berkleyOptions = {endDate: '10/21/2017 10:00 AM'} 
-    const fremontOptions = {endDate: '11/4/2017 10:00 AM'} 
-
+    var sfOptions = {endDate: date[this.state.index], prefix: '', cb} 
     return (
         <section className={classNames('hero', 'is-small','is-warning','is-bold')}>
             <div className={'hero-body'}>
                 <div className={'container'}>
-                  <div className={s.countdowns}>
-                    <h3 className={classNames('title', 'is-3')}>{c.sfTitle}</h3>
+                  <div className={s.countdowns, classNames('has-text-centered')}>
+                    <h3 className={classNames('title', 'is-3')}>{dateInfo[this.state.index]}</h3>
                     <Countdown options={sfOptions} />
-                  </div>
-                  <div>
-                     <h3 className={classNames('title', 'is-3')}>{c.berkleyTitle}</h3>
-                     <Countdown options={berkleyOptions} />
-                  </div>
-                  <div>
-                     <h3 className={classNames('title', 'is-3')}>{c.fremontTitle}</h3>
-                    <Countdown options={fremontOptions} />
                   </div>
                 </div>
             </div>

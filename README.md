@@ -1,10 +1,12 @@
 # GDG Bay Area DevFest 2017
 
 CSS Framework - [Bulma](https://github.com/jgthms/bulma)
-Bootstrapped - [Create React App](https://github.com/facebookincubator/create-react-app).
+Bootstrapped - [Create React App](https://github.com/facebookincubator/create-react-app)
+Mobile platform - [Firebase](https://firebase.google.com/)
 
 ## Table of Contents
 
+- [Development](#development)
 - [Build](#build)
 - [Folder Structure](#folder-structure)
 
@@ -25,14 +27,24 @@ devfest2017/
     tests/
 ```
 
-## Build
-
+## Development
 In the project directory, you can run:
 
 ```sh
+npm install -g firebase-tools
 brew install yarn
 yarn install
 yarn start
+```
+
+## Build
+To deploy to production simply follow these steps:
+
+```sh
+yarn build
+firebase deploy
+
+https://gdg-bayarea-devfest-2017.firebaseapp.com/
 ```
 
 ## Contributors

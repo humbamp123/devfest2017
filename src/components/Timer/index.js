@@ -19,14 +19,14 @@ class Timer extends Component {
             this.setState({index: this.state.index + 1})
         }
     }
-    var sfOptions = {endDate: date[this.state.index], prefix: '', cb} 
+    var Options = {endDate: date[this.state.index], prefix: '', cb} 
     return (
         <section className={classNames('hero', 'is-small','is-warning','is-bold')}>
             <div className={'hero-body'}>
                 <div className={'container'}>
                   <div className={classNames('has-text-centered')}>
                     <h3 className={classNames('title', 'is-3')}>{dateInfo[this.state.index]}</h3>
-                    <Countdown options={sfOptions} />
+                    <Countdown options={Options} />
                   </div>
                 </div>
             </div>

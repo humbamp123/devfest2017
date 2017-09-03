@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bulma/css/bulma.css';
 import classNames from 'classnames';
 
-class Codeofconduct extends Component {
+class Communityguidelines extends Component {
   render() {
     return (
       <section className={classNames('section')}>
@@ -29,4 +29,4 @@ class Codeofconduct extends Component {
   }
 }
 
-export default Codeofconduct;
+export default Communityguidelines;

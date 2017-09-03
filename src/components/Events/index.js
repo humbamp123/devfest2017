@@ -17,7 +17,7 @@ class Events extends Component {
                     <p className={classNames('subtitle', 'is-1')}>{c.groups[item]}</p>
                     <p>{c.blurbs[item]}</p>
                     <p className={classNames('subtitle', 'is-1')}>{c.edates[item]}</p>
-                    <a className={classNames('button', 'is-primary', 'is-outlined')}>{c.morbtn}</a>
+                    <a href={c.morbtn} className={classNames('button', c.btnclr[item], 'is-outlined')}>More Info</a>
                 </div>
               </section>   
             );

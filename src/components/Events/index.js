@@ -5,27 +5,23 @@ import c from './content.json';
 
 class Events extends Component {
   render() {
+    const index = [0, 1, 2];
     return (
-        <section className={classNames('hero', 'is-medium','is-info','is-bold')}>
-            <div className={'hero-body'}>
-                <div className={classNames('content', 'has-text-centered')}>
-                    <div className={classNames('columns', 'is-gapless', 'is-centered')}>
-                         <div className={classNames('column')}>
-                            <p className={'title'}>{c.events[0]}</p>
-                            <p className={'subtitle'}>{c.groups[0]}</p>
-                        </div>
-                         <div className={classNames('column')}>
-                            <p className={'title'}>{c.events[1]}</p>
-                            <p className={'subtitle'}>{c.groups[1]}</p>
-                        </div>
-                         <div className={classNames('column')}>
-                            <p className={'title'}>{c.events[2]}</p>
-                            <p className={'subtitle'}>{c.groups[2]}</p>
-                        </div>
-                    </div>
+      <section>
+        {
+          index.map((item) => {
+            return (
+              <section key={c.events[item]} className={classNames('hero', 'is-medium', c.colors[item], 'is-bold')}>
+                <div className={classNames('hero-body', 'has-text-centered')}>
+                    <p className={'title'}>{c.events[item]}</p>
+                    <p className={'subtitle'}>{c.groups[item]}</p>
+                    <p>{c.blurbs[item]}</p>
                 </div>
-            </div>
-        </section>    
+              </section>   
+            );
+          })
+        }
+      </section>
     );
   }
 }

@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Countdown from 'react-count-count';
 import 'bulma/css/bulma.css';
 import c from './content.json';
-import s from './Timer.css';
+import './Timer.css';
 
 class Timer extends Component {
     constructor(props) {
@@ -12,7 +12,7 @@ class Timer extends Component {
     }
 
   render() {
-    let date = ['11/21/2017 10:00 AM', '11/28/2017 9:00 AM', '11/4/2017 10:00 AM']
+    let date = ['10/21/2017 10:00 AM', '10/28/2017 9:00 AM', '10/4/2017 10:00 AM']
     let dateInfo = [c.berkleyTitle ,c.sfTitle, c.fremontTitle]
     const cb = () => {
         if (this.state.index < 3) {

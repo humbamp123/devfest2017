@@ -13,9 +13,11 @@ class Events extends Component {
             return (
               <section key={c.events[item]} className={classNames('hero', 'is-medium', c.colors[item], 'is-bold')}>
                 <div className={classNames('hero-body', 'has-text-centered')}>
-                    <p className={'title'}>{c.events[item]}</p>
-                    <p className={'subtitle'}>{c.groups[item]}</p>
+                    <p className={classNames('title', 'is-1')}>{c.events[item]}</p>
+                    <p className={classNames('subtitle', 'is-1')}>{c.groups[item]}</p>
                     <p>{c.blurbs[item]}</p>
+                    <p className={classNames('subtitle', 'is-1')}>{c.edates[item]}</p>
+                    <a className={classNames('button', 'is-primary', 'is-outlined')}>{c.morbtn}</a>
                 </div>
               </section>   
             );

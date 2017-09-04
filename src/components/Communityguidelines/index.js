@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bulma/css/bulma.css';
 import classNames from 'classnames';
 
-class Communityguidelines extends Component {
+class CommunityGuidelines extends Component {
   render() {
     return (
       <section className={classNames('section')}>
@@ -29,4 +29,4 @@ class Communityguidelines extends Component {
   }
 }
 
-export default Communityguidelines;
+export default CommunityGuidelines;

@@ -6,31 +6,36 @@ import c from './content.json';
 import './Timer.css';
 
 class Timer extends Component {
-    constructor(props) {
-        super(props)
-        this.state = { index: 0}
+  constructor(props) {
+    super(props)
+    this.state = { index: 0 }
+  }
+
+  getOptions () {
+    const { index } = this.state
+    let date = ['10/21/2017 10:00 AM', '10/28/2017 9:00 AM', '11/4/2017 10:00 AM']
+    const cb = () => {
+      if (index < 3) { this.setState({index: index + 1}) }
     }
+    
+    return { endDate: date[this.state.index], prefix: '', cb }
+  }
 
   render() {
-    let date = ['10/21/2017 10:00 AM', '10/28/2017 9:00 AM', '10/4/2017 10:00 AM']
-    let dateInfo = [c.berkleyTitle ,c.sfTitle, c.fremontTitle]
-    const cb = () => {
-        if (this.state.index < 3) {
-            this.setState({index: this.state.index + 1})
-        }
-    }
-    var Options = {endDate: date[this.state.index], prefix: '', cb} 
+    const { index } = this.state
+    const { customOptions } = this.props
+
+    // Prioritize custom props, else go with default options
+    const options = customOptions || this.getOptions()
+    let dateInfo = [c.berkleyTitle, c.sfTitle, c.fremontTitle]
+
     return (
-        <section className={classNames('hero', 'is-small','is-warning','is-bold')}>
-            <div className={'hero-body'}>
-                <div className={'container'}>
-                  <div className={classNames('has-text-centered')}>
-                    <h3 className={classNames('title', 'is-3')}>{dateInfo[this.state.index]}</h3>
-                    <Countdown options={Options} />
-                  </div>
-                </div>
-            </div>
-        </section>
+      <div className={'container'}>
+        <div className={'has-text-centered'}>
+          {!customOptions && <h3 className={classNames('title', 'is-3')}>{dateInfo[index]}</h3>}
+          <Countdown options={options} />
+        </div>
+      </div>
     );
   }
 }

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Timer from '../Timer';
 import Menu from '../Menu';
 import Footer from '../Footer';
+import Timer from '../Timer';
+import 'bulma/css/bulma.css';
 import c from './content.json';
 
-class CodeLabs extends Component {
+class Talks extends Component {
   render() {
     return (
       <div>
@@ -20,7 +21,7 @@ class CodeLabs extends Component {
         <section className={classNames('hero', 'is-small','is-light', 'has-text-centered')}>
           <div className={'hero-body'}>
             <div className={'container'}>
-              <Timer customOptions={{endDate: '10/21/2017 10:00 AM'}} />
+              <Timer customOptions={{endDate: '10/28/2017 9:00 AM'}} />
             </div>
           </div>
         </section>
@@ -30,4 +31,4 @@ class CodeLabs extends Component {
   }
 }
 
-export default CodeLabs;
+export default Talks;

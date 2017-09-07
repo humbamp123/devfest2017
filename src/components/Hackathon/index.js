@@ -5,6 +5,7 @@ import Menu from '../Menu';
 import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import c from './content.json';
+import Maps from '../Maps';
 
 class Hackathon extends Component {
   render() {
@@ -25,6 +26,7 @@ class Hackathon extends Component {
             </div>
           </div>
         </section>
+        <Maps lat={37.548606} lng={-122.059009} eventLocation='42 Silicon Valley' eventDescription='Desc' directions='https://goo.gl/maps/jEcYoErqFuT2' />
         <Footer />
       </div>
     );

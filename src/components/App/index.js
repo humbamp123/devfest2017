@@ -9,7 +9,6 @@ import Speakers from '../Speakers';
 import Hackathon from '../Hackathon';
 import CommunityGuidelines from '../CommunityGuidelines';
 import 'bulma/css/bulma.css'
-
 class App extends Component {
   render() {
     return (

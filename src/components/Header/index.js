@@ -12,7 +12,7 @@ class Header extends Component {
                     <h1 className={classNames('title')}>{c.title}</h1>
                     <h1 className={classNames('subtitle')}>{c.subtitle}</h1>
                     <h3>{c.content}</h3>
-                    <a className={classNames('button', 'is-info', 'is-outlined')}>{c.register}</a>
+                    <a className={classNames('button', 'is-info')}>{c.register}</a>
                 </div>
             </div>
         </section>    

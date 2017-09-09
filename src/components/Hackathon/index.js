@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Timer from '../Timer';
 import Menu from '../Menu';
+import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import c from './content.json';
@@ -27,6 +28,7 @@ class Hackathon extends Component {
           </div>
         </section>
         <Maps lat={37.548606} lng={-122.059009} eventLocation='42 Silicon Valley' eventDescription='Desc' directions='https://goo.gl/maps/jEcYoErqFuT2' />
+        <Sponsors />
         <Footer />
       </div>
     );

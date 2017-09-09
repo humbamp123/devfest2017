@@ -12,7 +12,9 @@ class Footer extends Component {
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>
                         <div className={classNames('column')}>{c.partners}</div>
                         <div className={classNames('column')}>{c.visitors}</div>
-                        <div className={classNames('column')}>{c.contact}</div>
+                        <a href="mailto:san.francisco.gdg@gmail.com" className={classNames('column')}>
+                            {c.contact}
+                        </a>
                     </div>
                 </div>
             </div>

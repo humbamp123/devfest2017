@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import Menu from '../Menu';
+import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import Timer from '../Timer';
 import 'bulma/css/bulma.css';
@@ -27,6 +28,7 @@ class Talks extends Component {
           </div>
         </section>
         <Maps lat={37.787600} lng={-122.396600} eventLocation='Galvanize SF - Soma' eventDescription='Desc' directions='https://goo.gl/maps/21dQqb9tccR2' />
+        <Sponsors />
         <Footer />
       </div>
     );

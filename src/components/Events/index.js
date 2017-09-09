@@ -14,13 +14,17 @@ class Events extends Component {
             return (
               <section key={c.events[item]} className={classNames('hero', 'is-medium', c.colors[item], 'is-bold')}>
                 <div className={classNames('hero-body', 'has-text-centered')}>
-                  <p className={classNames('title', 'is-1')}>{c.events[item]}</p>
-                  <p className={classNames('subtitle', 'is-1')}>{c.groups[item]}</p>
-                  <p>{c.blurbs[item]}</p>
-                  <p className={classNames('subtitle', 'is-1')}>{c.edates[item]}</p>
-                  <Link to={c.routes[item]} className={classNames('button', c.btnclr[item], 'is-outlined')}>
-                    {c.moreInfo}
-                  </Link>
+                  <div className={classNames('columns')}>
+                    <div className={classNames('column', 'is-half', 'is-offset-one-quarter')}>
+                      <p className={classNames('title', 'is-1')}>{c.events[item]}</p>
+                      <p className={classNames('subtitle', 'is-1')}>{c.groups[item]}</p>
+                      <h3>{c.blurbs[item]}</h3>
+                      <p className={classNames('subtitle', 'is-1')}>{c.edates[item]}</p>
+                      <Link to={c.routes[item]} className={classNames('button', c.btnclr[item], 'is-outlined')}>
+                        {c.moreInfo}
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </section>   
             );

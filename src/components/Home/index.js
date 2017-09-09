@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import Header from '../Header';
 import Events from '../Events';
 import Timer from '../Timer';
+import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import 'bulma/css/bulma.css'
 
@@ -18,6 +19,7 @@ class Home extends Component {
           </div>
         </section>
         <Events />
+        <Sponsors />
         <Footer />
       </div>
     );

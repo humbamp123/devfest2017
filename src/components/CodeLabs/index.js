@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Timer from '../Timer';
 import Menu from '../Menu';
+import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import c from './content.json';
 import Maps from '../Maps';
@@ -26,6 +27,7 @@ class CodeLabs extends Component {
           </div>
         </section>
         <Maps lat={37.870400} lng={-122.268900} eventLocation='Next Space Berkeley' eventDescription='Desc' directions='https://goo.gl/maps/4X1hgairUf82' />
+        <Sponsors />
         <Footer />
       </div>
     );

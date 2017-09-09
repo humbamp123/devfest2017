@@ -9,8 +9,8 @@ class Agenda extends Component {
   render() {
     // TODO Replace hardcoded agenda titles
     return (
-      <div>
-        <section className={classNames('hero', 'is-medium','is-light','is-bold', 'has-text-centered')}>
+      <div className={'wrapper'}>
+        <section className={classNames('hero', 'is-medium','is-primary','is-bold', 'has-text-centered')}>
           <Menu />  
           <div className={'hero-body'}>
             <div className={'container'}>

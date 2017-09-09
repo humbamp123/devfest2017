@@ -1,7 +1,7 @@
 {
-    "events": [ "Code Labs", "Conference Talks", "Hack-a-thon"],
+    "events": [ "Code Labs", "Talks", "Hack-a-thon"],
     "groups": [ "GDG Berkley", "GDG San Francisco", "GDG Fremont" ],
-    "colors": [ "is-info", "is-white", "is-success"],
+    "colors": [ "is-dark", "is-light", "is-dark"],
     "btnclr": [ "info-invert", "black", "success-invert"],
     "blurbs": [ 
       "Kick off your DevFest with a guided tutorial exploring new Google technologies. With the support of experts, participants will create applications in the process of learning how to use Firebase or Flitter.",

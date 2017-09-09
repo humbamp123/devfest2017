@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import classNames from 'classnames';
 import 'bulma/css/bulma.css';
 import c from './content.json';
+import s from './Events.css'
 
 class Events extends Component {
   render() {
@@ -13,14 +14,18 @@ class Events extends Component {
           index.map((item) => {
             return (
               <section key={c.events[item]} className={classNames('hero', 'is-medium', c.colors[item], 'is-bold')}>
-                <div className={classNames('hero-body', 'has-text-centered')}>
-                  <p className={classNames('title', 'is-1')}>{c.events[item]}</p>
-                  <p className={classNames('subtitle', 'is-1')}>{c.groups[item]}</p>
-                  <p>{c.blurbs[item]}</p>
-                  <p className={classNames('subtitle', 'is-1')}>{c.edates[item]}</p>
-                  <Link to={c.routes[item]} className={classNames('button', c.btnclr[item], 'is-outlined')}>
-                    {c.moreInfo}
-                  </Link>
+                <div className={classNames('hero-body', 'event-container')}>
+                  <div className={'event-title'}>
+                    <p className={classNames('title', 'is-3')}>{c.events[item]}</p>
+                    <p className={'subtitle'}>{c.groups[item]}</p>
+                    <p className={'subtitle'}>{c.edates[item]}</p>
+                  </div>
+                  <div className={'event-blurb-wrapper'}>
+                    <p className={'event-blurb'}>{c.blurbs[item]}</p>
+                    <Link to={c.routes[item]} className={classNames('button', c.btnclr[item], 'is-primary', 'is-outlined')}>
+                      {c.moreInfo}
+                    </Link>
+                  </div>
                 </div>
               </section>   
             );

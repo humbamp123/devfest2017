@@ -23,9 +23,9 @@ class Sponsors extends Component {
 
                 </div>
                 <div className={classNames('subtitle')}>{c.venue}</div>
-                <div className={classNames('columns')}>
+                <div className={classNames('columns', 'is-vcentered')}>
                     <div className={classNames('column', 'is-one-third')}></div>
-                    <div className={classNames('column')}>
+                    <div className={classNames('column', 'is-vcentered')}>
                         <div style={{ width: "200px"}}>
                             <a href="http://nextspace.us/">
                                 <svg style={{ fill: "#ff5f00" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 527.18 148.84">

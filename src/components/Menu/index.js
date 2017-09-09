@@ -18,6 +18,7 @@ class Menu extends Component {
                 <Link to={'/hackathon'} className={'nav-item'}>{c.hackathon}</Link>
                 <Link to={'/agenda'} className={'nav-item'}>{c.agenda}</Link>
                 <Link to={'/speakers'} className={'nav-item'}>{c.speakers}</Link>
+                <Link to={'/community_guidelines'} className={'nav-item'}>{c.guidelines}</Link>
                 <span className={'nav-item'}>
                   <a href="http://bit.ly/DevFest17" className={classNames('button', 'is-primary', 'is-inverted', 'is-outlined')}>
                     <span>{c.register}</span>

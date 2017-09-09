@@ -1,0 +1,23 @@
+.event-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-title {
+  width: 35%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.event-blurb-wrapper {
+  width: 60%;
+  text-align: center;
+}
+
+.event-blurb {
+  font-size: 20px;
+  padding: 20px;
+}

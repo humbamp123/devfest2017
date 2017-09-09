@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import Menu from '../Menu';
+import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import c from './content.json';
@@ -9,8 +10,8 @@ class Agenda extends Component {
   render() {
     // TODO Replace hardcoded agenda titles
     return (
-      <div>
-        <section className={classNames('hero', 'is-medium','is-light','is-bold', 'has-text-centered')}>
+      <div className={'wrapper'}>
+        <section className={classNames('hero', 'is-medium','is-primary','is-bold', 'has-text-centered')}>
           <Menu />  
           <div className={'hero-body'}>
             <div className={'container'}>
@@ -47,6 +48,7 @@ class Agenda extends Component {
             </table>
           </div>
         </section>
+        <Sponsors />
         <Footer />
       </div>
     );

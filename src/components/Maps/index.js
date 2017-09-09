@@ -96,37 +96,33 @@ export default class Maps extends Component {
 
   render() {
     return (
-        <div className={classNames('hero')}>
-          <div className={classNames('hero-body')}>
-            <div style={{ height: '400px'}}>
-              <MapsGoogleMap
-                googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry&key=AIzaSyCzoefHFDKC6sQ12YqbgMtAB9x85YlMp_0"
-                loadingElement={
-                  <div style={{ height: `100%` }}>
-                    <FaSpinner
-                      style={{
-                        display: `block`,
-                        width: `80px`,
-                        height: `80px`,
-                        margin: `150px auto`,
-                        animation: `fa-spin 2s infinite linear`,
-                      }}
-                    />
-                  </div>
-                }
-                containerElement={
-                  <div style={{ height: `100%` }} />
-                }
-                mapElement={
-                  <div style={{ height: `100%` }} />
-                }
-                markers={this.state.markers}
-                onMarkerClick={this.handleMarkerClick}
-                onMarkerClose={this.handleMarkerClose}
+      <div style={{ height: '400px'}}>
+        <MapsGoogleMap
+          googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry&key=AIzaSyCzoefHFDKC6sQ12YqbgMtAB9x85YlMp_0"
+          loadingElement={
+            <div style={{ height: `100%` }}>
+              <FaSpinner
+                style={{
+                  display: `block`,
+                  width: `80px`,
+                  height: `80px`,
+                  margin: `150px auto`,
+                  animation: `fa-spin 2s infinite linear`,
+                }}
               />
             </div>
-          </div>
-        </div>
+          }
+          containerElement={
+            <div style={{ height: `100%` }} />
+          }
+          mapElement={
+            <div style={{ height: `100%` }} />
+          }
+          markers={this.state.markers}
+          onMarkerClick={this.handleMarkerClick}
+          onMarkerClose={this.handleMarkerClose}
+        />
+      </div>
     );
   }
 }

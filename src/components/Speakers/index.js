@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
+import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import Menu from '../Menu';
 import 'bulma/css/bulma.css';
@@ -8,8 +9,8 @@ import c from './content.json';
 class Speakers extends Component {
   render() {
     return (
-      <div>
-        <section className={classNames('hero', 'is-medium','is-light','is-bold', 'has-text-centered')}>
+      <div className={'wrapper'}>
+        <section className={classNames('hero', 'is-medium','is-primary','is-bold', 'has-text-centered')}>
           <Menu />  
           <div className={'hero-body'}>
             <div className={'container'}>
@@ -17,6 +18,7 @@ class Speakers extends Component {
             </div>
           </div>
         </section>
+        <Sponsors />
         <Footer />
       </div>
     );

@@ -44,7 +44,7 @@ export default class Maps extends Component {
         <div>
           <h1>{this.props.eventLocation}</h1>
           <p>{this.props.eventDescription}</p>
-          <a href={this.props.directions}>Directions</a>
+          <a className={classNames('button', 'is-primary', 'is-small')} href={this.props.directions}>Directions</a>
         </div>
       ),
       key: this.props.key,

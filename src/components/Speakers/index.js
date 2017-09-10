@@ -13,9 +13,8 @@ class Speakers extends Component {
     super(props)
     this.state = {
       speakers: [
-        'alicia', 'chloe', 'amrit', 'phillip', 
-        'oswald', 'caren', 'jennifer', 'murat', 
-        'minko', 'sneha', 'vikram'
+        'alicia', 'jennifer', 'linda', 'caren', 
+        'murat', 'minko', 'sneha', 'vikram', 'rupali'
       ]
     }
   }

@@ -3,14 +3,29 @@ import classNames from 'classnames';
 import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import Menu from '../Menu';
+import { speakers as speakerImages } from '../../constants/images'
 import 'bulma/css/bulma.css';
+import s from './Speakers.css';
 import c from './content.json';
 
 class Speakers extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      speakers: [
+        'alicia', 'chloe', 'amrit', 'phillip', 
+        'oswald', 'caren', 'jennifer', 'murat', 
+        'minko', 'sneha', 'vikram'
+      ]
+    }
+  }
+  
   render() {
+    const { speakers } = this.state
+
     return (
       <div className={'wrapper'}>
-        <section className={classNames('hero', 'is-medium','is-primary','is-bold', 'has-text-centered')}>
+        <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered')}>
           <Menu />  
           <div className={'hero-body'}>
             <div className={'container'}>
@@ -18,7 +33,19 @@ class Speakers extends Component {
             </div>
           </div>
         </section>
-        <Sponsors />
+        <section className={'speakerSection'}>
+          { speakers && speakers.map((name, index) => (      
+            <div className={'speakerCard'} key={index}>
+              <div className={'speakerPhoto'}>
+                { speakerImages[name]
+                    ? <img src={[speakerImages[name]]} />
+                    : <img src={[speakerImages['android']]} />
+                }
+              </div>
+              <p className={'subtitle'}>{name}</p>
+            </div>
+          ))}
+        </section>
         <Footer />
       </div>
     );

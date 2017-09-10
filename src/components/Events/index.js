@@ -22,7 +22,7 @@ class Events extends Component {
                   </div>
                   <div className={'event-blurb-wrapper'}>
                     <p className={'event-blurb'}>{c.blurbs[item]}</p>
-                    <Link to={c.routes[item]} className={classNames('button', c.btnclr[item], 'is-primary', 'is-outlined')}>
+                    <Link to={c.routes[item]} className={classNames('button', c.btn[item],'is-outlined')}>
                       {c.moreInfo}
                     </Link>
                   </div>

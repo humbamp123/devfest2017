@@ -1,0 +1,23 @@
+
+.speakerSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.speakerCard {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.speakerPhoto {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 20px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  overflow: hidden;
+}

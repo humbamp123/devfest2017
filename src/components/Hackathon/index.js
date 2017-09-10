@@ -13,7 +13,7 @@ class Hackathon extends Component {
   render() {
     return (
       <div className={'wrapper'}>
-        <section className={classNames('hero', 'is-medium','is-primary','is-bold', 'has-text-centered')}>
+        <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered')}>
           <Menu />  
           <div className={'hero-body'}>
             <div className={'container'}>

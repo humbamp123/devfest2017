@@ -11,7 +11,7 @@ class Agenda extends Component {
     // TODO Replace hardcoded agenda titles
     return (
       <div className={'wrapper'}>
-        <section className={classNames('hero', 'is-medium','is-primary','is-bold', 'has-text-centered')}>
+        <section className={classNames('hero', 'is-medium', 'is-bold', 'has-text-centered')}>
           <Menu />  
           <div className={'hero-body'}>
             <div className={'container'}>

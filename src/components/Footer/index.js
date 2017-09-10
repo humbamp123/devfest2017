@@ -16,6 +16,9 @@ class Footer extends Component {
                             {c.contact}
                         </a>
                     </div>
+                    <div className={classNames('columns', 'is-gapless', 'is-centered')}>
+                        <a className={classNames('column')} href="https://twitter.com/sf_gdg" class="twitter-follow-button" data-show-count="false">Follow @sf_gdg</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
                 </div>
             </div>
         </section>    

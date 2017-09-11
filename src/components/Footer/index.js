@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Follow } from 'react-twitter-widgets'
 import classNames from 'classnames';
 import 'bulma/css/bulma.css';
 import c from './content.json';
@@ -17,7 +18,7 @@ class Footer extends Component {
                         </a>
                     </div>
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>
-                        <a className={classNames('column')} href="https://twitter.com/sf_gdg" class="twitter-follow-button" data-show-count="false">Follow @sf_gdg</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <Follow className={classNames('column')} username="sf_gdg" options={{size:"large"}}/>
                     </div>
                 </div>
             </div>

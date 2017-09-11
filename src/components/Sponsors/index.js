@@ -49,7 +49,7 @@ class Sponsors extends Component {
                 </div>
                 <div>
                   <p>{c.sponsorshipPrompt}</p>
-                  <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2">{c.contactUs}</a>
+                  <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2">{c.sponsorshipForm}</a>
                 </div>
             </div>
         </section>    

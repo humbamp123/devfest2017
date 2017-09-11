@@ -4,5 +4,6 @@
   "comm": "Community Partners",
   "venue": "Venue Partners",
   "sponsorshipPrompt": "If you would like to sponsor the event",
-  "contactUs": "Contact us" 
+  "contactUs": "Contact us" ,
+  "sponsorshipForm":"Sponsorship Form"
 }

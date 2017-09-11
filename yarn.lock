@@ -4955,7 +4955,7 @@ prop-types@15.5.8:
   dependencies:
     fbjs "^0.8.9"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8:
+prop-types@^15.3.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -5247,6 +5247,15 @@ react-toasty@^0.0.4:
   dependencies:
     classnames "^2.2.3"
     react "^15.0.1"
+
+react-twitter-widgets@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/react-twitter-widgets/-/react-twitter-widgets-1.5.1.tgz#21b990d302b3b7fcb632958a30442b0fa5c45953"
+  dependencies:
+    exenv "^1.2.1"
+    lodash "^4.17.4"
+    prop-types "^15.3.0"
+    scriptjs "^2.5.8"
 
 react@^15.0.1, react@^15.6.1:
   version "15.6.1"

@@ -35,11 +35,13 @@ class Speakers extends Component {
         <section className={'speakerSection'}>
           { speakers && speakers.map((name, index) => (      
             <div className={'speakerCard'} key={index}>
-              <div className={'speakerPhoto'}>
-                { speakerImages[name]
-                    ? <img src={[speakerImages[name]]} />
-                    : <img src={[speakerImages['android']]} />
-                }
+              <div className={'speakerWrapper'}>
+                <div className={'speakerPhoto'}>
+                  { speakerImages[name]
+                      ? <img src={[speakerImages[name]]} />
+                      : <img src={[speakerImages['android']]} />
+                  }
+                </div>
               </div>
               <p className={'subtitle'}>{name}</p>
             </div>

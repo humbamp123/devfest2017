@@ -8,6 +8,7 @@ import 'bulma/css/bulma.css';
 import s from './Speakers.css';
 import c from './content.json';
 
+
 class Speakers extends Component {
   constructor (props) {
     super(props)

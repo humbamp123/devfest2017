@@ -1,6 +1,11 @@
-.header-blurb {
+.headerBlurb {
   font-size: 20px;
   font-size: 20px;
   width: 70%;
   margin: auto;
+}
+
+.headerBannerLogo {
+  height: 150px;
+  margin-bottom: 15px;
 }

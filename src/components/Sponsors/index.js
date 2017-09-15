@@ -49,11 +49,9 @@ class Sponsors extends Component {
                         </div>
                     </div>
                 </div>
-                <div className={classNames('subtitle', 'is-3')}>
-                    <p>If you would like to sponsor the event</p>
-                    <a href="mailto:san.francisco.gdg@gmail.com">
-                        Contact us Here
-                    </a>
+                <div>
+                  <p>{c.sponsorshipPrompt}</p>
+                  <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2">{c.sponsorshipForm}</a>
                 </div>
             </div>
         </section>

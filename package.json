@@ -20,7 +20,8 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.11",
     "react-toastr": "^2.9.3",
-    "react-toasty": "^0.0.4"
+    "react-toasty": "^0.0.4",
+    "react-twitter-widgets": "^1.5.1"
   },
   "scripts": {
     "start": "react-scripts start",

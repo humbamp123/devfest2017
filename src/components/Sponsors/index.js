@@ -9,23 +9,20 @@ class Sponsors extends Component {
         <section className={classNames('hero', 'is-small', 'is-bold')}>
             <div className={classNames('hero-body', 'has-text-centered')}>
                 <div className={classNames('title')}>{c.partners}</div>
-                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
-                    <div className={classNames('column')} style={{ "maxWidth": "200px"}}>
-                        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></img>
-                    </div>
-                </div>
                 <div className={classNames('subtitle')}>{c.events}</div>
-                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
-
+                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
+                  <div className={classNames('column')} style={{ "maxWidth": "200px"}}>
+                      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></img>
+                  </div>
                 </div>
                 <div className={classNames('subtitle')}>{c.comm}</div>
-                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
+                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
 
                 </div>
                 <div className={classNames('subtitle')}>{c.venue}</div>
-                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
+                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
                     <div className={classNames('column', 'is-vcentered', 'is-narrow')}>
-                        <div style={{ "width": "200px" }}>
+                        <div style={{ "width": "200px", "backgroundPosition": "center" }}>
                             <a href="http://nextspace.us/">
                                 <svg style={{ fill: "#ff5f00" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 527.18 148.84">
                                     <title>NextSpace</title>

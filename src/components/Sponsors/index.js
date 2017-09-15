@@ -9,24 +9,23 @@ class Sponsors extends Component {
         <section className={classNames('hero', 'is-small', 'is-bold')}>
             <div className={classNames('hero-body', 'has-text-centered')}>
                 <div className={classNames('title')}>{c.partners}</div>
-                <div className={classNames('columns')}>
-                    <div className={classNames('column')}>
+                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
+                    <div className={classNames('column')} style={{ width: "200px"}}>
                         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></img>
                     </div>
                 </div>
                 <div className={classNames('subtitle')}>{c.events}</div>
-                <div className={classNames('columns')}>
+                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
                     
                 </div>
                 <div className={classNames('subtitle')}>{c.comm}</div>
-                <div className={classNames('columns')}>
+                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
 
                 </div>
                 <div className={classNames('subtitle')}>{c.venue}</div>
-                <div className={classNames('columns', 'is-vcentered')}>
-                    <div className={classNames('column', 'is-one-third')}></div>
-                    <div className={classNames('column', 'is-vcentered')}>
-                        <div style={{ width: "200px"}}>
+                <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile')}>
+                    <div className={classNames('column', 'is-vcentered', 'is-narrow')}>
+                        <div style={{ width: "200px" }}>
                             <a href="http://nextspace.us/">
                                 <svg style={{ fill: "#ff5f00" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 527.18 148.84">
                                     <title>NextSpace</title>
@@ -35,17 +34,19 @@ class Sponsors extends Component {
                             </a>
                         </div>
                     </div>
-                    <div className={classNames('column')}>
-                        <a href="https://www.galvanize.com/san-francisco/campus">
-                            <img src="https://s3-us-west-2.amazonaws.com/galvanize.com-dev/galvanize-logo.svg" alt="Galvanize SF Logo"></img>
-                        </a>
+                    <div className={classNames('column', 'is-vcentered', 'is-narrow')}>
+                        <div style={{ width: "200px" }}>
+                            <a href="https://www.galvanize.com/san-francisco/campus">
+                                <img src="https://s3-us-west-2.amazonaws.com/galvanize.com-dev/galvanize-logo.svg" alt="Galvanize SF Logo"></img>
+                            </a>
+                        </div>
                     </div>
-                    <div className={classNames('column')}>
-                        <a href="https://www.42.us.org/">
-                            <img src="https://www.42.us.org/wp-content/themes/42/images/42_logo_black.svg" alt="42 Logo" width="75"></img>
-                        </a>
+                    <div className={classNames('column', 'is-vcentered', 'is-narrow')}>
+                        <div style={{ width: "200px" }}>
+                            <a href="https://www.42.us.org/">
+                            </a>
+                        </div>
                     </div>
-                    <div className={classNames('column', 'is-one-third')}></div>
                 </div>
                 <div className={classNames('subtitle', 'is-3')}>
                     <p>If you would like to sponsor the event</p>

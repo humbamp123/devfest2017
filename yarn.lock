@@ -1218,7 +1218,7 @@ callsites@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
 
-camel-case@3.0.x:
+camel-case@3.0.x, camel-case@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
   dependencies:
@@ -1449,6 +1449,10 @@ commander@2.11.x, commander@~2.11.0:
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
+
+components-font-awesome@^4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/components-font-awesome/-/components-font-awesome-4.6.3.tgz#52435b352a529e5781293641f00a3facf1f67e63"
 
 compressible@~2.0.10:
   version "2.0.11"
@@ -5145,6 +5149,13 @@ react-icon-base@2.0.7:
   resolved "https://registry.yarnpkg.com/react-icon-base/-/react-icon-base-2.0.7.tgz#0bd18736bd6ce79ca6d69ce8387a07fb8d4ceffe"
   dependencies:
     prop-types "15.5.8"
+
+react-icons-kit@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-icons-kit/-/react-icons-kit-1.0.7.tgz#c5d9e31d71b2bcfe0baf653938ea2c15802c2ee4"
+  dependencies:
+    camel-case "^3.0.0"
+    prop-types "^15.5.8"
 
 react-icons@^2.2.5:
   version "2.2.5"

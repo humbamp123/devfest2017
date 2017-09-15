@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import Menu from '../Menu';
-// import Sponsors from '../Sponsors';
+import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import classNames from 'classnames';
 import c from './content.json';
 import 'bulma/css/bulma.css';
-// import Icon from 'react-icons-kit';
 import Facebook from 'react-icons/lib/fa/facebook-official';
 import Twitter from 'react-icons/lib/fa/twitter-square';
 import Github from 'react-icons/lib/fa/github-square';
@@ -91,6 +90,7 @@ class About extends Component {
             {this.organizers()}
           </div>
         </div>
+        <Sponsors />
         <Footer />
       </section>
     );

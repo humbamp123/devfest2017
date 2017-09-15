@@ -12,4 +12,4 @@ export const android = require('../images/speakers/android.png')
 export const speakers = { alicia, caren, jennifer, linda, minko, rupali, sneha, vikram, android }
 
 export const devFestBanner = require('../images/assets/devfestbanner.png')
-
+export const devFestLogo = require('../images/assets/devfestlogo.png')

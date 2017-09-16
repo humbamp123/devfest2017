@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "async": "^2.5.0",
-    "bulma": "^0.5.1",
+    "bulma": "^0.5.2",
     "classnames": "^2.2.5",
     "components-font-awesome": "^4.6.3",
     "json-loader": "^0.5.7",

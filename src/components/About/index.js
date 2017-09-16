@@ -62,7 +62,7 @@ class About extends Component {
       rows.map( (person, personIndex) => (
         <div key={personIndex} style={{"maxWidth": "350px", "minWidth": "350px"}} className={classNames('column', 'has-text-centered', 'is-fluid')}>
           <div className={classNames('box')}>
-            <div style={{ "backgroundPosition": "center", "overflow": "hidden", "maxHeight": "275px"}}>
+            <div>
               <img src={this.images(person.first)} alt={person.first + " " + person.last + " Photo"}></img>
             </div>
             <div className={classNames('subtitle')}>{person.first} {person.last}</div>

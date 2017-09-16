@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import 'bulma/css/bulma.css';
 import c from './content.json';
+import { FortyTwo } from '../../constants/images';
+import { Galvanize } from '../../constants/images';
 
 class Sponsors extends Component {
   render() {
     return (
-        <section className={classNames('hero', 'is-small', 'is-bold')}>
+        <section className={classNames('hero', 'is-small', 'is-bold', 'is-light')}>
             <div className={classNames('hero-body', 'has-text-centered')}>
                 <div className={classNames('title')}>{c.partners}</div>
                 <div className={classNames('subtitle')}>{c.events}</div>
@@ -34,21 +36,25 @@ class Sponsors extends Component {
                     <div className={classNames('column', 'is-vcentered', 'is-narrow')}>
                         <div style={{ "width": "200px" }}>
                             <a href="https://www.galvanize.com/san-francisco/campus">
-                                <img src={c.galvanize} alt="Galvanize SF Logo"></img>
+                                <img src={Galvanize} alt="Galvanize SF Logo"></img>
                             </a>
                         </div>
                     </div>
                     <div className={classNames('column', 'is-vcentered', 'is-narrow')}>
                         <div style={{ "width": "200px" }}>
                             <a href="https://www.42.us.org/">
-                              <img style={{ "width": "100px" }} src={c.fortyTwo} alt="42 Silicon Valley Logo"></img>
+                              <img style={{ "width": "100px" }} src={FortyTwo} alt="42 Silicon Valley Logo"></img>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div>
-                  <p>{c.sponsorshipPrompt}</p>
-                  <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2">{c.sponsorshipForm}</a>
+                  <hr></hr>
+                  <p className={classNames('is-info')}>{c.sponsorshipPrompt}</p>
+                  <div className={classNames('button', 'is-info')}>
+                    <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2">{c.sponsorshipForm}</a>
+                  </div>
+                  <hr></hr>
                 </div>
             </div>
         </section>

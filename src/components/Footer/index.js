@@ -7,12 +7,10 @@ import c from './content.json';
 class Footer extends Component {
   render() {
     return (
-        <section className={classNames('hero', 'is-small', 'is-bold')}>
+        <section className={classNames('hero', 'is-small', 'is-bold', 'is-dark')}>
             <div className={'hero-body'}>
                 <div className={classNames('content', 'has-text-centered')}>
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>
-                        <div className={classNames('column')}>{c.partners}</div>
-                        <div className={classNames('column')}>{c.visitors}</div>
                         <a href="mailto:san.francisco.gdg@gmail.com" className={classNames('column')}>
                             {c.contact}
                         </a>
@@ -22,7 +20,7 @@ class Footer extends Component {
                     </div>
                 </div>
             </div>
-        </section>    
+        </section>
     );
   }
 }

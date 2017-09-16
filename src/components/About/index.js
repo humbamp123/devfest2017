@@ -10,13 +10,14 @@ import Twitter from 'react-icons/lib/fa/twitter-square';
 import Github from 'react-icons/lib/fa/github-square';
 import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 import LinkIcon from 'react-icons/lib/fa/chain';
+import { group as groupImages } from '../../constants/images'
 
 let MediaMap = {
-  "Facebook": <Facebook size={30} />,
-  "Twitter": <Twitter size={30} />,
-  "Github": <Github size={30} />,
-  "LinkedIn": <LinkedIn size={30} />,
-  "Link": <LinkIcon size={30} />
+  "Facebook": <Facebook size={44} />,
+  "Twitter": <Twitter size={44} />,
+  "Github": <Github size={44} />,
+  "LinkedIn": <LinkedIn size={44} />,
+  "Link": <LinkIcon size={44} />
 }
 
 class About extends Component {
@@ -46,13 +47,23 @@ class About extends Component {
     )
   }
 
+  images(name) {
+    var test = groupImages.find( (images) => (
+        ~images.toLowerCase().search(name.toLowerCase())
+      ))
+    if (test) {
+      return (test)
+    }
+    return (groupImages[5])
+  }
+
   content(rows) {
     return (
       rows.map( (person, personIndex) => (
-        <div key={personIndex} style={{"maxWidth": "300px", "minWidth": "200px"}} className={classNames('column', 'has-text-centered', 'is-fluid')}>
+        <div key={personIndex} style={{"maxWidth": "350px", "minWidth": "350px"}} className={classNames('column', 'has-text-centered', 'is-fluid')}>
           <div className={classNames('box')}>
-            <div style={{ "backgroundPosition": "center", "overflow": "hidden", "maxWidth": "250px", "maxHeight": "200px"}}>
-              <img src={person.photo} alt={person.first + " " + person.last + " Photo"}></img>
+            <div style={{ "backgroundPosition": "center", "overflow": "hidden", "maxHeight": "275px"}}>
+              <img src={this.images(person.first)} alt={person.first + " " + person.last + " Photo"}></img>
             </div>
             <div className={classNames('subtitle')}>{person.first} {person.last}</div>
             <hr></hr>

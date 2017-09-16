@@ -5,9 +5,8 @@
         [
           [
             {
-              "photo": "https://chatasweetie.files.wordpress.com/2015/10/jessicaearleycropped.jpg",
-              "first": "Jessica Dene",
-              "last": "Earley-Cha",
+              "first": "Jessica",
+              "last": "Dene Earley-Cha",
               "links":  [
                           "https://www.facebook.com/jessica.d.earley",
                           "https://twitter.com/chatasweetie",
@@ -17,7 +16,6 @@
                         ]
             },
             {
-              "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSIqRkVU-23tYKQ18PaDSyH4cHkfh14LWd9shAKx_V3NoaTo5EXA",
               "first": "James",
               "last": "Cha",
               "links": []
@@ -25,7 +23,6 @@
           ],
           [
             {
-              "photo": "https://photos-1.dropbox.com/t/2/AADodDP4L_lbcfuzWr1EX3rmTqVwvVzPl62I-FBE0Y1r2w/12/14765651/jpeg/32x32/3/1505476800/0/2/qho.jpg/ENaC_goY21UgBygH/-aHLKWKhjyDzFhtiAbm8G5-8MzRJ7pcvgf5PmixQ814?dl=0&size=2048x1536&size_mode=3",
               "first": "Queenie",
               "last": "Ho",
               "links":  [
@@ -37,7 +34,6 @@
                         ]
             },
             {
-              "photo": "https://lh3.googleusercontent.com/LGJM9UCEWu6W8azbggbamlzySNB0vTznzIlo8-FOcb5bTA0WtII6MdBUy05Rr4K2eoJs58GkN10FzQI=w1819-h942",
               "first": "Andres",
               "last": "Pineda",
               "links":  [
@@ -46,18 +42,26 @@
                         ]
             },
             {
-              "photo": "https://lh3.googleusercontent.com/Z3orH_PNyJ4UUcGpDstAE08zeExJ6qQX1wtYGmyDIm3dwCu-f_wNZAp-kfCLkDjUSI7bODVVVo6fvI9b5V4h2kZ-CcS4KT94JGNOlAYfjBScykTOto1bB7iEXMDhYIcBPJIyWyNdALsrGEC5BgcjQKtNllVn3aE1j2DtO6ADeai4tTjl66ErbkbI8cO9Iyo-ZkpbKwpk1hZKZFN6cum08evGT39IWMFCu1rSufExTtEZS3puGAgoXLu1DKj1AAojcZWzYRuNbXTbtWs0HSe2rWkH1KI_Mg2u-5CPZ_5dWfzGmy_633ZmONEv56II2wlph3990yP12QjC6STb0T12-i7LdzCHR1Ey-IaRWmWh1uWDtQLEbRMiJEQHvq6FLGSA24CdGqTlUZV_lHeyX-EXd5fln_uLVT8TkyCiD6UDqrpopCyKsS3hhkm6VXcL7wuyYDrRsufKtqPBMhmwzjGfmH0hhr8Os7wttSoKirynwAv6tsHuX21Asxn0-6wyaxnMu19rzQdQ4cYQ78x26I9qwK3nVMej9D4UFEpjGUHOvn1xyAwJCantgHB_6EC4GpvFkzDMkesnEmXWXlq48qqwwo24qrOKivMLuXMwpQyMkfwafJNMY4k41PXW1Jm5qGZRfAXOjnPC3OB0h9stnTqlDMwfgRSWlHlWKek=w530-h943-no",
               "first": "Daniella",
               "last": "Gerard",
               "links":  [
                           "https://www.facebook.com/daniella.gerard",
                           "https://github.com/dgerard42"
                         ]
+            },
+            {
+              "first": "Sam",
+              "last": "Collet",
+              "links":  []
             }
           ],
           [
             {
-              "photo": "https://lh6.googleusercontent.com/ZjJIzdapk94tlMNM3gy2oqP0hPkVN6602sX5_06DjXBEYXc3mlPtJuKZpBSq49xYagr_390ObGswyo8=w1819-h942-rw",
+              "first": "Patti",
+              "last": "Shin",
+              "links": []
+            },
+            {
               "first": "Nathan",
               "last": "Saephanh",
               "links": []
@@ -65,6 +69,6 @@
           ]
         ]
     },
-  "group": ["GDG San Francisco", "GDG Fremont", "GDG Berkeley"],
+  "group": ["GDG San Francisco", "GDG Fremont", "GDG Berkeley", "GDG Oakdale"],
   "media": ["Facebook", "Twitter", "Github", "LinkedIn"]
 }

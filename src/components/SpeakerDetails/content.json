@@ -1,3 +1,101 @@
 {
-    "title": "Speakers"
+    "title": "Speakers",
+    "speakerInfo": {
+        "alicia": {
+                    "firstName":"Alicia",
+                    "lastName":"Luchetti",
+                    "profession": "Director",
+                    "employer": "Quid, Inc",
+                    "twitter": "https://twitter.com/amluchetti",
+                    "linkedIn": "https://www.linkedin.com/in/alicia-luchetti-a705419/",
+                    "portfolio": "https://quid.com/",
+                    "bio": "Alicia grew up in Half Moon Bay, CA. She received her bachelor's degree in business at Drexel University, then completed her Juris Doctorate at Wake Forest School of Law. After law school, Alicia passed the California bar exam and worked for the San Francisco Family Court. She then moved onto LexisNexis and BARBRI as a Director of Sales for three states. Two years ago, Alicia decided to pursue her MBA at Kellogg Northwestern School of Management. She now works at Quid, a data visualization tool using machine learning and AI to quickly identify and analyze key insights.",
+                    "talkTitle": "Fastest Growing Area of Machine Learning Science"
+        },
+        "caren": {
+                    "firstName":"Caren",
+                    "lastName":"Chang",
+                    "profession": "Android Engineer",
+                    "employer": "June",
+                    "twitter": "https://twitter.com/calren24",
+                    "linkedIn": "https://www.linkedin.com/in/carenchang/",
+                    "github": "https://github.com/calren",
+                    "portfolio": "http://carenslaboratory.com",
+                    "bio": "Android Engineer currently working at June, helping create a smart oven that will help anybody be able to make delicious food. Originally from Southern California, but Bay Area resident for almost 10 years now! Always amazed and curious at how easy the Android APIs make everything seem, when there’s so much more going on under the hood.",
+                    "talkTitle": "Understanding Gestures on Android"
+        },
+        "jennifer": {
+                    "firstName":"Jennifer",
+                    "lastName":"Wong",
+                    "profession": "Software Engineer",
+                    "employer": "Eventbrite",
+                    "twitter": "https://twitter.com/mybluewristband",
+                    "linkedIn": "https://www.linkedin.com/in/jenniferewong/",
+                    "github": "https://github.com/jennz0r",
+                    "portfolio": "http://mochimachine.org/",
+                    "talkTitle": "Accessing Accessible Accessibility"
+        },
+        "linda": {
+                    "firstName":"Linda",
+                    "lastName":"Avendaño-Franco",
+                    "profession": "Software Engineer",
+                    "employer": "Netflix Inc.",
+                    "linkedIn": "https://www.linkedin.com/in/avendanolinda/",
+                    "portfolio": "http://mochimachine.org/",
+                    "bio": "Linda is a senior engineer with a master’s degree in Software Engineering for Carnegie Mellon University. Originally from Mexico City, she has lived in Silicon Valley for the past 8 years. She has worked at Electronic Arts and Sears Online Business Unit before joining Netflix. She has been with the Messaging team for 4 years now, where she is responsible for the infrastructure that makes possible to send 100 million unique messages localized in 26 languages to our customers around the world.",
+                    "talkTitle": "How customer messages are created at Netflix?"
+        },
+        "minko": {
+                    "firstName":"Minko",
+                    "lastName":"Gechev",
+                    "profession": "Engineer",
+                    "employer": "Rhyme",
+                    "twitter": "https://twitter.com/mgechev",
+                    "linkedIn": "https://www.linkedin.com/in/mgechev/",
+                    "github": "https://github.com/mgechev",
+                    "portfolio": "http://blog.mgechev.com/",
+                    "bio": "Minko is co-founder of Rhyme.com and has a big passion for open source. He loves to experiment with theoretical computer science concepts and apply them in practice. Minko teaches, speaks and writes about JavaScript and Angular. Some of the projects he works on are his books 'Switching to Angular 2',  'Getting started with Angular', codelyzer, the official Angular style guide, angular-seed and many others.",
+                    "talkTitle": "Angular Performance Checklist"
+        },
+        "murat": {
+                    "firstName":"Murat",
+                    "lastName":"Yener",
+                    "profession": "Software Developer",
+                    "employer": "Google",
+                    "bio": "Murat Yener is a code geek, open source committer, Java Champion and ex-Google Developer Expert on Android, who is working at Google on Google Home. He is the author of Expert Android Studio and Professional Java EE Design Patterns books from Wiley. He has extensive experience with developing Android, Java, web, JavaEE, and OSGi applications, in addition to teaching courses and mentoring. Murat was an Eclipse committer and one of the initial committers of the Eclipse Libra project. Murat had been a user group leader at GDG Istanbul and in GDG San Francisco, organizing, participating, and speaking at events. He is also a regular speaker at major conferences such as DroidCon, JavaOne and Devoxx.",
+                    "talkTitle": "Home (sweet) Google Home"
+        },
+        "rupali": {
+                    "firstName":"Rupali",
+                    "lastName":"Sharma",
+                    "profession": "Programmer",
+                    "employer": "Electronic Arts",
+                    "bio": "Rupali Sharma is a programmer with Gameplay Services at Electronic Arts. She holds a bachelor degree from India, and has been partner in crime to produce and fix bugs for almost 10 years. Rupali has been actively involved with several non-profit institutions (like Girls Who Code, Code.org and Sahasra Deepika (India)), encouraging young girls to pursue careers in STEM. In her spare time, Rupali enjoys writing technical articles, playing around with open source SDKs and traveling. Along with, she is also part of Inclusion & Diversity group at EA. Prior to EA, Rupali had nurtured herself at Intel, ARM and Packet Video. She firmly believes, more women contributing to technology, will spin the wheel of innovation in a new arena, solving more meaningful problems. ",
+                    "talkTitle": "Services that empower game world"
+        },
+        "sneha": {
+                    "firstName":"Sneha",
+                    "lastName":"Rajana",
+                    "profession": "Software Development Engineer",
+                    "employer": "Amazon",
+                    "twitter": "https://twitter.com/Vikram_Tiwari",
+                    "linkedIn": "https://www.linkedin.com/in/sneha-rajana/",
+                    "github": "https://github.com/srajana",
+                    "portfolio": "https://srajana.github.io/",
+                    "bio": "I'm Sneha, and I am a Software Development Engineer at Amazon in Seattle, Washington. I graduated from the University of Pennsylvania with a Master's in Computer Science in 2017 and from PES University with a Bachelor's degree in Information Science in 2015, at the age of 20. I have previously worked for Audible, Pluribus Networks, VMware, and Avaya as a Software Engineer Intern. I am passionate about AI and working with data. My research focus at Penn was in the fields of Machine Learning, NLP, and Deep learning. I am also very passionate about supporting women in technology and I'm currently working towards helping students in STEM fields to find mentorship and support.",
+                    "talkTitle": "Learning negating semantics using a morphology-aware neural network"
+        },
+        "vikram": {
+                    "firstName":"Vikram",
+                    "lastName":"Tiwari",
+                    "profession": "Full Stack Dev",
+                    "employer": "Omni Labs, Inc.",
+                    "twitter": "https://twitter.com/Vikram_Tiwari",
+                    "linkedIn": "https://www.linkedin.com/in/vikramtiwari/",
+                    "github": "https://github.com/VikramTiwari",
+                    "portfolio": "https://vikramtiwari.com/",
+                    "bio": "Building scalable web platforms for high availability, resilience, and security. #GDE @GoogleCloud. Founding team member and all things tech @omnilabsinc",
+                    "talkTitle": "Data science on Google Cloud Platform"
+        }
+    }
 }

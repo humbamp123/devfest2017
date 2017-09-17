@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Countdown from 'react-count-count';
 import 'bulma/css/bulma.css';
 import c from './content.json';
+import classNames from 'classnames';
 import './Timer.css';
 
 class Timer extends Component {
@@ -15,7 +16,7 @@ class Timer extends Component {
     let date = ['10/21/2017 10:00 AM', '10/28/2017 9:00 AM', '11/4/2017 10:00 AM']
     const cb = () => {
       if (index < 3) { this.setState({index: index + 1}) }
-    }    
+    }
     return { endDate: date[this.state.index], prefix: '', cb }
   }
 
@@ -31,7 +32,7 @@ class Timer extends Component {
       <div className={'timer-container'}>
         <div className={'has-text-centered'}>
           <Countdown options={options} />
-          {!customOptions && <p>{c.timeTill}{dateInfo[index]}</p>}
+          {!customOptions && <p className={classNames('subtitle')}>{c.timeTill}{dateInfo[index]}</p>}
         </div>
       </div>
     );

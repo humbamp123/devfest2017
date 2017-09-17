@@ -17,8 +17,11 @@
             },
             {
               "first": "James",
-              "last": "Cha",
-              "links": []
+              "last": "Cha-Earley",
+              "links":  [
+                          "https://twitter.com/thajamescha",
+                          "http://linkedin.com/in/jamesjcha"
+                        ]
             }
           ],
           [
@@ -59,7 +62,10 @@
             {
               "first": "Patti",
               "last": "Shin",
-              "links": []
+              "links":  [
+                          "https://twitter.com/pattishin",
+                          "https://www.linkedin.com/in/pattishin/"
+                        ]
             },
             {
               "first": "Nathan",

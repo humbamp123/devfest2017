@@ -9,20 +9,20 @@ import c from './content.json'
 export default class Maps extends Component {
   constructor (props) {
     super(props)
-    
+
     const { key, lat, lng, directions, eventDescription, eventLocation } = props
     const infoContent = (
-      <div>
+      <div className={classNames('box')}>
         <h1>{eventLocation}</h1>
         <p>{eventDescription}</p>
         <a className={classNames('button', 'is-primary', 'is-small')} href={directions}>{c.directions}</a>
       </div>
     )
-    
+
     this.handleMapLoad = this.handleMapLoad.bind(this);
     this.handleMarkerClick = this.handleMarkerClick.bind(this);
     this.handleMarkerClose = this.handleMarkerClose.bind(this);
-  
+
     this.state = {
       markers: [{
         key,
@@ -75,7 +75,7 @@ export default class Maps extends Component {
 
   render() {
     return (
-      <div style={{height: '400px'}}>
+      <div style={{height: '500px'}}>
         <MapsGoogleMap
           googleMapURL={c.googleMapUrl}
           loadingElement={this.getSpinner()}

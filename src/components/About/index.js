@@ -13,11 +13,21 @@ import LinkIcon from 'react-icons/lib/fa/chain';
 import { group as groupImages } from '../../constants/images'
 
 let MediaMap = {
-  "Facebook": <Facebook size={44} />,
-  "Twitter": <Twitter size={44} />,
-  "Github": <Github size={44} />,
-  "LinkedIn": <LinkedIn size={44} />,
-  "Link": <LinkIcon size={44} />
+  "Facebook": <div style={{ color: "#3b5998"}}>
+                <Facebook size={44} />
+              </div>,
+  "Twitter": <div style={{ color: "#00aced"}}>
+                <Twitter size={44} />
+              </div>,
+  "Github": <div style={{ color: "#000000"}}>
+              <Github size={44} />
+            </div>,
+  "LinkedIn": <div style={{ color: "#007bb6"}}>
+                <LinkedIn size={44} />
+              </div>,
+  "Link": <div style={{ color: "#CC0000"}}>
+            <LinkIcon size={44} />
+          </div>
 }
 
 class About extends Component {
@@ -54,7 +64,7 @@ class About extends Component {
     if (test) {
       return (test)
     }
-    return (groupImages[5])
+    return (groupImages[7])
   }
 
   content(rows) {

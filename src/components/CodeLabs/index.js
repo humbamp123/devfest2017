@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Countdown from 'react-count-count';
-import Menu from '../Menu';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
+import Timer from '../Timer';
 import c from './content.json';
 import Maps from '../Maps';
 
@@ -12,7 +9,6 @@ class CodeLabs extends Component {
     return (
       <div className={'wrapper'}>
         <section className={classNames('hero', 'is-medium','is-light','is-bold', 'has-text-centered')}>
-          <Menu />
           <div className={'hero-body'}>
             <div className={'container'}>
               <h1 className={classNames('title')}>{c.title}</h1>
@@ -35,8 +31,6 @@ class CodeLabs extends Component {
           eventDescription='NextSpace is a trendy co-working workspace that resides in the heart of Berkeley.'
           directions='https://goo.gl/maps/4X1hgairUf82'
         />
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

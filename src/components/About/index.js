@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Menu from '../Menu';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import classNames from 'classnames';
 import c from './content.json';
 import 'bulma/css/bulma.css';
@@ -105,14 +102,11 @@ class About extends Component {
   render() {
     return (
       <section>
-        <Menu />
         <div className={classNames('hero')}>
           <div className={classNames('hero-body')}>
             {this.organizers()}
           </div>
         </div>
-        <Sponsors />
-        <Footer />
       </section>
     );
   }

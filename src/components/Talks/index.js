@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Countdown from 'react-count-count';
-import Menu from '../Menu';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
+import Timer from '../Timer';
 import 'bulma/css/bulma.css';
 import c from './content.json';
 import Maps from '../Maps';
@@ -13,7 +10,6 @@ class Talks extends Component {
     return (
       <div className={'wrapper'}>
         <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered')}>
-          <Menu />
           <div className={'hero-body'}>
             <div className={'container'}>
               <h1 className={classNames('title')}>{c.title}</h1>
@@ -36,8 +32,6 @@ class Talks extends Component {
           eventDescription='Galvanize campuses are home to an eclectic mix of entrepreneurs, skilled programmers, expert data scientists, and men and women motivated to make an impact.'
           directions='https://goo.gl/maps/21dQqb9tccR2'
         />
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

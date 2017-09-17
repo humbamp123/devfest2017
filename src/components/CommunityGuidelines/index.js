@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Menu from '../Menu';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import classNames from 'classnames';
 
@@ -9,7 +7,6 @@ class CommunityGuidelines extends Component {
   render() {
     return (
       <div className={'wrapper'}>
-        <Menu />
         <section className={classNames('section')}>
           <div className={classNames('container')}>
             <p className={classNames('title')}>Community Guidelines</p>
@@ -26,8 +23,6 @@ class CommunityGuidelines extends Component {
             <p><strong>Participate</strong>. This is YOUR community, so be a part of it! Join in on discussions, show up for in-person meetings regularly, offer feedback, and offer to help implement that feedback!</p>
           </div>
         </section>
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

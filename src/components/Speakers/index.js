@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import Menu from '../Menu';
 import SpeakerDetails from '../SpeakerDetails';
 import { speakers as speakerImages } from '../../constants/images'
@@ -19,7 +17,6 @@ class Speakers extends Component {
         'murat', 'minko', 'sneha', 'vikram', 'rupali'
       ],
       isShowingModal: false,
-
     }
 
     this.handleClick = this.handleClick.bind(this);
@@ -35,7 +32,6 @@ class Speakers extends Component {
     return (
       <div className={'wrapper'} >
         <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered')}>
-          <Menu />
           <div className={'hero-body'}>
             <div className={'container'}>
               <h1 className={classNames('title')}>{c.title}</h1>
@@ -45,15 +41,16 @@ class Speakers extends Component {
         <section className={'speakerSection'}>
           { speakers && speakers.map((name, index) => (
             <div className={'speakerCard'} key={index} id={name} onClick={() => this.handleClick(name)}>
-              <div className={'speakerWrapper'}>
-                <div className={'speakerPhoto'}>
-                  { speakerImages[name]
-                      ? <img alt={speakers} src={[speakerImages[name]]} />
-                      : <img alt={speakers} src={[speakerImages['android']]} />
-                  }
+                <div className={'speakerWrapper'}>
+                  <div className={'speakerPhoto'}>
+                    { speakerImages[name]
+                        ? <img alt={speakers} src={[speakerImages[name]]} />
+                        : <img alt={speakers} src={[speakerImages['android']]} />
+                    }
+                  </div>
                 </div>
-              </div>
-              <p className={'subtitle'}>{name}</p>
+                <p className={'subtitle'}>{name}</p>
+              </a>
             </div>
           ))}
         </section>
@@ -67,8 +64,6 @@ class Speakers extends Component {
             <button className={classNames("modal-close","is-large","aria-label='close'")} onClick={this.handleClose}></button>
           </div>
         }
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Menu from '../Menu';
 import Timer from '../Timer';
 import { devFestBanner } from '../../constants/images'
 import 'bulma/css/bulma.css';
@@ -12,7 +11,6 @@ class Header extends Component {
     return (
       <div className={'wrapper'}>
         <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered', 'className')}>
-          <Menu />
           <div className={classNames('hero-body')}>
             <div className={classNames('container')}>
               <div className={'headerBannerLogo'}>

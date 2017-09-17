@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Menu from '../Menu';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import c from './content.json';
 
@@ -12,7 +9,6 @@ class Agenda extends Component {
     return (
       <div className={'wrapper'}>
         <section className={classNames('hero', 'is-medium', 'is-bold', 'has-text-centered')}>
-          <Menu />  
           <div className={'hero-body'}>
             <div className={'container'}>
               <h1 className={classNames('title')}>{c.title}</h1>
@@ -48,8 +44,6 @@ class Agenda extends Component {
             </table>
           </div>
         </section>
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

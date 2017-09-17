@@ -1,0 +1,21 @@
+.personCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.personWrapper {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.personPhoto {
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Countdown from 'react-count-count';
-import Menu from '../Menu';
-import Sponsors from '../Sponsors';
+import Timer from '../Timer';
 import Maps from '../Maps';
-import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import './Hackathon.css';
 import c from './content.json';
@@ -14,7 +11,6 @@ class Hackathon extends Component {
     return (
       <div className={'wrapper'}>
         <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered')}>
-          <Menu />
           <div className={'hero-body'}>
             <div className={'container'}>
               <h1 className={classNames('title')}>{c.title}</h1>
@@ -37,8 +33,6 @@ class Hackathon extends Component {
           eventDescription='42 Silicon Valley is a tuition free programming university with a unique, month-long , merit-based admissions program. The 42 campus has open computer lab facilities capable of hosting over 1000 people.'
           directions='https://goo.gl/maps/jEcYoErqFuT2'
         />
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

@@ -20,7 +20,9 @@ class Header extends Component {
               </div>
               <p className={'headerBlurb'}>{c.content}</p>
               <Timer />
-              <a href={c.eventUrl} className={classNames('button', 'is-dark', 'is-outlined')}>{c.register}</a>
+              <div className={classNames('button', 'registerButton', 'is-large')}>
+                <a href={c.eventUrl}>{c.register}</a>
+              </div>
             </div>
           </div>
         </section>

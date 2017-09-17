@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Countdown from 'react-count-count';
 import Menu from '../Menu';
+import Agenda from '../Agenda'
 import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import c from './content.json';
@@ -28,6 +29,7 @@ class CodeLabs extends Component {
             </div>
           </div>
         </section>
+        <Agenda event="codelabs"/>
         <Maps
           lat={37.870400}
           lng={-122.268900}

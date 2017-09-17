@@ -1,7 +1,19 @@
 {
-  "title": "Agenda",
-  "codelabs": "Code Labs",
   "hackathon": "Hackathon",
-  "agenda": "Agenda",
-  "talks": "Talks"
+  "codelabs": {
+    "title":"Code Labs",
+    "schedule": {
+      "9:30AM":"Registration",
+      "10:00AM":"Introduction",
+      "10:30AM":"Start Codelab"
+    }
+  },
+  "talks": {
+    "title":"Talks",
+    "schedule": {
+      "9:30AM":"Registration",
+      "10:00AM":"Intro/Keynote",
+      "10:30AM":"Start Conference"
+    }
+  }
 }

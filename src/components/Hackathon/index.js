@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Countdown from 'react-count-count';
 import Menu from '../Menu';
+import Agenda from '../Agenda'
 import Sponsors from '../Sponsors';
 import Maps from '../Maps';
 import Footer from '../Footer';
@@ -30,6 +31,7 @@ class Hackathon extends Component {
             </div>
           </div>
         </section>
+        <Agenda event="hackathon"/>
         <Maps
           lat={37.548606}
           lng={-122.059009}

@@ -1,19 +1,26 @@
 {
-  "hackathon": "Hackathon",
+  "hackathon": {
+    "title":"Hackathon",
+    "schedule": {
+      "times":["9:30 AM", "10:00 AM"],
+      "title":["Registration", "Intro"],
+      "speaker":["",""]
+    }
+  },
   "codelabs": {
     "title":"Code Labs",
     "schedule": {
-      "9:30AM":"Registration",
-      "10:00AM":"Introduction",
-      "10:30AM":"Start Codelab"
+      "times":["9:30 AM", "10:00 AM"],
+      "title":["Registration", "Intro"],
+      "speaker":["",""]
     }
   },
   "talks": {
     "title":"Talks",
     "schedule": {
-      "9:30AM":"Registration",
-      "10:00AM":"Intro/Keynote",
-      "10:30AM":"Start Conference"
+      "times":["9:30 AM", "10:00 AM", "10:15 AM"],
+      "title":["Registration", "Intro", "Keynote"],
+      "speaker":["","James Cha-Earley, Jessica Dene Earley-Cha", "Justin Ribeiro"]
     }
   }
 }

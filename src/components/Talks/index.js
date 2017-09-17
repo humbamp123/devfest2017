@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import Countdown from 'react-count-count';
 import Menu from '../Menu';
+import Agenda from '../Agenda'
 import Sponsors from '../Sponsors';
 import Footer from '../Footer';
 import 'bulma/css/bulma.css';
@@ -29,6 +30,7 @@ class Talks extends Component {
             </div>
           </div>
         </section>
+        <Agenda event="talks"/>
         <Maps
           lat={37.787600}
           lng={-122.396600}

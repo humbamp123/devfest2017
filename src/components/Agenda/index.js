@@ -17,20 +17,22 @@ class Agenda extends Component {
   render() {
     const { agenda } = this.state
     const { event } = this.state
+
+    var schedule = c[event].schedule
     return (
       <div className={'wrapper'}>
         {c[event].title}
         <section className={'section'}>
           <div className={'container'}>
-          <div>{c[event].schedule["9:30AM"]}</div>
             <table className={classNames('table', 'is-bordered', 'is-striped', 'is-fullwidth')}>
               <tbody>
-                { c[event].schedule && function() {for( var key in c[event].schedule){ 
-                <tr>
-                  <th>{key}</th>
-                  <td>{c[event].schedule[key]}</td>
-                </tr>
-                }}}
+                {schedule.times && schedule.times.map((name, index)=> (
+                  <tr key={index}>
+                    <th>{name}</th>
+                    <td>{schedule.title[index]}</td>
+                    <td> {schedule.speaker[index]}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>

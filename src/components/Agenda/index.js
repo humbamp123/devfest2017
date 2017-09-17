@@ -8,20 +8,15 @@ class Agenda extends Component {
     super(props)
     
     this.state = {
-      agenda: [
-        '9:30 AM', '10:30 AM', '11:30 AM'
-      ],
       event: props.event
     }
   }
   render() {
-    const { agenda } = this.state
     const { event } = this.state
 
     var schedule = c[event].schedule
     return (
       <div className={'wrapper'}>
-        {c[event].title}
         <section className={'section'}>
           <div className={'container'}>
             <table className={classNames('table', 'is-bordered', 'is-striped', 'is-fullwidth')}>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { speakers as speakerImages } from '../../constants/images'
+import { speakers as speakerImages } from '../../constants/images';
 import classNames from 'classnames';
 import 'bulma/css/bulma.css';
 import './SpeakerDetails.css';
@@ -9,18 +9,21 @@ import Github from 'react-icons/lib/fa/github-square';
 import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 import LinkIcon from 'react-icons/lib/fa/chain';
 
-const MODAL_OPEN_CLASS = "modalOpen";
-
 class SpeakerDetails extends Component {
-    
     componentDidMount() {
-        document.body.classList.add(MODAL_OPEN_CLASS);
+        var modal = document.querySelector('.modal')
+        var html = document.querySelector('html')
+        modal.classList.add('is-active')
+        html.classList.add('is-clipped')
       }
-    
+
       componentWillUnMount() {
-        document.body.classList.remove(MODAL_OPEN_CLASS);
+        var modal = document.querySelector('.modal')
+        var html = document.querySelector('html')
+        modal.classList.remove('is-active')
+        html.classList.remove('is-clipped')
       }
-    
+
     constructor (props) {
         super(props)
         this.name = props.speakerName
@@ -60,7 +63,7 @@ class SpeakerDetails extends Component {
             <div className={classNames('columns', 'is-flex-mobile', 'is-centered')}>
                 <div className={classNames('column', 'is-narrow')}>
                     { c.speakerInfo[this.name].twitter
-                    ? <a href={ c.speakerInfo[this.name].twitter }> 
+                    ? <a href={ c.speakerInfo[this.name].twitter }>
                         <div style={{ color: "#00aced"}}>
                             <Twitter size={44} />
                         </div>
@@ -70,7 +73,7 @@ class SpeakerDetails extends Component {
                 </div>
                 <div className={classNames('column', 'is-narrow')}>
                     { c.speakerInfo[this.name].linkedIn
-                        ? <a href={ c.speakerInfo[this.name].linkedIn }> 
+                        ? <a href={ c.speakerInfo[this.name].linkedIn }>
                             <div style={{ color: "#007bb6"}}>
                                 <LinkedIn size={44} />
                             </div>
@@ -80,7 +83,7 @@ class SpeakerDetails extends Component {
                 </div>
                 <div className={classNames('column', 'is-narrow')}>
                     { c.speakerInfo[this.name].github
-                        ? <a href={ c.speakerInfo[this.name].github }> 
+                        ? <a href={ c.speakerInfo[this.name].github }>
                             <div style={{ color: "#000000"}}>
                                 <Github size={44} />
                             </div>
@@ -90,7 +93,7 @@ class SpeakerDetails extends Component {
                 </div>
                 <div className={classNames('column', 'is-narrow')}>
                     { c.speakerInfo[this.name].portfolio
-                        ? <a href={ c.speakerInfo[this.name].portfolio }> 
+                        ? <a href={ c.speakerInfo[this.name].portfolio }>
                             <div style={{ color: "#CC0000"}}>
                                 <LinkIcon size={44} />
                             </div>

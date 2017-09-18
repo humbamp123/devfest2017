@@ -5,7 +5,6 @@ import Footer from '../Footer';
 import Menu from '../Menu';
 import SpeakerDetails from '../SpeakerDetails';
 import { speakers as speakerImages } from '../../constants/images'
-import {ModalContainer, ModalDialog} from 'react-modal-dialog';
 import 'bulma/css/bulma.css';
 import './Speakers.css';
 import c from './content.json';
@@ -31,9 +30,10 @@ class Speakers extends Component {
 
   render() {
     const { speakers } = this.state
+    const { isShowingModal } = this.state
 
     return (
-      <div className={'wrapper'}>
+      <div className={'wrapper'} >
         <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered')}>
           <Menu />
           <div className={'hero-body'}>
@@ -57,12 +57,16 @@ class Speakers extends Component {
             </div>
           ))}
         </section>
-        {this.state.isShowingModal &&
-              <ModalContainer onClose={this.handleClose}>
-                <ModalDialog onClose={this.handleClose}>
-                  <SpeakerDetails speakerName={this.state.name}/>
-                </ModalDialog>
-              </ModalContainer>}
+        {
+          isShowingModal &&
+          <div className={classNames("modal", "is-active")}>
+            <div className={classNames("modal-background")} onClick={this.handleClose}></div>
+              <div className={classNames("modal-content",'box')} onClick={this.handleClose}>
+                <SpeakerDetails speakerName={this.state.name}/>
+              </div>
+            <button className={classNames("modal-close","is-large","aria-label='close'")} onClick={this.handleClose}></button>
+          </div>
+        }
         <Sponsors />
         <Footer />
       </div>

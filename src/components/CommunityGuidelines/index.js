@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Menu from '../Menu';
 import 'bulma/css/bulma.css';
 import classNames from 'classnames';
 

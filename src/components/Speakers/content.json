@@ -1,3 +1,14 @@
 {
-    "title": "Speakers"
-}
+  "title": "Speakers",
+  "speakers": [ 
+    "alicia",
+    "jennifer", 
+    "linda", 
+    "caren",
+    "murat", 
+    "minko", 
+    "sneha", 
+    "vikram", 
+    "rupali"
+  ]
+} 

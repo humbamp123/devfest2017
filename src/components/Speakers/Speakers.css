@@ -1,5 +1,10 @@
 
 .speakerSection {
+  background: white;
+  padding: 30px;
+}
+
+.speakerList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -20,6 +25,21 @@
   height: 200px;
   width: 200px;
   overflow: hidden;
+  background: #172636;
+  margin: 20px;
+  border: 3px solid #172636;
+  border-radius: 100px;
+}
+
+.speakerTitle {
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.speakerName {
+  color: #172636;
+  text-align: center;
 }
 
 .speakerPhoto {

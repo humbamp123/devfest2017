@@ -8,6 +8,7 @@ import Github from 'react-icons/lib/fa/github-square';
 import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 import LinkIcon from 'react-icons/lib/fa/chain';
 import { group as groupImages } from '../../constants/images'
+import './About.css'
 
 let MediaMap = {
   "Facebook": <div style={{ color: "#3b5998"}}>
@@ -102,6 +103,11 @@ class About extends Component {
   render() {
     return (
       <section>
+        <div className={classNames('hero', 'is-medium', 'has-text-centered')}>
+          <div className={classNames('hero-body')}>
+            <h1 className={'aboutTitle'}>{c.aboutTitle}</h1>
+          </div>
+        </div>
         <div className={classNames('hero')}>
           <div className={classNames('hero-body')}>
             {this.organizers()}

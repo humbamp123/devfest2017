@@ -13,16 +13,16 @@ class Events extends Component {
         {
           index.map((item) => {
             return (
-              <section key={c.events[item]} className={classNames('hero', 'is-medium', c.colors[item], 'is-bold')}>
-                <div className={classNames('hero-body', 'event-container')}>
-                  <div className={'event-title'}>
-                    <p className={classNames('title', 'is-3')}>{c.events[item]}</p>
-                    <p className={'subtitle'}>{c.groups[item]}</p>
-                    <p className={'subtitle'}>{c.edates[item]}</p>
+              <section key={c.events[item]} className={classNames('hero', 'is-small')}>
+                <div className={classNames('hero-body', 'eventContainer')}>
+                  <div className={'eventHeaderTitle'}>
+                    <p className={'eventTitle'}>{c.events[item]}</p>
+                    <p className={'eventSubtitle'}>{c.groups[item]}</p>
+                    <p className={'eventSubtitle'}>{c.edates[item]}</p>
                   </div>
-                  <div className={'event-blurb-wrapper'}>
-                    <p className={'event-blurb'}>{c.blurbs[item]}</p>
-                    <Link to={c.routes[item]} className={classNames('button', c.btn[item],'is-outlined')}>
+                  <div className={'eventBlurbWrapper'}>
+                    <p className={'eventBlurb'}>{c.blurbs[item]}</p>
+                    <Link to={c.routes[item]} className={classNames('button', 'is-dark','is-outlined')}>
                       {c.moreInfo}
                     </Link>
                   </div>

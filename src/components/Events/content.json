@@ -1,8 +1,6 @@
 {
     "events": [ "Code Labs", "Talks", "Hack-a-thon"],
     "groups": [ "GDG Berkley", "GDG San Francisco", "GDG Fremont" ],
-    "colors": [ "is-dark", "is-light", "is-dark"],
-    "btn": [ "is-light", "is-dark", "is-light"],
     "blurbs": [ 
       "Kick off your DevFest with a guided tutorial exploring new Google technologies. With the support of experts, participants will create applications in the process of learning how to use Firebase or Flitter.",
       "This all day event will feature back to back speaker sessions on a variety of topics, from introductory to advanced levels. Check back soon for a full schedule and list of speakers.",

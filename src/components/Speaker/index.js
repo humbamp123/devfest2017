@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Menu from '../Menu';
 import { speakers as speakerImages } from '../../constants/images'
 import 'bulma/css/bulma.css';
 import './Speaker.css';
@@ -18,7 +17,7 @@ class Speaker extends Component {
               <img alt={params.name} src={speakerImages[params.name]} /> 
             </div>
           </div>
-          <p className={'subtitle'}>{params.name}</p>
+          <p className={'personName'}>{params.name}</p>
         </div>
       </div>
     );

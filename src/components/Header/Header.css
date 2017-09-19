@@ -1,8 +1,23 @@
-.headerBlurb {
+.blurbTitle {
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
+.blurbContent {
+  color: white;
   font-size: 20px;
-  font-size: 20px;
-  width: 70%;
-  margin: auto;
+  font-weight: 500;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+.blurbBody {
+  max-width: 70%;
+  text-align: center;
 }
 
 .headerBannerLogo {

@@ -1,11 +1,16 @@
 
 .speakerSection {
+  background: white;
+  padding: 30px;
+}
+
+.speakerList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   justify-content: center;
   max-width: 1024px;
-  margin: auto;
+  margin: 30px auto;
 }
 
 .speakerCard {
@@ -13,32 +18,34 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .speakerWrapper {
   height: 200px;
   width: 200px;
   overflow: hidden;
+  background: #172636;
   margin: 20px;
+  border: 3px solid #172636;
   border-radius: 100px;
-  background: #8e9eab;
-  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-  background: linear-gradient(to right, #eef2f3, #8e9eab);
+}
+
+.speakerTitle {
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.speakerName {
+  color: #172636;
+  text-align: center;
 }
 
 .speakerPhoto {
   cursor: pointer;
   height: 100%;
   width: 100%;
-  background-color: white;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  opacity: 0.5;
-}
-
-.speakerPhoto:hover {
-  opacity: 1;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }

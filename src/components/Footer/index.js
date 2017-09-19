@@ -5,13 +5,14 @@ import 'bulma/css/bulma.css';
 import c from './content.json';
 
 class Footer extends Component {
+
   render() {
     return (
-        <section className={classNames('hero', 'is-small', 'is-bold', 'is-dark')}>
+        <section className={classNames('hero', 'is-small')}>
             <div className={'hero-body'}>
                 <div className={classNames('content', 'has-text-centered')}>
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>
-                        <a href="mailto:san.francisco.gdg@gmail.com" className={classNames('column')}>
+                        <a href="mailto:san.francisco.gdg@gmail.com" className={classNames('column', 'is-light')}>
                             {c.contact}
                         </a>
                     </div>

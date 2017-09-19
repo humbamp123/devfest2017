@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import Menu from '../Menu';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import classNames from 'classnames';
+import './CommunityGuidelines.css'
 
 class CommunityGuidelines extends Component {
   render() {
     return (
-      <div className={'wrapper'}>
-        <Menu />
+      <div className={'guidelinesWrapper'}>
         <section className={classNames('section')}>
-          <div className={classNames('container')}>
+          <div className={classNames('container', 'guidelinesContainer')}>
             <p className={classNames('title')}>Community Guidelines</p>
             <p>This guideline covers both online (mailing lists, Google+, IRC, etc.) and offline behavior (during in-person meetups/events).</p>
             <br></br>
@@ -26,8 +23,6 @@ class CommunityGuidelines extends Component {
             <p><strong>Participate</strong>. This is YOUR community, so be a part of it! Join in on discussions, show up for in-person meetings regularly, offer feedback, and offer to help implement that feedback!</p>
           </div>
         </section>
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

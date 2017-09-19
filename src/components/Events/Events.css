@@ -1,9 +1,14 @@
-.event-container {
+.eventContainer {
   display: flex;
   justify-content: space-between;
+  background: white;
+  border-radius: 5px;
+  border-bottom: 3px solid gray;
+  margin: 30px auto;
+  max-width: 70%;
 }
 
-.event-title {
+.eventHeaderTitle {
   width: 35%;
   text-align: center;
   display: flex;
@@ -12,12 +17,22 @@
   flex-direction: column;
 }
 
-.event-blurb-wrapper {
+.eventTitle {
+  font-size: 40px;
+  font-weight: 600;
+  color: #172636;
+}
+
+.eventSubtitle {
+  font-size: 25px;
+}
+
+.eventBlurbWrapper {
   width: 60%;
   text-align: center;
 }
 
-.event-blurb {
+.eventBlurb {
   font-size: 20px;
   padding: 20px;
 }

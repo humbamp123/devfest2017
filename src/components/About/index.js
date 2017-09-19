@@ -108,7 +108,7 @@ class About extends Component {
             <h1 className={'aboutTitle'}>{c.aboutTitle}</h1>
           </div>
         </div>
-        <div className={classNames('hero')}>
+        <div className={classNames('hero', 'aboutWrapper')}>
           <div className={classNames('hero-body')}>
             {this.organizers()}
           </div>

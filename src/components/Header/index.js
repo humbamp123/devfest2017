@@ -18,7 +18,7 @@ class Header extends Component {
                   src={machineBall} 
                   alt={c.title + " banner"}
                   style={{ 
-                    "background": "white",
+                    "background": "gray",
                     "borderRadius": "50px",
                     "maxHeight": "100px",
                     "marginRight": "20px"
@@ -36,9 +36,9 @@ class Header extends Component {
                 style={{"maxHeight": "400px"}}
               />
               <Timer />
-              <div className={classNames('button', 'registerButton', 'is-large')}>
-                <a href={c.eventUrl}>{c.register}</a>
-              </div>
+              <a href={c.eventUrl} className={classNames('button', 'registerButton', 'is-large')}>
+                {c.register}
+              </a>
             </div>
           </div>
         </section>

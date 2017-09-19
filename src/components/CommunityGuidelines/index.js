@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import 'bulma/css/bulma.css';
 import classNames from 'classnames';
+import './CommunityGuidelines.css'
 
 class CommunityGuidelines extends Component {
   render() {
     return (
-      <div className={'wrapper'}>
+      <div className={'guidelinesWrapper'}>
         <section className={classNames('section')}>
           <div className={classNames('container')}>
             <p className={classNames('title')}>Community Guidelines</p>

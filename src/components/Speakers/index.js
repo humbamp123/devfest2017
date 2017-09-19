@@ -38,16 +38,15 @@ class Speakers extends Component {
           <div className={'speakerList'}>
           { speakers && speakers.map((name, index) => (
             <div className={'speakerCard'} key={index} id={name} onClick={() => this.handleClick(name)}>
-                <div className={'speakerWrapper'}>
-                  <div className={'speakerPhoto'}>
-                    { speakerImages[name]
-                        ? <img alt={speakers} src={[speakerImages[name]]} />
-                        : <img alt={speakers} src={[speakerImages['android']]} />
-                    }
-                  </div>
+              <div className={'speakerWrapper'}>
+                <div className={'speakerPhoto'}>
+                  { speakerImages[name]
+                      ? <img alt={speakers} src={[speakerImages[name]]} />
+                      : <img alt={speakers} src={[speakerImages['android']]} />
+                  }
                 </div>
-                <p className={'speakerName'}>{name}</p>
-              </a>
+              </div>
+              <p className={'speakerName'}>{name}</p>
             </div>
           ))}
           </div>

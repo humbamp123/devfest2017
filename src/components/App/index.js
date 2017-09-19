@@ -30,7 +30,6 @@ class App extends Component {
             <Route path="/talks" component={Talks}/>
             <Route path="/hackathon" component={Hackathon}/>
             <Route path="/speakers" component={Speakers}/>
-            <Route path={"/speaker/:name"} component={Speaker}/>
             <Route path="/community_guidelines" component={CommunityGuidelines}/>
             <Sponsors />
             <Footer />

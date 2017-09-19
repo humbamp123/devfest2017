@@ -31,3 +31,6 @@ export const speakers = { alicia, caren, jennifer, justin, linda, minko, murat, 
 export const group = [ andres, jessica, nathan, queenie, daniella, patti, james, android_2 ]
 export const devFestBanner = require('../images/assets/devfestbanner.png')
 export const devFestLogo = require('../images/assets/devfestlogo.png')
+export const gdgSign = require('../images/logos/GDGsign.png')
+export const bridgeSF = require('../images/assets/bridgeSF.png')
+export const machineBall = require('../images/assets/machineBall.png')

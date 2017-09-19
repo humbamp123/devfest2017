@@ -28,7 +28,7 @@ class Menu extends Component {
             <Link className={classNames('navbar-item')} to='/'>
               <img src={devFestLogo} alt="Bayfest Logo" />
             </Link>
-            <div className={classNames('navbar-burger', 'button',"data-target='navMenu", showBurger ? 'is-active':'')} onClick={this.handleToggle}>
+            <div className={classNames('navbar-burger','button',"data-target='navMenu", showBurger ? 'is-active':'')} onClick={this.handleToggle}>
               <span></span>
               <span></span>
               <span></span>
@@ -42,7 +42,7 @@ class Menu extends Component {
             <Link to={'/about'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.about}</Link>
             <Link to={'/community_guidelines'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.guidelines}</Link>
             <span className={classNames('navbar-item')}>
-              <a href={c.eventUrl} target="_blank" className={classNames('button', 'registerButton')}>
+              <a href={c.eventUrl} target="_blank" className={classNames('button', 'registerButton')} onClick={this.handleToggle}>
                 <span>{c.register}</span>
               </a>
             </span>

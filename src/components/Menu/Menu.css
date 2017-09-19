@@ -1,5 +1,5 @@
 .topMenu {
-  background-color: white;
+  background-color: #F5F5F5;
 }
 
 .menuItem {
@@ -8,4 +8,8 @@
 
 .navBar {
   background-color: gray;
+}
+
+.navbar-burger {
+  background-color: #808080;
 }

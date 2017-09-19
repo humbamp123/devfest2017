@@ -35,12 +35,12 @@ class Menu extends Component {
             </div>
           </div>
           <div className={classNames('navbar-end', 'navbar-menu', showBurger ? 'is-active':'' )} id="navMenu">
-            <Link to={'/codelabs'} className={classNames('navbar-item', 'menuItem')}>{c.codelabs}</Link>
-            <Link to={'/talks'} className={classNames('navbar-item', 'menuItem')}>{c.talks}</Link>
-            <Link to={'/hackathon'} className={classNames('navbar-item', 'menuItem')}>{c.hackathon}</Link>
-            <Link to={'/speakers'} className={classNames('navbar-item', 'menuItem')}>{c.speakers}</Link>
-            <Link to={'/about'} className={classNames('navbar-item', 'menuItem')}>{c.about}</Link>
-            <Link to={'/community_guidelines'} className={classNames('navbar-item', 'menuItem')}>{c.guidelines}</Link>
+            <Link to={'/codelabs'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.codelabs}</Link>
+            <Link to={'/talks'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.talks}</Link>
+            <Link to={'/hackathon'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.hackathon}</Link>
+            <Link to={'/speakers'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.speakers}</Link>
+            <Link to={'/about'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.about}</Link>
+            <Link to={'/community_guidelines'} className={classNames('navbar-item', 'menuItem')} onClick={this.handleToggle}>{c.guidelines}</Link>
             <span className={classNames('navbar-item')}>
               <a href={c.eventUrl} target="_blank" className={classNames('button', 'registerButton')}>
                 <span>{c.register}</span>

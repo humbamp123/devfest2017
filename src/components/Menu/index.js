@@ -14,7 +14,7 @@ class Menu extends Component {
     return (
       <div className={classNames('navbar', 'topMenu')}>
         <div className={classNames('container')}>
-          <div className={classNames('narbar-brand', 'navbar-brand')}>
+          <div className={classNames('navbar-brand', 'navBar')}>
             <Link className={classNames('navbar-item')} to='/'>
               <img src={devFestLogo} alt="Bayfest Logo" />
             </Link>

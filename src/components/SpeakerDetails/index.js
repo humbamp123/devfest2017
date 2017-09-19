@@ -17,7 +17,7 @@ class SpeakerDetails extends Component {
         html.classList.add('is-clipped')
       }
 
-      componentWillUnMount() {
+      componentWillUnmount() {
         var modal = document.querySelector('.modal')
         var html = document.querySelector('html')
         modal.classList.remove('is-active')

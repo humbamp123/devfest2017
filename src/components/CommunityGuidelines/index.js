@@ -8,7 +8,7 @@ class CommunityGuidelines extends Component {
     return (
       <div className={'guidelinesWrapper'}>
         <section className={classNames('section')}>
-          <div className={classNames('container')}>
+          <div className={classNames('container', 'guidelinesContainer')}>
             <p className={classNames('title')}>Community Guidelines</p>
             <p>This guideline covers both online (mailing lists, Google+, IRC, etc.) and offline behavior (during in-person meetups/events).</p>
             <br></br>

@@ -1,3 +1,8 @@
 .guidelinesWrapper {
   background-color: white;
 }
+
+.guidelinesContainer {
+  margin: auto;
+  max-width: 70%;
+}

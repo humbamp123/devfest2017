@@ -7,10 +7,20 @@ import c from './content.json';
 import { devFestLogo } from '../../constants/images';
 
 class Menu extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      showBurger: false,
+    }
+
+    this.handleToggle = this.handleToggle.bind(this);
+  }
+
+  handleToggle = () => this.setState(prevState=> ({showBurger: !prevState.showBurger}))
+  
   render() {
-          
-    //TODO Add back in when we have agendas for every event
-    //<Link to={'/agenda'} className={classNames('navbar-item', 'menuItem')}>{c.agenda}</Link>
+    const { showBurger } = this.state;
+
     return (
       <div className={classNames('navbar', 'topMenu')}>
         <div className={classNames('container')}>
@@ -18,13 +28,13 @@ class Menu extends Component {
             <Link className={classNames('navbar-item')} to='/'>
               <img src={devFestLogo} alt="Bayfest Logo" />
             </Link>
-            <div className={classNames('navbar-burger', 'burger')}>
+            <div className={classNames('navbar-burger', 'button',"data-target='navMenu", showBurger ? 'is-active':'')} onClick={this.handleToggle}>
               <span></span>
               <span></span>
               <span></span>
             </div>
           </div>
-          <div className={classNames('navbar-end', 'navbar-menu')}>
+          <div className={classNames('navbar-end', 'navbar-menu', showBurger ? 'is-active':'' )} id="navMenu">
             <Link to={'/codelabs'} className={classNames('navbar-item', 'menuItem')}>{c.codelabs}</Link>
             <Link to={'/talks'} className={classNames('navbar-item', 'menuItem')}>{c.talks}</Link>
             <Link to={'/hackathon'} className={classNames('navbar-item', 'menuItem')}>{c.hackathon}</Link>

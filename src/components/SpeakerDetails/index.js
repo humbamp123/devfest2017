@@ -54,7 +54,6 @@ class SpeakerDetails extends Component {
             </div>
             <br/>
             <p className={classNames('title')}>{ c.speakerInfo[this.name].firstName } { c.speakerInfo[this.name].lastName }</p>
-            <br/>
             <p className={classNames('subtitle')}>{ c.speakerInfo[this.name].profession } at { c.speakerInfo[this.name].employer }</p>
             <br/>
             <div className={classNames('columns')}>

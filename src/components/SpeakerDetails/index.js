@@ -38,9 +38,10 @@ class SpeakerDetails extends Component {
     render() {
         const { speakers } = this.state
         return (
-        <section className={classNames('is-bold', 'is-light', 'has-text-centered')}>
-            <div className={classNames('colomns')}>
-                <div className={classNames('colomn', 'is-narrow', 'is-half', "is-offset-one-quarter")}>
+        <div className={classNames('hero', 'is-bold', 'is-light', 'has-text-centered')}>
+          <div className={classNames('hero-body')}>
+            <div className={classNames('columns')}>
+                <div className={classNames('column', 'is-narrow', 'is-half', "is-offset-one-quarter")}>
                     <div className={'speakerDetailWrapper'}>
                         <div className={'speakerDetailPhoto'} >
                             { speakerImages[this.name]
@@ -52,9 +53,9 @@ class SpeakerDetails extends Component {
                 </div>
             </div>
             <br/>
-            <p>{ c.speakerInfo[this.name].firstName } { c.speakerInfo[this.name].lastName }</p>
+            <p className={classNames('title')}>{ c.speakerInfo[this.name].firstName } { c.speakerInfo[this.name].lastName }</p>
             <br/>
-            <p>{ c.speakerInfo[this.name].profession } at { c.speakerInfo[this.name].employer }</p>
+            <p className={classNames('subtitle')}>{ c.speakerInfo[this.name].profession } at { c.speakerInfo[this.name].employer }</p>
             <br/>
             <div className={classNames('columns')}>
                 <p className={classNames('column')}>{ c.speakerInfo[this.name].bio }</p>
@@ -102,7 +103,8 @@ class SpeakerDetails extends Component {
                     }
                 </div>
             </div>
-        </section>
+          </div>
+        </div>
         );
     }
 }

@@ -5,7 +5,7 @@ import { speakers as speakerImages } from '../../constants/images'
 import 'bulma/css/bulma.css';
 import './Speakers.css';
 import c from './content.json';
-
+import s from '../SpeakerDetails/content.json';
 
 class Speakers extends Component {
   constructor (props) {
@@ -34,10 +34,10 @@ class Speakers extends Component {
             </div>
           </div>
         </section>
-        <section className={'speakerSection'}>
+        <div className={classNames('hero', 'is-medium', 'is-white')}>
           <div className={'speakerList'}>
           { speakers && speakers.map((name, index) => (
-            <div className={'speakerCard'} key={index} id={name} onClick={() => this.handleClick(name)}>
+            <div className={classNames('speakerCard')} key={index} id={name} onClick={() => this.handleClick(name)}>
               <div className={'speakerWrapper'}>
                 <div className={'speakerPhoto'}>
                   { speakerImages[name]
@@ -46,16 +46,16 @@ class Speakers extends Component {
                   }
                 </div>
               </div>
-              <p className={'speakerName'}>{name}</p>
+              <p className={classNames('subtitle', 'speakerName')}>{s.speakerInfo[name].firstName + " " + s.speakerInfo[name].lastName}</p>
             </div>
           ))}
           </div>
-        </section>
+        </div>
         {
           isShowingModal &&
           <div className={classNames("modal", "is-active")}>
             <div className={classNames("modal-background")} onClick={this.handleClose}></div>
-              <div className={classNames("modal-content",'box')} onClick={this.handleClose}>
+              <div className={classNames("modal-content",'modalBox')} onClick={this.handleClose}>
                 <SpeakerDetails speakerName={this.state.name}/>
               </div>
             <button className={classNames("modal-close","is-large","aria-label='close'")} onClick={this.handleClose}></button>

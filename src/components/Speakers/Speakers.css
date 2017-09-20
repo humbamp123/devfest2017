@@ -1,7 +1,5 @@
-
-.speakerSection {
-  background: white;
-  padding: 30px;
+.subtitle {
+  font-weight: bold;
 }
 
 .speakerList {
@@ -14,21 +12,26 @@
 }
 
 .speakerCard {
+  overflow: hidden;
+  cursor: pointer;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  margin: 30px;
 }
 
 .speakerWrapper {
-  height: 200px;
-  width: 200px;
+  height: 240px;
+  width: 240px;
   overflow: hidden;
   background: #172636;
-  margin: 20px;
-  border: 3px solid #172636;
-  border-radius: 100px;
+  margin: 0px 0px 20px;
 }
 
 .speakerTitle {
@@ -37,15 +40,20 @@
   font-weight: 600;
 }
 
-.speakerName {
-  color: #172636;
-  text-align: center;
-}
-
 .speakerPhoto {
-  cursor: pointer;
   height: 100%;
   width: 100%;
-  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.speakerName {
+  margin-bottom: 20px;
+}
+
+.modalBox {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  display: block;
 }

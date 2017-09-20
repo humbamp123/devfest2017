@@ -33,5 +33,9 @@ export const SFbridge = require('../images/assets/joseph-barrientos-7030.jpg')
 export const devFestBanner = require('../images/assets/devfestbanner.png')
 export const devFestLogo = require('../images/assets/devfestlogo.png')
 
+export const hackathonHero = require('../images/assets/hero_hackathon.jpg')
+
+
 export const speakers = { alicia, caren, jennifer, justin, linda, minko, murat, rupali, sneha, vikram, android }
 export const group = [ andres, jessica, nathan, queenie, daniella, patti, james, android_2 ]
+

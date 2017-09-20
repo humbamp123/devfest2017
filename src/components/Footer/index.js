@@ -9,7 +9,7 @@ class Footer extends Component {
 
   render() {
     return (
-        <div className={classNames('hero', 'is-small')}>
+        <div className={classNames('hero', 'is-small', 'footerColor')}>
             <div className={'hero-body'}>
                 <div className={classNames('container', 'has-text-centered')}>
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>

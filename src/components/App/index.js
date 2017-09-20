@@ -11,7 +11,6 @@ import Talks from '../Talks';
 import Speakers from '../Speakers';
 import Hackathon from '../Hackathon';
 import CommunityGuidelines from '../CommunityGuidelines';
-import './App.css'
 
 class App extends Component {
   render() {

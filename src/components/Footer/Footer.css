@@ -1,4 +1,20 @@
-.text {
-  background-color: white;
-  color: white;
+/* unvisited link */
+.links:link {
+    color: white;
+}
+
+/* visited link */
+.links:visited {
+    color: white;
+}
+
+/* mouse over link */
+.links:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* selected link */
+.links:active {
+    color: white;
 }

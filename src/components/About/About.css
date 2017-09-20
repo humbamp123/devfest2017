@@ -32,15 +32,10 @@
 }
 
 .personWrapper {
-  height: 420px;
-  width: 250px;
+  height: 440px;
+  width: 300px;
   margin: 0px 0px 20px;
 }
-
-/*.personPhoto {
-  height: 100%;
-  width: 100%;
-}*/
 
 .personName {
   margin-bottom: 20px;

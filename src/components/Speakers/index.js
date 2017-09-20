@@ -29,8 +29,8 @@ class Speakers extends Component {
     return (
       <div>
         <section className={classNames('hero', 'is-small', 'has-text-centered')}>
-          <div className={'hero-body', 'has-text-centered', 'speakerBackground'} style={{backgroundImage: `url(${speakersHero})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
-            <div className={'container'}>
+          <div className={classNames('hero-body', 'has-text-centered', 'speakerBackground')} style={{backgroundImage: `url(${speakersHero})`}}>
+            <div className={classNames('container')}>
               <h1 className={'speakerTitle'}>{c.title}</h1>
             </div>
           </div>

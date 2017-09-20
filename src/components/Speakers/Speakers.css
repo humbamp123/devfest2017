@@ -1,6 +1,9 @@
 .speakerBackground {
   background-color: #172636;
   min-height: 153px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .speakerTitle {

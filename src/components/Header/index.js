@@ -9,7 +9,7 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <div style={{backgroundImage: `url(${SFbridge})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+      <div className={'background'} style={{backgroundImage: `url(${SFbridge})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
         <section className={classNames('hero', 'is-small', 'has-text-centered')} style={{padding: '75px 0px'}}>
           <div className={classNames('hero-body')}>
               <div className={classNames('headerBannerLogo')}>

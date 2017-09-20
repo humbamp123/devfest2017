@@ -1,3 +1,8 @@
+.background {
+  min-height: 544px;
+  background-color: #172636;
+}
+
 .talkTitle {
   color: white;
   font-size: 48px;

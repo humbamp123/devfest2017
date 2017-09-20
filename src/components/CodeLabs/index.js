@@ -3,24 +3,38 @@ import classNames from 'classnames';
 import Maps from '../Maps';
 import Timer from '../Timer';
 import c from './content.json';
+import { codelabHero } from '../../constants/images';
 import './CodeLabs.css'
 
 class CodeLabs extends Component {
   render() {
     return (
-      <div className={'wrapper'}>
+      <div>
+      <div className={'background'} style={{backgroundImage: `url(${codelabHero})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
         <section className={classNames('hero', 'is-medium', 'has-text-centered')}>
           <div className={'hero-body'}>
             <div className={'container'}>
               <h1 className={'codeLabsTitle'}>{c.title}</h1>
-              <Timer customOptions={{endDate: '10/21/2017 10:00 AM'}} />
-              <p className={classNames('subtitle')}>{c.timeTill}</p>
+              <h2 className={classNames('codeLabsDate')}>{c.date}</h2>
+              <div className={classNames('container', 'blurbBody')}>
+                <p className={classNames('codeLabsBlurb')}>{c.description}</p>
+              </div>
               <div className={classNames('button', 'registerButton', 'is-large')}>
                 <span>{c.register}</span>
               </div>
             </div>
           </div>
         </section>
+        </div>
+        <Timer customOptions={{endDate: '10/21/2017 10:00 AM'}} />
+        <div className={classNames('about')}>
+          <div className={'container'}>
+              <h2 className={classNames('aboutTitle')}>{c.aboutTitle}</h2>
+              <div className={classNames('container', 'aboutBody')}>
+                <p className={classNames('aboutBody')}>{c.aboutBody}</p>
+              </div>
+          </div>
+        </div>
         <Maps
           lat={37.870400}
           lng={-122.268900}

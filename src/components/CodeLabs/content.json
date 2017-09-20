@@ -1,5 +1,9 @@
 {
     "title": "Code Labs @ Berkeley",
+    "description": "Kick off your DevFest with a guided tutorial exploring new Google technologies. With the support of experts, participants will create applications in the process of learning how to use Firebase or Flutter.",
+    "date": "October 21, 2017",
     "timeTill": "until Berkeley Code Labs",
-    "register": "Buy Tickets"
+    "register": "Buy Tickets",
+    "aboutTitle": "About NextSpace",
+    "aboutBody": "NextSpace Berkeley, has established the benchmark for active, supportive, responsible, effective and fulfilling coworking communities. If you're looking for an amazing place where the Internet is fast and the coffee flows like the Rio Grande, NextSpace Berkeley is the place to be."
 }

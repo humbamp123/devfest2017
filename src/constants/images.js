@@ -21,6 +21,7 @@ export const daniella = require('../images/organizers/Daniella.jpg')
 export const android_2 = require('../images/organizers/android.png')
 export const patti = require('../images/organizers/Patti.png')
 export const james = require('../images/organizers/James.jpg')
+export const nina = require('../images/organizers/Nina.jpg')
 
 /* Logos */
 
@@ -40,5 +41,4 @@ export const speakersHero = require('../images/assets/hero_speakers.jpg')
 
 
 export const speakers = { alicia, caren, jennifer, justin, linda, minko, murat, rupali, sneha, vikram, android }
-export const group = [ andres, jessica, nathan, queenie, daniella, patti, james, android_2 ]
-
+export const group = [ andres, jessica, nathan, queenie, daniella, patti, james, nina, android_2 ]

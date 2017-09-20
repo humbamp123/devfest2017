@@ -6,11 +6,11 @@
 .react-count-down {
   margin: 0;
   color: white;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 25px;
   text-transform: capitalize;
 }
 
 .subtitle {
-  color: white;
+  font-color: white;
 }

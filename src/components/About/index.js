@@ -62,7 +62,7 @@ class About extends Component {
     if (test) {
       return (test)
     }
-    return (groupImages[7])
+    return (groupImages[8])
   }
 
   content(rows) {

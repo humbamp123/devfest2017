@@ -10,9 +10,9 @@ class Sponsors extends Component {
   render() {
     return (
       <div className={'sponsorWrapper'}>
-        <section className={classNames('hero', 'is-small')}>
+        <section className={classNames('hero', 'is-small', 'is-light')}>
           <div className={classNames('hero-body', 'has-text-centered')}>
-            <h1 className={'sponsorTitle'}>{c.partners}</h1>
+            <h1 className={classNames('title', 'sponsorTitle')}>{c.partners}</h1>
             <div className={classNames('subtitle')}>{c.events}</div>
             <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
               <div className={classNames('column')} style={{ "maxWidth": "200px"}}>
@@ -46,11 +46,15 @@ class Sponsors extends Component {
                     </div>
                 </div>
             </div>
-            <div>
-              <p className={classNames('is-info')}>{c.sponsorshipPrompt}</p>
+            <div className={classNames('container')}>
+              <hr></hr>
+              <div className={classNames('container', 'sponsorMargin')}>
+                <p>{c.sponsorshipPrompt}</p>
+              </div>
               <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2" className={classNames('button', 'registerButton')}>
                 {c.sponsorshipForm}
               </a>
+              <hr></hr>
             </div>
           </div>
         </section>

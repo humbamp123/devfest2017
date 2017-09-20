@@ -34,8 +34,8 @@ class Timer extends Component {
             <Countdown options={options} />
             {
               !customOptions
-              ? <p className={classNames('subtitle')}>{c.timeTill}{dateInfo[index]}</p>
-              : <p className={classNames('subtitle')}>{customOptions.event}</p>
+              ? <p className={classNames('timerSubtitle')}>{c.timeTill}{dateInfo[index]}</p>
+              : <p className={classNames('timerSubtitle')}>{customOptions.event}</p>
             }
           </div>
         </div>

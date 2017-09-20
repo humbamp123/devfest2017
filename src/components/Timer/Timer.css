@@ -11,6 +11,9 @@
   text-transform: capitalize;
 }
 
-.subtitle {
-  font-color: white;
+.timerSubtitle {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
 }

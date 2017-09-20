@@ -10,7 +10,7 @@ class CodeLabs extends Component {
   render() {
     return (
       <div>
-      <div className={'background'} style={{backgroundImage: `url(${codelabHero})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+      <div className={'background'} style={{backgroundImage: `url(${codelabHero})`}}>
         <section className={classNames('hero', 'is-medium', 'has-text-centered')}>
           <div className={'hero-body'}>
             <div className={'container'}>

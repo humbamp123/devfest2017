@@ -8,3 +8,8 @@
   border-color: #CC0000;
   background-color: #FFF;
 }
+
+.menuItem:hover {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}

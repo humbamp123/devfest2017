@@ -1,6 +1,8 @@
 .background {
   min-height: 544px;
-  background-color: #172636;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .codeLabsTitle {

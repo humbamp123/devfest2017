@@ -12,11 +12,12 @@
   font-size: 20px;
   font-weight: 500;
   font-style: italic;
-  margin-left: 30px;
 }
 
 .blurbBody {
-  max-width: 70%;
+  max-width: 800px;
+  min-width: 210px;
+  margin-bottom: 15px;
   text-align: center;
 }
 

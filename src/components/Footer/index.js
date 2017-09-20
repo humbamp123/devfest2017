@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Follow } from 'react-twitter-widgets'
+import { Follow } from 'react-twitter-widgets';
+import {Link} from 'react-router-dom'
 import classNames from 'classnames';
 import 'bulma/css/bulma.css';
+import './Footer.css';
 import c from './content.json';
 
 class Footer extends Component {
@@ -11,10 +13,11 @@ class Footer extends Component {
         <section className={classNames('hero', 'is-small')}>
             <div className={'hero-body'}>
                 <div className={classNames('content', 'has-text-centered')}>
-                    <div className={classNames('columns', 'is-gapless', 'is-centered')}>
-                        <a href="mailto:san.francisco.gdg@gmail.com" className={classNames('column', 'is-light')}>
+                    <div className={classNames('columns', 'is-gapless', 'is-centered', 'text')}>
+                        <a href="mailto:san.francisco.gdg@gmail.com" className={classNames('column', 'is-2')}>
                             {c.contact}
                         </a>
+                        <Link to={'/about'} className={classNames('column', 'is-2')}>{c.about}</Link>
                     </div>
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>
                         <Follow className={classNames('column')} username="sf_gdg" options={{size:"large"}}/>

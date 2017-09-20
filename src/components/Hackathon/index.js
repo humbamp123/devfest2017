@@ -14,13 +14,13 @@ class Hackathon extends Component {
           <div className={'hero-body'}>
             <div className={'container'}>
               <h1 className={classNames('hackathonTitle')}>{c.title}</h1>
-              <Timer customOptions={{endDate: '11/04/2017 10:00 AM'}} />
               <div className={classNames('button', 'registerButton', 'is-large')}>
                 <span>{c.register}</span>
               </div>
             </div>
           </div>
         </section>
+        <Timer customOptions={{'endDate': '11/04/2017 10:00 AM', 'event': c.timeTill}} />
         <Maps
           lat={37.548606}
           lng={-122.059009}

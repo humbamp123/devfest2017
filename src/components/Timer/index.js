@@ -23,16 +23,21 @@ class Timer extends Component {
   render() {
     const { index } = this.state
     const { customOptions } = this.props
-
     // Prioritize custom props, else go with default options
-    const options = customOptions || this.getOptions()
+    const options = customOptions ? customOptions : this.getOptions()
     let dateInfo = [c.berkleyTitle, c.sfTitle, c.fremontTitle]
 
     return (
-      <div className={'timer-container'}>
-        <div className={'has-text-centered'}>
-          <Countdown options={options} />
-          {!customOptions && <p className={classNames('subtitle')}>{c.timeTill}{dateInfo[index]}</p>}
+      <div className={classNames('hero', 'is-small', 'timer-container')}>
+        <div className={classNames('hero-body')}>
+          <div className={'has-text-centered'}>
+            <Countdown options={options} />
+            {
+              !customOptions
+              ? <p className={classNames('subtitle')}>{c.timeTill}{dateInfo[index]}</p>
+              : <p className={classNames('subtitle')}>{customOptions.event}</p>
+            }
+          </div>
         </div>
       </div>
     );

@@ -8,7 +8,6 @@ import About from '../About';
 import CodeLabs from '../CodeLabs';
 import Talks from '../Talks';
 // import Agenda from '../Agenda';
-import Speaker from '../Speaker';
 import Speakers from '../Speakers';
 import Hackathon from '../Hackathon';
 import CommunityGuidelines from '../CommunityGuidelines';

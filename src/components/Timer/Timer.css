@@ -1,17 +1,16 @@
 
 .timer-container {
-  max-width: 500px;
-  border-radius: 5px;
-  margin: 25px auto;
-  padding: 15px;
-  background: white;
-  border-bottom: 3px solid grey;
+  background-color: #db4f47;
 }
 
 .react-count-down {
   margin: 0;
-  color: #172636;
+  color: white;
   font-weight: 600;
-  font-size: 17px;
-  text-transform: capitalize; 
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  color: white;
 }

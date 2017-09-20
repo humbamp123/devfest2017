@@ -1,16 +1,10 @@
-.topMenu {
-  background-color: #F5F5F5;
+.registerButton {
+  background-color: #CC0000;
+  border-color: #CC0000;
+  color: #FFF;
 }
-
-.menuItem {
-  color: #172636;
-}
-
-.navBar {
-  background-color: gray;
-}
-
-.navbar-burger {
-  background-color: #808080;
-  border-color: #808080;
+.registerButton:hover {
+  color: #CC0000;
+  border-color: #CC0000;
+  background-color: #FFF;
 }

@@ -48,7 +48,7 @@ class Sponsors extends Component {
             </div>
             <div>
               <p className={classNames('is-info')}>{c.sponsorshipPrompt}</p>
-              <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2" className={classNames('button', 'registerButton')}> 
+              <a href="https://goo.gl/forms/EPnlkvmGZMMmveSc2" className={classNames('button', 'registerButton')}>
                 {c.sponsorshipForm}
               </a>
             </div>

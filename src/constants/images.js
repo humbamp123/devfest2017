@@ -25,12 +25,13 @@ export const james = require('../images/organizers/James.jpg')
 /* Logos */
 
 export const FortyTwo = require('../images/logos/42_logo.png')
-export const Galvanize = require('../images/logos/galvanize-logo.svg');
+export const Galvanize = require('../images/logos/galvanize-logo.svg')
+
+/* Assets */
+
+export const SFbridge = require('../images/assets/joseph-barrientos-7030.jpg')
+export const devFestBanner = require('../images/assets/devfestbanner.png')
+export const devFestLogo = require('../images/assets/devfestlogo.png')
 
 export const speakers = { alicia, caren, jennifer, justin, linda, minko, murat, rupali, sneha, vikram, android }
 export const group = [ andres, jessica, nathan, queenie, daniella, patti, james, android_2 ]
-export const devFestBanner = require('../images/assets/devfestbanner.png')
-export const devFestLogo = require('../images/assets/devfestlogo.png')
-export const gdgSign = require('../images/logos/GDGsign.png')
-export const bridgeSF = require('../images/assets/bridgeSF.png')
-export const machineBall = require('../images/assets/machineball.png')

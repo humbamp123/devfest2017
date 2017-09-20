@@ -1,20 +1,12 @@
 .eventContainer {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   background: white;
-  border-radius: 5px;
-  border-bottom: 3px solid gray;
-  margin: 30px auto;
-  max-width: 70%;
 }
 
 .eventHeaderTitle {
-  width: 35%;
+  min-width: 290px;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .eventTitle {
@@ -28,11 +20,44 @@
 }
 
 .eventBlurbWrapper {
-  width: 60%;
+  min-width: 290px;
   text-align: center;
 }
 
 .eventBlurb {
   font-size: 20px;
   padding: 20px;
+}
+
+.moreButton0 {
+  background-color: #5491f2;
+  border-color: #5491f2;
+  color: #FFF;
+}
+.moreButton0:hover {
+  color: #5491f2;
+  border-color: #5491f2;
+  background-color: #FFF;
+}
+
+.moreButton1 {
+  background-color: #CC0000;
+  border-color: #CC0000;
+  color: #FFF;
+}
+.moreButton1:hover {
+  color: #CC0000;
+  border-color: #CC0000;
+  background-color: #FFF;
+}
+
+.moreButton2 {
+  background-color: #fdc02f;
+  border-color: #fdc02f;
+  color: #000;
+}
+.moreButton2:hover {
+  color: #000;
+  border-color: #fdc02f;
+  background-color: #FFF;
 }

@@ -36,6 +36,7 @@ export const devFestLogo = require('../images/assets/devfestlogo.png')
 export const hackathonHero = require('../images/assets/hero_hackathon.jpg')
 export const talksHero = require('../images/assets/hero_galvanize.jpg')
 export const codelabHero = require('../images/assets/hero_nextspace.jpg')
+export const speakersHero = require('../images/assets/hero_speakers.jpg')
 
 
 export const speakers = { alicia, caren, jennifer, justin, linda, minko, murat, rupali, sneha, vikram, android }

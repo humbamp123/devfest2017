@@ -11,7 +11,7 @@ class Hackathon extends Component {
   render() {
     return (
       <div>
-      <div style={{backgroundImage: `url(${hackathonHero})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+      <div className={'background'} style={{backgroundImage: `url(${hackathonHero})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
         <section className={classNames('hero', 'is-medium', 'has-text-centered')}>
           <div className={'hero-body'}>
             <div className={'container'}>
@@ -26,8 +26,8 @@ class Hackathon extends Component {
             </div>
           </div>
         </section>
-        <Timer customOptions={{'endDate': '11/04/2017 10:00 AM', 'event': c.timeTill}} />
       </div>
+      <Timer customOptions={{'endDate': '11/04/2017 10:00 AM', 'event': c.timeTill}} />
       <div className={classNames('about')}>
           <div className={'container'}>
               <h2 className={classNames('aboutTitle')}>{c.aboutTitle}</h2>

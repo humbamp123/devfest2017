@@ -1,5 +1,55 @@
+.background {
+  min-height: 544px;
+  background-color: #172636;
+}
+
 .codeLabsTitle {
   color: white;
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.codeLabsDate {
+	color: white;
+	font-size: 26px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.registerButton {
+  background-color: #CC0000;
+  border-color: #CC0000;
+  color: #FFF;
+}
+.registerButton:hover {
+  color: #CC0000;
+  border-color: #CC0000;
+  background-color: #FFF;
+}
+
+.codeLabsBlurb {
+	color: white;
+	font-size: 20px;
+}
+
+.about {
+	background-color: hsl(0, 0%, 96%);
+	padding: 40px 24px;
+}
+
+.about .container {
+	max-width: 900px;
+}
+
+.aboutTitle {
+  color: #333333;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aboutBody {
+	color: #333;
 }

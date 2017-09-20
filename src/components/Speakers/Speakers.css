@@ -1,3 +1,15 @@
+.speakerBackground {
+  background-color: #172636;
+  min-height: 153px;
+}
+
+.speakerTitle {
+  margin: 40px;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
 .subtitle {
   font-weight: bold;
 }
@@ -32,12 +44,6 @@
   overflow: hidden;
   background: #172636;
   margin: 0px 0px 20px;
-}
-
-.speakerTitle {
-  color: white;
-  font-size: 70px;
-  font-weight: 600;
 }
 
 .speakerPhoto {

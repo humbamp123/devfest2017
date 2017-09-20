@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import SpeakerDetails from '../SpeakerDetails';
 import { speakers as speakerImages } from '../../constants/images'
+import { speakersHero } from '../../constants/images';
 import 'bulma/css/bulma.css';
 import './Speakers.css';
 import c from './content.json';
@@ -26,9 +27,9 @@ class Speakers extends Component {
     const { isShowingModal } = this.state
 
     return (
-      <div className={'wrapper'}>
-        <section className={classNames('hero', 'is-medium', 'has-text-centered')}>
-          <div className={'hero-body'}>
+      <div>
+        <section className={classNames('hero', 'is-small', 'has-text-centered')}>
+          <div className={'hero-body', 'has-text-centered', 'speakerBackground'} style={{backgroundImage: `url(${speakersHero})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
             <div className={'container'}>
               <h1 className={'speakerTitle'}>{c.title}</h1>
             </div>

@@ -6,6 +6,18 @@ a.logo:hover {
   background-color: #292929;
 }
 
+.burgerButton {
+  color: white;
+  border-color: #CC0000;
+  background-color: #CC0000;
+}
+
+.burgerButton:hover {
+  color: white;
+  border-color: #CC0000;
+  background-color: #CC0000;
+}
+
 .registerButton {
   background-color: #CC0000;
   border-color: #CC0000;

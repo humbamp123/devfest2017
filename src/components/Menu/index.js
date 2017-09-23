@@ -28,7 +28,7 @@ class Menu extends Component {
             <Link className={classNames('logo', 'navbar-item')} to='/'>
               <img style={{maxHeight: "3rem"}} src={devFestLogo} alt="Bayfest Logo" />
             </Link>
-            <div className={classNames('navbar-burger', 'button',"data-target='navMenu", showBurger ? 'is-active':'')} onClick={this.handleToggle}>
+            <div className={classNames('burgerButton', 'navbar-burger', 'button', "data-target='navMenu", showBurger ? 'is-active':'')} onClick={this.handleToggle}>
               <span></span>
               <span></span>
               <span></span>

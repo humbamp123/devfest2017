@@ -5,5 +5,8 @@
   "timeTill": "until San Francisco Conference",
   "register": "Buy Tickets",
   "aboutTitle": "About Galvanize",
-  "aboutBody": "Galvanize is a welcoming, inclusive place where anyone in the tech industry can access education and growth. Their campuses are home to an eclectic mix of entrepreneurs, skilled programmers, expert data scientist, and men and women motivated to make an impact."
+  "aboutBody": "Galvanize is a welcoming, inclusive place where anyone in the tech industry can access education and growth. Their campuses are home to an eclectic mix of entrepreneurs, skilled programmers, expert data scientist, and men and women motivated to make an impact.",
+  "place": "Galvanize San Francisco - Soma",
+  "address1": "44 Tehama Street",
+  "address2": "San Francisco, CA 94105"
 }

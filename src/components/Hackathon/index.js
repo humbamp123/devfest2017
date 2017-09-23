@@ -39,8 +39,9 @@ class Hackathon extends Component {
         <Maps
           lat={37.548606}
           lng={-122.059009}
-          eventLocation='42 Silicon Valley'
-          eventDescription='42 Silicon Valley is a tuition free programming university with a unique, month-long , merit-based admissions program. The 42 campus has open computer lab facilities capable of hosting over 1000 people.'
+          eventLocation={c.place}
+          eventAddress1={c.address1}
+          eventAddress2={c.address2}
           directions='https://goo.gl/maps/jEcYoErqFuT2'
         />
       </div>

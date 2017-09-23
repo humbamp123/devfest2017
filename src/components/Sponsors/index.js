@@ -12,7 +12,7 @@ class Sponsors extends Component {
       <div className={'sponsorWrapper'}>
         <section className={classNames('hero', 'is-small', 'is-light')}>
           <div className={classNames('hero-body', 'has-text-centered')}>
-            <h1 className={classNames('title', 'sponsorTitle')}>{c.partners}</h1>
+            <div className={classNames('sponsorTitle', 'title')}>{c.partners}</div>
             <div className={classNames('subtitle')}>{c.events}</div>
             <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
               <div className={classNames('column')} style={{ "maxWidth": "200px"}}>

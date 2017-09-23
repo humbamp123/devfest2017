@@ -38,8 +38,9 @@ class CodeLabs extends Component {
         <Maps
           lat={37.870400}
           lng={-122.268900}
-          eventLocation='Next Space Berkeley'
-          eventDescription='NextSpace is a trendy co-working workspace that resides in the heart of Berkeley.'
+          eventLocation={c.place}
+          eventAddress1={c.address1}
+          eventAddress2={c.address2}
           directions='https://goo.gl/maps/4X1hgairUf82'
         />
       </div>

@@ -1,21 +1,21 @@
 /* unvisited link */
-.links:link {
+.footerLinks:link {
     color: white;
 }
 
 /* visited link */
-.links:visited {
+.footerLinks:visited {
     color: white;
 }
 
 /* mouse over link */
-.links:hover {
+.footerLinks:hover {
     color: white;
     text-decoration: underline;
 }
 
 /* selected link */
-.links:active {
+.footerLinks:active {
     color: white;
 }
 

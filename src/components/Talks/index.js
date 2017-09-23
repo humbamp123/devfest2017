@@ -39,8 +39,9 @@ class Talks extends Component {
         <Maps
           lat={37.787600}
           lng={-122.396600}
-          eventLocation='Galvanize SF - Soma'
-          eventDescription='Galvanize campuses are home to an eclectic mix of entrepreneurs, skilled programmers, expert data scientists, and men and women motivated to make an impact.'
+          eventLocation={c.place}
+          eventAddress1={c.address1}
+          eventAddress2={c.address2}
           directions='https://goo.gl/maps/21dQqb9tccR2'
         />
       </div>

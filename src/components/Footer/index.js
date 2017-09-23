@@ -14,10 +14,10 @@ class Footer extends Component {
                 <div className={classNames('container', 'has-text-centered')}>
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>
                       <div className={classNames('column', 'is-2')}>
-                        <a className={classNames('links')} href="mailto:san.francisco.gdg@gmail.com">{c.contact}</a>
+                        <a className={classNames('footerLinks')} href="mailto:san.francisco.gdg@gmail.com">{c.contact}</a>
                       </div>
                       <div className={classNames('column', 'is-2')}>
-                        <a className={classNames('links')} href={'/about'}>{c.about}</a>
+                        <a className={classNames('footerLinks')} href={'/about'}>{c.about}</a>
                       </div>
                     </div>
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>

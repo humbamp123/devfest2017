@@ -1,3 +1,11 @@
+.topMenu {
+  background-color: #363636;
+}
+
+a.logo:hover {
+  background-color: #292929;
+}
+
 .registerButton {
   background-color: #CC0000;
   border-color: #CC0000;
@@ -9,7 +17,130 @@
   background-color: #FFF;
 }
 
-.menuItem:hover {
-  color: #FFFFFF;
-  background-color: #FFFFFF;
+/* First Link */
+a.link1:link {
+    color: white;
+    font-weight: bold;
+}
+
+/* visited link */
+a.link1:visited {
+    color: white;
+}
+
+/* mouse over link */
+a.link1:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #5491f2;
+}
+
+/* selected link */
+a.link1:active {
+    color: white;
+    background-color: #5491f2;
+}
+
+/* Second Link */
+
+a.link2:link {
+    color: white;
+    font-weight: bold;
+}
+
+/* visited link */
+a.link2:visited {
+    color: white;
+    background-color: #CC0000;
+}
+
+/* mouse over link */
+a.link2:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #CC0000;
+}
+
+/* selected link */
+a.link2:active {
+    color: white;
+    background-color: #CC0000;
+}
+
+/* Third Link */
+
+a.link3:link {
+    color: white;
+    font-weight: bold;
+}
+
+/* visited link */
+a.link3:visited {
+    color: white;
+    background-color: #fdc02f;
+}
+
+/* mouse over link */
+a.link3:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #fdc02f;
+}
+
+/* selected link */
+a.link3:active {
+    color: white;
+    background-color: #fdc02f;
+}
+
+/* Forth Link */
+
+a.link4:link {
+    color: white;
+    font-weight: bold;
+}
+
+/* visited link */
+a.link4:visited {
+    color: white;
+    background-color: #5491f2;
+}
+
+/* mouse over link */
+a.link4:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #5491f2;
+}
+
+/* selected link */
+a.link4:active {
+    color: white;
+    background-color: #5491f2;
+}
+
+/* Fifth Link */
+
+a.link5:link {
+    color: white;
+    font-weight: bold;
+}
+
+/* visited link */
+a.link5:visited {
+    color: white;
+    background-color: #219e5f;
+}
+
+/* mouse over link */
+a.link5:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #219e5f;
+}
+
+/* selected link */
+a.link5:active {
+    color: white;
+    background-color: #219e5f;
 }

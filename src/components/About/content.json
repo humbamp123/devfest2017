@@ -78,9 +78,9 @@
               "first": "Nina",
               "last": "Bachvarova",
               "links":  [
-                          "facebook.com/ba4varova",
-                          "twitter.com/yobacci",
-                          "www.linkedin.com/in/bachvarova"
+                          "https://facebook.com/ba4varova",
+                          "https://twitter.com/yobacci",
+                          "https://www.linkedin.com/in/bachvarova"
                         ]
             }
           ]

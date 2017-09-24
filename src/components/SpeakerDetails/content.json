@@ -41,7 +41,6 @@
                     "profession": "Software Engineer",
                     "employer": "Netflix Inc.",
                     "linkedIn": "https://www.linkedin.com/in/avendanolinda/",
-                    "portfolio": "http://mochimachine.org/",
                     "bio": "Linda is a senior engineer with a master’s degree in Software Engineering for Carnegie Mellon University. Originally from Mexico City, she has lived in Silicon Valley for the past 8 years. She has worked at Electronic Arts and Sears Online Business Unit before joining Netflix. She has been with the Messaging team for 4 years now, where she is responsible for the infrastructure that makes possible to send 100 million unique messages localized in 26 languages to our customers around the world.",
                     "talkTitle": "How customer messages are created at Netflix?"
         },

@@ -17,7 +17,7 @@ class Agenda extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(speakerName, trackName) { this.setState({isShowingModal: true, name:speakerName, track:trackName}) }
+  handleClick(speakerName) { this.setState({isShowingModal: true, name:speakerName}) }
   handleClose = () => this.setState({isShowingModal: false})
 
   render() {
@@ -34,13 +34,13 @@ class Agenda extends Component {
           <div className={'container'}>
             <table className={classNames('table', 'is-bordered', 'is-striped', 'is-fullwidth')}>
               <tbody>
-                {schedule.times && schedule.times.map((name, index)=> (
+                {schedule.times && schedule.times.map((time, index)=> (
                   <tr key={index}>
-                    <th>{name}</th>
-                    <td onClick={() => this.handleClick(schedule.speaker_track_one[index], schedule.track_one[index])}>{schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]}</td>
-                     {schedule.track_two ? <td onClick={() => this.handleClick(schedule.speaker_track_two[index], schedule.track_two[index])}>{schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]}</td> : <div/>}
-                     {schedule.track_three ? <td onClick={() => this.handleClick(schedule.speaker_track_three[index], schedule.track_three[index])}>{schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]}</td> : <div/>}
-                     {schedule.track_four ? <td onClick={() => this.handleClick(schedule.speaker_track_four[index], schedule.track_four[index])}>{schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]}</td> : <div/>}
+                    <th>{time}</th>
+                    <td onClick={() => this.handleClick(schedule.name_track_one[index])}>{schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]}</td>
+                     {schedule.track_two ? <td onClick={() => this.handleClick(schedule.name_track_two[index])}>{schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]}</td> : <div/>}
+                     {schedule.track_three ? <td onClick={() => this.handleClick(schedule.name_track_three[index])}>{schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]}</td> : <div/>}
+                     {schedule.track_four ? <td onClick={() => this.handleClick(schedule.name_track_four[index])}>{schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]}</td> : <div/>}
                   </tr>
                 ))}
               </tbody>
@@ -55,7 +55,6 @@ class Agenda extends Component {
                 {/*This is where the agenda modal goes */}
                 <div className={classNames("card")}>
                   <div className={classNames("cardContent")}>
-                    <p>{this.state.track}</p>
                     <p>{this.state.name}</p>
                   </div>
                 </div>

@@ -9,27 +9,28 @@ class Events extends Component {
   render() {
     const index = [0, 1, 2];
     return (
-      <section>
+      <section style={{borderBottom: "10px solid #219e5f"}}>
         {
-          index.map((item) => {
-            return (
-              <section key={c.events[item]} className={classNames('hero', 'is-medium', c.colors[item], 'is-bold')}>
-                <div className={classNames('hero-body', 'event-container')}>
-                  <div className={'event-title'}>
-                    <p className={classNames('title', 'is-3')}>{c.events[item]}</p>
-                    <p className={'subtitle'}>{c.groups[item]}</p>
-                    <p className={'subtitle'}>{c.edates[item]}</p>
-                  </div>
-                  <div className={'event-blurb-wrapper'}>
-                    <p className={'event-blurb'}>{c.blurbs[item]}</p>
-                    <Link to={c.routes[item]} className={classNames('button', c.btn[item],'is-outlined')}>
-                      {c.moreInfo}
-                    </Link>
+          index.map((item) => (
+              <section key={c.events[item]} className={classNames('hero', 'is-small', 'is-white')}>
+                <div className={classNames('hero-body', 'eventContainer', 'has-text-centered')} style={{borderTop: c.color[item]}}>
+                  <div className={classNames('container', 'eventMargin')}>
+                    <div className={classNames('container', 'eventHeaderTitle')}>
+                      <p className={classNames('title')}>{c.events[item]} by {c.groups[item]}</p>
+                      <p className={classNames('subtitle')}>{c.edates[item]}</p>
+                    </div>
+                    <div className={classNames('container', 'eventBlurbWrapper')}>
+                      <div className={'eventBlurb'}>
+                        <p>{c.blurbs[item]}</p>
+                      </div>
+                      <Link to={c.routes[item]} className={classNames('button','is-outlined', c.buttons[item])}>
+                        {c.moreInfo}
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </section>   
-            );
-          })
+              </section>
+          ))
         }
       </section>
     );

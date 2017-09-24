@@ -1,4 +1,5 @@
 {
+  "aboutTitle": "About us",
   "about":
     {
       "organizers":
@@ -19,7 +20,7 @@
               "first": "James",
               "last": "Cha-Earley",
               "links":  [
-                          "https://twitter.com/thajamescha",
+                          "https://twitter.com/thejamescha",
                           "http://linkedin.com/in/jamesjcha"
                         ]
             }
@@ -64,6 +65,7 @@
               "last": "Shin",
               "links":  [
                           "https://twitter.com/pattishin",
+                          "https://github.com/pattishin",
                           "https://www.linkedin.com/in/pattishin/"
                         ]
             },
@@ -71,6 +73,15 @@
               "first": "Nathan",
               "last": "Saephanh",
               "links": []
+            },
+            {
+              "first": "Nina",
+              "last": "Bachvarova",
+              "links":  [
+                          "https://facebook.com/ba4varova",
+                          "https://twitter.com/yobacci",
+                          "https://www.linkedin.com/in/bachvarova"
+                        ]
             }
           ]
         ]

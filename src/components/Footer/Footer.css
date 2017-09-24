@@ -1,0 +1,24 @@
+/* unvisited link */
+.footerLinks:link {
+    color: white;
+}
+
+/* visited link */
+.footerLinks:visited {
+    color: white;
+}
+
+/* mouse over link */
+.footerLinks:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* selected link */
+.footerLinks:active {
+    color: white;
+}
+
+.footerColor {
+  background-color: #172636;
+}

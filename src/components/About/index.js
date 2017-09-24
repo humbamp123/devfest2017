@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Menu from '../Menu';
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import classNames from 'classnames';
 import c from './content.json';
 import 'bulma/css/bulma.css';
@@ -10,7 +7,8 @@ import Twitter from 'react-icons/lib/fa/twitter-square';
 import Github from 'react-icons/lib/fa/github-square';
 import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 import LinkIcon from 'react-icons/lib/fa/chain';
-import { group as groupImages } from '../../constants/images'
+import { group as groupImages } from '../../constants/images';
+import './About.css';
 
 let MediaMap = {
   "Facebook": <div style={{ color: "#3b5998"}}>
@@ -43,10 +41,10 @@ class About extends Component {
 
   links(person) {
     return (
-      <div className={classNames('columns', 'is-multiline', 'is-flex-mobile')}>
+      <div className={classNames('columns', 'is-multiline', 'is-mobile', 'is-centered')}>
         {
           person.links.map( (links, linkIndex) => (
-            <div key={ linkIndex } className={classNames('column')}>
+            <div key={ linkIndex } className={classNames('column', 'is-narrow')}>
               <a href={ links }>
                 {this.icon(links)}
               </a>
@@ -64,24 +62,23 @@ class About extends Component {
     if (test) {
       return (test)
     }
-    return (groupImages[7])
+    return (groupImages[8])
   }
 
   content(rows) {
     return (
       rows.map( (person, personIndex) => (
-        <div key={personIndex} style={{"maxWidth": "350px", "minWidth": "350px"}} className={classNames('column', 'has-text-centered', 'is-fluid')}>
-          <div className={classNames('box')}>
-            <div>
-              <img src={this.images(person.first)} alt={person.first + " " + person.last + " Photo"}></img>
+          <div key={personIndex} className={classNames('personCard')}>
+            <div className={classNames('personWrapper')}>
+              <div className={classNames('personPhoto')}>
+                <img src={this.images(person.first)} alt={person.first + " " + person.last + " Photo"}></img>
+              </div>
+              <div className={classNames('personSubtitle')}>{person.first} {person.last}</div>
+              <div>
+                { this.links(person) }
+              </div>
             </div>
-            <div className={classNames('subtitle')}>{person.first} {person.last}</div>
-            <hr></hr>
-            <section>
-              { this.links(person) }
-            </section>
           </div>
-        </div>
       ))
     );
   }
@@ -89,11 +86,11 @@ class About extends Component {
   organizers() {
     return (
       c.about.organizers.map( (rows, rowIndex) => (
-        <div key={rowIndex} className={classNames('section', 'is-fluid')}>
+        <div key={rowIndex} style={{marginTop: "40px"}}>
           <div className={classNames('title', 'has-text-centered')}>
             {c.group[rowIndex]}
           </div>
-          <div className={classNames('columns', 'is-centered', 'is-multiline', 'is-flex-mobile')}>
+          <div className={classNames('personList')}>
             { this.content(rows) }
           </div>
         </div>
@@ -104,16 +101,9 @@ class About extends Component {
 
   render() {
     return (
-      <section>
-        <Menu />
-        <div className={classNames('hero')}>
-          <div className={classNames('hero-body')}>
-            {this.organizers()}
-          </div>
-        </div>
-        <Sponsors />
-        <Footer />
-      </section>
+      <div className={classNames('hero', 'is-white')}>
+          {this.organizers()}
+      </div>
     );
   }
 }

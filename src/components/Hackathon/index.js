@@ -4,26 +4,25 @@ import Countdown from 'react-count-count';
 import Menu from '../Menu';
 import Agenda from '../Agenda'
 import Sponsors from '../Sponsors';
+import Timer from '../Timer';
 import Maps from '../Maps';
-import Footer from '../Footer';
 import 'bulma/css/bulma.css';
 import './Hackathon.css';
+import { hackathonHero } from '../../constants/images';
 import c from './content.json';
 
 class Hackathon extends Component {
   render() {
     return (
-      <div className={'wrapper'}>
-        <section className={classNames('hero', 'is-medium', 'is-light', 'is-bold', 'has-text-centered')}>
-          <Menu />
+      <div>
+      <div className={'background'} style={{backgroundImage: `url(${hackathonHero})`, backgroundSize: 'cover' , backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+        <section className={classNames('hero', 'is-medium', 'has-text-centered')}>
           <div className={'hero-body'}>
             <div className={'container'}>
-              <h1 className={classNames('title')}>{c.title}</h1>
-              <div className={'timer-container'}>
-                <div className={'has-text-centered'}>
-                  <Countdown options={{endDate: '11/04/2017 10:00 AM'}} />
-                  <p className={classNames('subtitle')}>{c.timeTill}</p>
-                </div>
+              <h1 className={classNames('hackathonTitle')}>{c.title}</h1>
+              <h2 className={classNames('hackathonDate')}>{c.date}</h2>
+              <div className={classNames('container', 'blurbBody')}>
+                <p className={classNames('hackathonBlurb')}>{c.description}</p>
               </div>
               <div className={classNames('button', 'registerButton', 'is-large')}>
                 <span>{c.register}</span>
@@ -32,15 +31,24 @@ class Hackathon extends Component {
           </div>
         </section>
         <Agenda event="hackathon"/>
+      </div>
+      <Timer customOptions={{'endDate': '11/04/2017 10:00 AM', 'event': c.timeTill}} />
+      <div className={classNames('about')}>
+          <div className={'container'}>
+              <h2 className={classNames('aboutTitle')}>{c.aboutTitle}</h2>
+              <div className={classNames('container', 'aboutBody')}>
+                <p className={classNames('aboutBody')}>{c.aboutBody}</p>
+              </div>
+          </div>
+      </div>
         <Maps
           lat={37.548606}
           lng={-122.059009}
-          eventLocation='42 Silicon Valley'
-          eventDescription='42 Silicon Valley is a tuition free programming university with a unique, month-long , merit-based admissions program. The 42 campus has open computer lab facilities capable of hosting over 1000 people.'
+          eventLocation={c.place}
+          eventAddress1={c.address1}
+          eventAddress2={c.address2}
           directions='https://goo.gl/maps/jEcYoErqFuT2'
         />
-        <Sponsors />
-        <Footer />
       </div>
     );
   }

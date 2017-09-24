@@ -1,44 +1,72 @@
+.speakerBackground {
+  background-color: #172636;
+  min-height: 153px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-.speakerSection {
+.speakerTitle {
+  margin: 40px;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.speakerList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   justify-content: center;
   max-width: 1024px;
-  margin: auto;
+  margin: 30px auto;
 }
 
 .speakerCard {
+  overflow: hidden;
+  cursor: pointer;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: #4a4a4a;
+  margin: 30px;
 }
 
 .speakerWrapper {
-  height: 200px;
-  width: 200px;
+  height: 240px;
+  width: 240px;
   overflow: hidden;
-  margin: 20px;
-  border-radius: 100px;
-  background: #8e9eab;
-  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  background: #172636;
+  margin: 0px 0px 20px;
 }
 
 .speakerPhoto {
-  cursor: pointer;
   height: 100%;
   width: 100%;
-  background-color: white;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  opacity: 0.5;
 }
 
-.speakerPhoto:hover {
-  opacity: 1;
+.speakerName {
+  margin-bottom: 20px;
+}
+
+.modalBox {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  display: block;
 }

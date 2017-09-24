@@ -1,23 +1,56 @@
-.event-container {
-  display: flex;
+.eventMargin {
+  padding: 30px 0px;
+}
+
+.eventContainer {
+  /*display: flex;*/
   justify-content: space-between;
+  background: white;
 }
 
-.event-title {
-  width: 35%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.eventHeaderTitle {
+  min-width: 290px;
 }
 
-.event-blurb-wrapper {
-  width: 60%;
-  text-align: center;
+.eventBlurbWrapper {
+  max-width: 800px;
 }
 
-.event-blurb {
+.eventBlurb {
+  min-width: 210px;
   font-size: 20px;
   padding: 20px;
+}
+
+.moreButton0 {
+  background-color: #5491f2;
+  border-color: #5491f2;
+  color: #FFF;
+}
+.moreButton0:hover {
+  color: #5491f2;
+  border-color: #5491f2;
+  background-color: #FFF;
+}
+
+.moreButton1 {
+  background-color: #CC0000;
+  border-color: #CC0000;
+  color: #FFF;
+}
+.moreButton1:hover {
+  color: #CC0000;
+  border-color: #CC0000;
+  background-color: #FFF;
+}
+
+.moreButton2 {
+  background-color: #fdc02f;
+  border-color: #fdc02f;
+  color: #000;
+}
+.moreButton2:hover {
+  color: #000;
+  border-color: #fdc02f;
+  background-color: #FFF;
 }

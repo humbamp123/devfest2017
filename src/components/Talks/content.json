@@ -1,5 +1,12 @@
 {
   "title": "Talks @ San Francisco",
+  "description": "This all day event will feature back to back speaker sessions on a variety of topics, from introductory to advanced levels. Check back soon for a full schedule and list of speakers.",
+  "date": "October 28, 2017",
   "timeTill": "until San Francisco Conference",
-  "register": "Buy Tickets"
+  "register": "Buy Tickets",
+  "aboutTitle": "About Galvanize",
+  "aboutBody": "Galvanize is a welcoming, inclusive place where anyone in the tech industry can access education and growth. Their campuses are home to an eclectic mix of entrepreneurs, skilled programmers, expert data scientist, and men and women motivated to make an impact.",
+  "place": "Galvanize San Francisco - Soma",
+  "address1": "44 Tehama Street",
+  "address2": "San Francisco, CA 94105"
 }

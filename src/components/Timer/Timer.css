@@ -1,28 +1,19 @@
 
 .timer-container {
-  width: 50%;
-  border: 1px solid white;
-  border-radius: 65px;
-  margin: 25px auto;
-  padding: 15px;
-  font-size: 150%;
-  background: rgba(255, 255, 255, 0.15);
-  font-weight: bold;
+  background-color: #db4f47;
 }
 
 .react-count-down {
   margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: capitalize;
+}
 
-  & .prefix {
-    font-size: 150%;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #03CC85;
-  }
-
-  & .date {
-    font-size: 150%;
-    font-weight: 200;
-    line-height: 1.5;
-  }
+.timerSubtitle {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
 }

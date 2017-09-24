@@ -10,12 +10,13 @@ export default class Maps extends Component {
   constructor (props) {
     super(props)
 
-    const { key, lat, lng, directions, eventDescription, eventLocation } = props
+    const { key, lat, lng, directions, eventAddress1, eventAddress2, eventLocation } = props
     const infoContent = (
-      <div className={classNames('box')}>
-        <h1>{eventLocation}</h1>
-        <p>{eventDescription}</p>
-        <a className={classNames('button', 'is-primary', 'is-small')} href={directions}>{c.directions}</a>
+      <div className={classNames('hero', 'is-small')} style={{padding: "5px", maxWidth: "200px"}}>
+        <h1 style={{paddingBottom: "5px"}}>{eventLocation}</h1>
+        <p>{eventAddress1}</p>
+        <p style={{paddingBottom: "5px"}}>{eventAddress2}</p>
+        <a className={classNames('button', 'is-info', 'is-outlined', 'is-small')} href={directions}>{c.directions}</a>
       </div>
     )
 

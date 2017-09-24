@@ -1,5 +1,12 @@
 {
     "title": "Hack-a-thon @ Fremont",
+    "description": "This event will be the perfect opportunity to put to work all of the new knowledge you'll have after the first two events of DevFest. With the support of experienced mentors, participants will create original projects, competing for prizes and bragging rights.",
+    "date": "November 4 - 5, 2017",
     "timeTill": "until Fremont Hack-a-thon",
-    "register": "Buy Tickets"
+    "register": "Buy Tickets",
+    "aboutTitle": "About 42 Silicon Valley",
+    "aboutBody": "42 Silicon Valley boasts an innovative and disruptive educational model and is proud to be the new home of engineering talent for the digital industry in America. The “Soul of Code” building is comprised of 4 computer clusters and phenomenal shared spaces that can host up to 1000 people at once.",
+    "place": "42 Silicon Valley",
+    "address1": "6600 Dumbarton Circle",
+    "address2": "Fremont, CA 94555"
 }

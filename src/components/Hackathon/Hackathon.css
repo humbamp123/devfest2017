@@ -1,5 +1,21 @@
-.wrapper {
-  font-family: 'Saira', sans-serif;
+.background {
+  min-height: 544px;
+  background-color: #172636;
+}
+
+.hackathonTitle {
+  color: white;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.hackathonDate {
+	color: white;
+	font-size: 26px;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 .registerButton {
@@ -11,4 +27,29 @@
   color: #CC0000;
   border-color: #CC0000;
   background-color: #FFF;
+}
+
+.hackathonBlurb {
+	color: white;
+	font-size: 20px;
+}
+
+.about {
+	background-color: hsl(0, 0%, 96%);
+	padding: 40px 24px;
+}
+
+.about .container {
+	max-width: 900px;
+}
+
+.aboutTitle {
+  color: #333333;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aboutBody {
+	color: #333;
 }

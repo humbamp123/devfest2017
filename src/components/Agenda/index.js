@@ -9,11 +9,20 @@ class Agenda extends Component {
     super(props)
     
     this.state = {
-      event: props.event
+      event: props.event,
+      speakers: c.speakers,
+      isShowingModal: false,
     }
+
+    this.handleClick = this.handleClick.bind(this);
   }
+
+  handleClick(speakerName, trackName) { this.setState({isShowingModal: true, name:speakerName, track:trackName}) }
+  handleClose = () => this.setState({isShowingModal: false})
+
   render() {
     const { event } = this.state
+    const { isShowingModal } = this.state
 
     var schedule = c[event].schedule
     return (
@@ -28,16 +37,32 @@ class Agenda extends Component {
                 {schedule.times && schedule.times.map((name, index)=> (
                   <tr key={index}>
                     <th>{name}</th>
-                    <td>{schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]}</td>
-                     {schedule.track_two ? <td>{schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]}</td> : <div/>}
-                     {schedule.track_three ? <td>{schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]}</td> : <div/>}
-                     {schedule.track_four ? <td>{schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]}</td> : <div/>}
+                    <td onClick={() => this.handleClick(schedule.speaker_track_one[index], schedule.track_one[index])}>{schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]}</td>
+                     {schedule.track_two ? <td onClick={() => this.handleClick(schedule.speaker_track_two[index], schedule.track_two[index])}>{schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]}</td> : <div/>}
+                     {schedule.track_three ? <td onClick={() => this.handleClick(schedule.speaker_track_three[index], schedule.track_three[index])}>{schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]}</td> : <div/>}
+                     {schedule.track_four ? <td onClick={() => this.handleClick(schedule.speaker_track_four[index], schedule.track_four[index])}>{schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]}</td> : <div/>}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
         </section>
+        {
+          isShowingModal &&
+          <div className={classNames("modal", "is-active")}>
+            <div className={classNames("modal-background")} onClick={this.handleClose}></div>
+              <div className={classNames("modal-content",'modalBox')} onClick={this.handleClose}>
+                {/*This is where the agenda modal goes */}
+                <div className={classNames("card")}>
+                  <div className={classNames("cardContent")}>
+                    <p>{this.state.track}</p>
+                    <p>{this.state.name}</p>
+                  </div>
+                </div>
+              </div>
+            <button className={classNames("modal-close","is-large","aria-label='close'")} onClick={this.handleClose}></button>
+          </div>
+        }
       </div>
     );
   }

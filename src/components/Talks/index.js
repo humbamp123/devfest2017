@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Countdown from 'react-count-count';
-import Menu from '../Menu';
 import Agenda from '../Agenda'
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import Maps from '../Maps';
 import Timer from '../Timer';
 import 'bulma/css/bulma.css';
@@ -31,9 +27,9 @@ class Talks extends Component {
             </div>
           </div>
         </section>
-        <Agenda event="talks"/>
       </div>
       <Timer customOptions={{endDate: '10/28/2017 9:00 AM', 'event': c.timeTill}} />
+      <Agenda event="talks"/>
         <div className={classNames('about')}>
           <div className={'container'}>
               <h2 className={classNames('aboutTitle')}>{c.aboutTitle}</h2>

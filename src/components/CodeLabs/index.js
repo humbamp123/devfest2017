@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Countdown from 'react-count-count';
-import Menu from '../Menu';
 import Agenda from '../Agenda'
-import Sponsors from '../Sponsors';
-import Footer from '../Footer';
 import c from './content.json';
 import Maps from '../Maps';
 import Timer from '../Timer';
-import c from './content.json';
 import { codelabHero } from '../../constants/images';
 import './CodeLabs.css'
 
@@ -31,8 +26,8 @@ class CodeLabs extends Component {
             </div>
           </div>
         </section>
-        <Agenda event="codelabs"/>
         </div>
+        <Agenda event="codelabs"/>
         <Timer customOptions={{endDate: '10/21/2017 10:00 AM', 'event': c.timeTill}} />
         <div className={classNames('about')}>
           <div className={'container'}>

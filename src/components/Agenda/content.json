@@ -21,12 +21,16 @@
       "times":["8:00 AM", "9:00 - 9:20", "9:20 - 9:45", "10:00 - 10:45", "11:00 - 11:45", "12:00 - 12:45", "1:00 - 1:45", "2:00 - 2:45", "3:00 - 3:45", "4:00 - 4:30"],
       "track_one":["Registration", "Welcome", "Keynote", "", "", "Lunch", "", "" ,"", "Closing"],
       "speaker_track_one":["","James Cha-Earley, Jessica Dene Earley-Cha", "Justin Ribeiro"],
+      "name_track_one":["","james","jessica","justin"],
       "track_two":["","","","Firebase", "Data science on Google Cloud Platform", "", "Home s̶w̶e̶e̶t̶ Google Home", "Flutter", "Googler/GDE"],
       "speaker_track_two":["", "", "", "", "Vikram Tiwari", "", "Murat Yener", "", ""],
+      "name_track_two":["",",","","vikram","","murat"],
       "track_three":["", "", "", "Mozella","Fastest Growing Area of Machine Learning Science","","How customer messages are created at Netflix?","Understanding Gestures on Android","Angular Performance Checklist"],
       "speaker_track_three":["", "", "", "Harald"],
+      "name_track_three":["","","","Harald"],
       "track_four":["", "", "", "Sponsor","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Sponsor"],
-      "speaker_track_four":["", "", ""]
+      "speaker_track_four":["", "", ""],
+      "name_track_four":["","","","",""]
     }
   },
   "title": "Agenda"

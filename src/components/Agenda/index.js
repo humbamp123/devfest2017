@@ -34,7 +34,7 @@ class Agenda extends Component {
           <div className={'container'}>
           <div className={classNames('tile is-ancestor is-vertical')}>
             {schedule.times && schedule.times.map((time, index)=> (
-              <div className={classNames("tile")}>
+              <div key={index} className={classNames("tile")}>
                 <div className={classNames("tile is-parent")}>
                   <article className={classNames("tile is-child box")}>
                       <p>{time}</p>

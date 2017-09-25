@@ -4,7 +4,8 @@
     "schedule": {
       "times":["9:30 AM", "10:00 AM"],
       "track_one":["Registration", "Intro"],
-      "speaker_track_one":["",""]
+      "speaker_track_one":["",""],
+      "name_track_one":["",""]
     }
   },
   "codelabs": {
@@ -12,7 +13,8 @@
     "schedule": {
       "times":["9:30 AM", "10:00 AM"],
       "track_one":["Registration", "Intro"],
-      "speaker_track_one":["",""]
+      "speaker_track_one":["",""],
+      "name_track_one":["",""]
     }
   },
   "talks": {

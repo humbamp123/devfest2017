@@ -1,6 +1,6 @@
 {
     "events": [ "Code Labs", "Talks", "Hack-a-thon"],
-    "groups": [ "GDG Berkley", "GDG San Francisco", "GDG Fremont" ],
+    "groups": [ "GDG Berkeley", "GDG San Francisco", "GDG Fremont" ],
     "color": [ "10px solid #5491f2", "10px solid #cc0000", "10px solid #fdc02f"],
     "buttons": [ "moreButton0", "moreButton1", "moreButton2"],
     "blurbs": [

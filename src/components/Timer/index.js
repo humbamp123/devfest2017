@@ -25,7 +25,7 @@ class Timer extends Component {
     const { customOptions } = this.props
     // Prioritize custom props, else go with default options
     const options = customOptions ? customOptions : this.getOptions()
-    let dateInfo = [c.berkleyTitle, c.sfTitle, c.fremontTitle]
+    let dateInfo = [c.berkeleyTitle, c.sfTitle, c.fremontTitle]
 
     return (
       <div className={classNames('hero', 'is-small', 'timer-container')}>

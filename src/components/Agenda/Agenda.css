@@ -3,3 +3,22 @@
   font-size: 70px;
   font-weight: 600;
 }
+
+#codelabs, #talks, #hackathon {
+  cursor: pointer;
+}
+
+#codelabs:hover {
+  background-color: #5491f2;
+  color: white;
+}
+
+#talks:hover {
+  background-color: #CC0000;
+  color: white;
+}
+
+#hackathon:hover {
+  background-color: #fdc02f;
+  color: white;
+}

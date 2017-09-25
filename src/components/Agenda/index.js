@@ -32,19 +32,29 @@ class Agenda extends Component {
             <h1 className={'agendaTitle'}>{c.title}</h1>
           </div>
           <div className={'container'}>
-            <table className={classNames('table', 'is-bordered', 'is-striped', 'is-fullwidth')}>
-              <tbody>
-                {schedule.times && schedule.times.map((time, index)=> (
-                  <tr key={index}>
-                    <th>{time}</th>
-                    <td onClick={() => this.handleClick(schedule.name_track_one[index])}>{schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]}</td>
-                     {schedule.track_two ? <td onClick={() => this.handleClick(schedule.name_track_two[index])}>{schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]}</td> : <div/>}
-                     {schedule.track_three ? <td onClick={() => this.handleClick(schedule.name_track_three[index])}>{schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]}</td> : <div/>}
-                     {schedule.track_four ? <td onClick={() => this.handleClick(schedule.name_track_four[index])}>{schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]}</td> : <div/>}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className={classNames('tile is-ancestor is-vertical')}>
+            {schedule.times && schedule.times.map((time, index)=> (
+              <div className={classNames("tile")}>
+                <div className={classNames("tile is-parent")}>
+                  <article className={classNames("tile is-child box")}>
+                      <p>{time}</p>
+                  </article>
+                  <article id={event} className={classNames("tile is-child box")} onClick={() => this.handleClick(schedule.name_track_one[index])}>
+                    {schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]}
+                  </article>
+                  {schedule.track_two ? <article id={event} className={classNames("tile is-child box")} onClick={() => this.handleClick(schedule.name_track_two[index])}>
+                    {schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]}
+                  </article>: <div/>}
+                  {schedule.track_two ? <article id={event} className={classNames("tile is-child box")} onClick={() => this.handleClick(schedule.name_track_three[index])}>
+                    {schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]}
+                  </article>: <div/>}
+                  {schedule.track_two ? <article id={event} className={classNames("tile is-child box")} onClick={() => this.handleClick(schedule.name_track_four[index])}>
+                    {schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]}
+                  </article>: <div/>}
+                </div>
+              </div>
+            ))}
+            </div>
           </div>
         </section>
         {

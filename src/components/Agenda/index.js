@@ -25,8 +25,10 @@ class Agenda extends Component {
     const { event } = this.state
     const { isShowingModal } = this.state
     var schedule = c[event].schedule
-    var offsetSize = 4 - ((schedule.track_one ? 1 : 0) + (schedule.track_two ? 1 : 0) + (schedule.track_three ? 1 : 0) + (schedule.track_four ? 1 : 0))
-    var balanceSize = offsetSize ? 5 - offsetSize : 4
+    var offsetSize = 5 - ((schedule.track_one ? 1 : 0) + (schedule.track_two ? 1 : 0) + (schedule.track_three ? 1 : 0) + (schedule.track_four ? 1 : 0))
+    var balanceSize = (4 - offsetSize) >= 2 ? 4 - offsetSize : 2
+    console.log(offsetSize)
+    console.log(balanceSize)
     return (
       <div className={'wrapper'}>
         <section className={'section'}>

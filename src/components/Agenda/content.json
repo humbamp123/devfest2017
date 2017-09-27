@@ -16,7 +16,9 @@
       "room":["Main", "Room 1"],
       "track_one":["Registration", "Intro"],
       "speaker_track_one":["",""],
-      "name_track_one":["",""]
+      "name_track_one":["",""],
+      "track_two": [""],
+      "track_three": [""]
     }
   },
   "talks": {

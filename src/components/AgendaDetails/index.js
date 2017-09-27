@@ -26,11 +26,13 @@ class AgendaDetails extends Component {
                             }
                         </div>
                     </div>
-                    <div className={classNames('title')}>{ c.speakerInfo[this.name].firstName } { c.speakerInfo[this.name].lastName }</div>
                 </div>
-                <div className={classNames('column subtitle has-text-centered')}>{ c.speakerInfo[this.name].talkTitle }</div>
-                <div className={classNames('columns')}>
-                  <div className={classNames('column')}>{ c.speakerInfo[this.name].talkSummary}</div>
+                <div className={classNames('column')}>
+                  <div className={classNames('title has-text-centered')}>{ c.speakerInfo[this.name].talkTitle }</div>
+                  <div className={classNames('subtitle has-text-centered')}>{"by " + c.speakerInfo[this.name].firstName } { c.speakerInfo[this.name].lastName }</div>
+                  <div className={classNames('columns')}>
+                    <div className={classNames('column')}>{ c.speakerInfo[this.name].talkSummary}</div>
+                  </div>
                 </div>
             </div>
           </div>

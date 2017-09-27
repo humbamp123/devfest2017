@@ -10,33 +10,12 @@ import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 import LinkIcon from 'react-icons/lib/fa/chain';
 
 class SpeakerDetails extends Component {
-    componentDidMount() {
-        var modal = document.querySelector('.modal')
-        var html = document.querySelector('html')
-        modal.classList.add('is-active')
-        html.classList.add('is-clipped')
-      }
-
-      componentWillUnmount() {
-        var modal = document.querySelector('.modal')
-        var html = document.querySelector('html')
-        modal.classList.remove('is-active')
-        html.classList.remove('is-clipped')
-      }
-
     constructor (props) {
         super(props)
         this.name = props.speakerName
-        this.state = {
-            speakers: [
-                'alicia', 'jennifer', 'linda', 'caren',
-                'murat', 'minko', 'sneha', 'vikram', 'rupali'
-            ],
-        }
       }
 
     render() {
-        const { speakers } = this.state
         return (
         <div className={classNames('hero', 'is-bold', 'is-light', 'has-text-centered')}>
           <div className={classNames('hero-body')}>
@@ -45,8 +24,8 @@ class SpeakerDetails extends Component {
                     <div className={'speakerDetailWrapper'}>
                         <div className={'speakerDetailPhoto'} >
                             { speakerImages[this.name]
-                                ? <img alt={speakers} src={[speakerImages[this.name]]} />
-                                : <img alt={speakers} src={[speakerImages['android']]} />
+                                ? <img alt={this.name} src={[speakerImages[this.name]]} />
+                                : <img alt={this.name} src={[speakerImages['android']]} />
                             }
                         </div>
                     </div>

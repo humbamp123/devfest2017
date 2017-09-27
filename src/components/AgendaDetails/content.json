@@ -1,0 +1,65 @@
+{
+    "title": "Speakers",
+    "speakerInfo": {
+        "alicia": {
+                    "firstName":"Alicia",
+                    "lastName":"Luchetti",
+                    "talkTitle": "Fastest Growing Area of Machine Learning Science",
+                    "talkSummary": "You see the effects of machine learning everywhere, as tech companies and labs use it for everything from editing Google Photos to predicting global food shortages. But long before they appear in any product, machine learning applications have likely been the subjects of scientific papers. I'll show how we can quickly find what are the new emerging trends and companies within machine learning."
+        },
+        "caren": {
+                    "firstName":"Caren",
+                    "lastName":"Chang",
+                    "talkTitle": "Understanding Gestures on Android",
+                    "talkSummary": "For developers working with custom views and touches for the first time, it could sometimes be difficult to decipher what goes on when a user touches the screen. In this talk we’ll trace through the steps to see how Android decides which view should handle a touch, and how the system differentiates between swipes and clicks. We’ll start by visually examining how a view hierarchy is laid out and examine the multiple methods involved when the system receives a touch. Then we’ll look into the different kinds of gestures that are categorized in Android and how the system finally decides to call the ubiquitous onClickListener(). Lastly, we’ll work through a detailed real-world example of touch handling with RecyclerViews."
+        },
+        "jennifer": {
+                    "firstName":"Jennifer",
+                    "lastName":"Wong",
+                    "talkTitle": "Accessing Accessible Accessibility",
+                    "talkSummary": "The World Health Organization states that one billion people live with disabilities. And estimates put internet usage with a screen reader as high as 3.4% of all internet traffic around the world. Web accessibility can help. So what is web accessibility and who needs it? Is engineering accessibility enough? How do you build an cross-functional accessibility culture? And what can you do to prevent regressions? I had all the same questions… and only four months to guarantee all our consumer user flows were accessible. Well, what happened? Come learn what it takes to lead a web accessibility movement within your company!"
+        },
+        "linda": {
+                    "firstName":"Linda",
+                    "lastName":"Avendaño-Franco",
+                    "talkTitle": "Wings - a tool for customer message management at Netflix",
+                    "talkSummary": "Have you ever received an email saying your favorite show is coming or maybe that your card is no longer valid? To engage and communicate effectively with our customers, the Messaging team at Netflix needed a platform for rapid iteration and experimentation.  My team and I built Wings -- a management tool to create and test messages at fast pace. Wings provides a dynamic environment for quick development and deployment based on its groovy engine. In this presentation, you’ll learn about the message development cycle - creation, localization and publishing workflows - as well as Wings architecture and the technical decisions behind it."
+        },
+        "minko": {
+                    "firstName":"Minko",
+                    "lastName":"Gechev",
+                    "talkTitle": "Angular Performance Checklist",
+                    "talkSummary": "High performance applications always bring better user engagement and experience. We often implicitly judge the quality of given application by it’s initial load time and responsiveness. In the first part of this talk we’re going explain essential practices that can help us reduce the initial load time of our Angular applications. In it’s second part, we’ll discuss different techniques which can improve the runtime performance of our application in order to help us achieve rendering with 60fps!"
+        },
+        "murat": {
+                    "firstName":"Murat",
+                    "lastName":"Yener",
+                    "talkTitle": "Home (sweet) Google Home",
+                    "talkSummary": "You got all the smart devices, now what? Let's see how we can integrate everything and build up the ultimate smart home integration (lights, thermostats, cast...and more) with Google Home!"
+        },
+        "rupali": {
+                    "firstName":"Rupali",
+                    "lastName":"Sharma",
+                    "talkTitle": "Services that empower game world",
+                    "talkSummary": "Our mobile screen time is a lot more than big screen time now. It is true for video games as well, where much first timers are onboarding as mobile gamers. With this transformation, a new world of capabilities, such as, messaging, push notifications and more, has surfaced out. This talk will present our focus areas in these capabilities at Electronic Arts and how we amalgamate with Google Play Game Services on Android. It’ll go through how we address the challenges that lead our way, using the cutting edge technologies."
+        },
+        "sneha": {
+                    "firstName":"Sneha",
+                    "lastName":"Rajana",
+                    "talkTitle": "Learning negating semantics using a morphology-aware neural network",
+                    "talkSummary": "This talk is about AntNET - a morphology-aware neural network that I built as a product of my Master's thesis that detects negating semantics from other relationships like hypernyms, synonyms etc. This is a very cool application of deep learning in a hard-to-solve Natural Language Understanding problem. Recognizing antonymy is a key task for improving the performance of NLP systems like Machine Translation and even for chat bots to understand opposing statements and sarcastic comments. This novel neural network model, AntNET, outperforms state-of-the-art models in distinguishing antonyms from other semantic relations and is capable of efficiently handling multi-word expressions. This work was published at ACL 2017 in Vancouver, Canada:"
+        },
+        "vikram": {
+                    "firstName":"Vikram",
+                    "lastName":"Tiwari",
+                    "talkTitle": "Data science on Google Cloud Platform",
+                    "talkSummary": "Data is core of each organization and with evolution in machine learning, data teams are becoming an integral part of any organization. Learn best practices around how to build your data team using Google Cloud Platform's amazing tools and technologies at your disposal."
+        },
+        "justin": {
+                    "firstName":"Vikram",
+                    "lastName":"Tiwari",
+                    "talkTitle": "21 Years: Still Failing, Always Learning",
+                    "talkSummary": "In this inspired keynote, Justin Ribeiro, Chief Executive Officer at software developer Stickman Ventures Inc and a four area Google Developer Expert, takes a walk through the ups and downs of 21 years developing software, what failure has to offer, and why you should step back from the keyboard every once in awhile to learn a different side of development."
+        }
+    }
+}

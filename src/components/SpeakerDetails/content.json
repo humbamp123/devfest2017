@@ -95,6 +95,18 @@
                     "portfolio": "https://vikramtiwari.com/",
                     "bio": "Building scalable web platforms for high availability, resilience, and security. #GDE @GoogleCloud. Founding team member and all things tech @omnilabsinc",
                     "talkTitle": "Data science on Google Cloud Platform"
+        },
+        "justin": {
+                    "firstName":"Vikram",
+                    "lastName":"Tiwari",
+                    "profession": "Chief Executive Officer | Google Developer Expert",
+                    "employer": "Stickman Ventures Inc.",
+                    "twitter": "https://twitter.com/justinribeiro",
+                    "linkedIn": "https://www.linkedin.com/in/justinribeiro",
+                    "github": "https://github.com/justinribeiro",
+                    "portfolio": "https://justinribeiro.com",
+                    "bio": "Dad. Husband. Software Engineer. CEO. Speaker. Google Developer Expert. Failed voiceover actor who hosts The Web Platform Podcast.",
+                    "talkTitle": "21 Years: Still Failing, Always Learning"
         }
     }
 }

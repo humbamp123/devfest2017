@@ -4,6 +4,10 @@
   font-weight: 600;
 }
 
+.agendaStyle {
+  margin-bottom: 40px;
+}
+
 #codelabs, #talks, #hackathon {
   cursor: pointer;
 }

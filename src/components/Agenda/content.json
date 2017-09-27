@@ -1,6 +1,18 @@
 {
-  "hackathon": {
+  "hackathon1": {
     "title":"Hackathon",
+    "date": "Saturday, November 4th",
+    "schedule": {
+      "times":["9:30 AM", "10:00 AM"],
+      "room":["Main", "Room 1"],
+      "track_one":["Registration", "Intro"],
+      "speaker_track_one":["",""],
+      "name_track_one":["",""]
+    }
+  },
+  "hackathon2": {
+    "title":"Hackathon",
+    "date": "Sunday, November 5th",
     "schedule": {
       "times":["9:30 AM", "10:00 AM"],
       "room":["Main", "Room 1"],
@@ -11,6 +23,7 @@
   },
   "codelabs": {
     "title":"Code Labs",
+    "date": "Saturday, October 21st",
     "schedule": {
       "times":["9:30 AM", "10:00 AM"],
       "room":["Main", "Room 1"],
@@ -23,6 +36,7 @@
   },
   "talks": {
     "title":"Talks",
+    "date": "Saturday, October 28th",
     "schedule": {
       "times":["8:00 AM", "9:00 - 9:20", "9:20 - 9:45", "10:00 - 10:45", "11:00 - 11:45", "12:00 - 12:45", "1:00 - 1:45", "2:00 - 2:45", "3:00 - 3:45", "4:00 - 4:30"],
       "room":["Main", "Room 1", "Room 2", "Room 3"],

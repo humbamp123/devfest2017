@@ -14,10 +14,10 @@ class AgendaDetails extends Component {
 
     render() {
         return (
-        <div className={classNames('hero', 'is-bold', 'is-light', 'has-text-centered')}>
+        <div className={classNames('hero is-bold is-light')}>
           <div className={classNames('hero-body')}>
-            <div className={classNames('columns')}>
-                <div className={classNames('column', 'is-narrow', 'is-half', "is-offset-one-quarter")}>
+            <div className={classNames('columns is-multiline is-mobile is-vcentered')}>
+                <div className={classNames('column is-narrow')}>
                     <div className={'speakerDetailWrapper'}>
                         <div className={'speakerDetailPhoto'} >
                             { speakerImages[this.name]
@@ -26,14 +26,13 @@ class AgendaDetails extends Component {
                             }
                         </div>
                     </div>
+                    <div className={classNames('title')}>{ c.speakerInfo[this.name].firstName } { c.speakerInfo[this.name].lastName }</div>
+                </div>
+                <div className={classNames('column subtitle has-text-centered')}>{ c.speakerInfo[this.name].talkTitle }</div>
+                <div className={classNames('columns')}>
+                  <div className={classNames('column')}>{ c.speakerInfo[this.name].talkSummary}</div>
                 </div>
             </div>
-            <br/>
-            <p className={classNames('title')}>{ c.speakerInfo[this.name].firstName } { c.speakerInfo[this.name].lastName }</p>
-            <br/>
-            <p className={classNames('subtitle')}>{ c.speakerInfo[this.name].talkTitle }</p>
-            <br/>
-            <p>{ c.speakerInfo[this.name].talkSummary}</p>
           </div>
         </div>
         );

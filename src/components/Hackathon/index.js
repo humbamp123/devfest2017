@@ -28,8 +28,8 @@ class Hackathon extends Component {
           </div>
         </section>
       </div>
-      <Agenda event="hackathon"/>
       <Timer customOptions={{'endDate': '11/04/2017 10:00 AM', 'event': c.timeTill}} />
+      <Agenda event="hackathon"/>
       <div className={classNames('about')}>
           <div className={'container'}>
               <h2 className={classNames('aboutTitle')}>{c.aboutTitle}</h2>

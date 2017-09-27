@@ -27,8 +27,8 @@ class CodeLabs extends Component {
           </div>
         </section>
         </div>
-        <Agenda event="codelabs"/>
         <Timer customOptions={{endDate: '10/21/2017 10:00 AM', 'event': c.timeTill}} />
+        <Agenda event="codelabs"/>
         <div className={classNames('about')}>
           <div className={'container'}>
               <h2 className={classNames('aboutTitle')}>{c.aboutTitle}</h2>

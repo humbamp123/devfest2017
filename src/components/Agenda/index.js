@@ -40,11 +40,9 @@ class Agenda extends Component {
                 {
                   offsetSize > 0 && <article className={classNames("tile is-child is-" + offsetSize)}></article>
                 }
-                {
-                  <article className={classNames("tile is-child box is-" + balanceSize)}>
-                      <p>{time}</p>
-                  </article>
-                }
+                <article className={classNames("tile is-child box is-" + balanceSize)}>
+                  <p className={classNames("title")}>{time}</p>
+                </article>
                 {
                   schedule.track_one && (schedule.track_one[index] && schedule.room[0]
                   ? <article id={event} className={classNames("tile is-child box is-2")} onClick={() => this.handleClick(schedule.name_track_one[index])}>
@@ -77,6 +75,7 @@ class Agenda extends Component {
                     : <article className={classNames("tile is-child box is-2 is-hidden-mobile")}>
                       </article>)
                 }
+                <div className={classNames('is-only-mobile')}><br /></div>
               </div>
             ))}
             </div>

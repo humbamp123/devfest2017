@@ -1,28 +1,25 @@
 {
   "hackathon1": {
-    "title":"Hackathon",
     "date": "Saturday, November 4th",
     "schedule": {
-      "times":["9:30 AM", "10:00 AM"],
+      "times":["9:00 AM", "9:00 AM - 10:00 AM", "10:00 AM", "11:00 AM", "12:00 PM - 1:00 PM", "1:00 PM - 6:30 PM", "6:30 PM - 7:30 PM", "10:00 PM"],
       "room":["Main", "Room 1"],
-      "track_one":["Registration", "Intro"],
+      "track_one":["Registration is open", "Breakfast & coffee is served", "Welcome orientation and idea pitches", "Group forming and hacking begins", "Lunch served", "Hack time!", "Dinner", "End of Night"],
       "speaker_track_one":["",""],
       "name_track_one":["",""]
     }
   },
   "hackathon2": {
-    "title":"Hackathon",
     "date": "Sunday, November 5th",
     "schedule": {
-      "times":["9:30 AM", "10:00 AM"],
+      "times":["9:00 AM - 10:00 AM", "10:00 AM - 12:00 PM", "12:00 PM - 1:00 PM", "1:00 PM - 3:00 PM", "3:00 PM", "3:00 PM - 4:00 PM"],
       "room":["Main", "Room 1"],
-      "track_one":["Registration", "Intro"],
+      "track_one":["Breakfast & coffee is served", "More hacking", "Lunch", "Hacking? But-of-course!", "Submission deadline", "Presentation Rehearsal", "Demo and judging", "Cleanup"],
       "speaker_track_one":["",""],
       "name_track_one":["",""]
     }
   },
   "codelabs": {
-    "title":"Code Labs",
     "date": "Saturday, October 21st",
     "schedule": {
       "times":["9:30 AM", "10:00 AM"],
@@ -35,10 +32,9 @@
     }
   },
   "talks": {
-    "title":"Talks",
     "date": "Saturday, October 28th",
     "schedule": {
-      "times":["8:00 AM", "9:00 - 9:20", "9:20 - 9:45", "10:00 - 10:45", "11:00 - 11:45", "12:00 - 12:45", "1:00 - 1:45", "2:00 - 2:45", "3:00 - 3:45", "4:00 - 4:30"],
+      "times":["8:00 AM", "9:00 AM - 9:20 AM", "9:20 AM - 9:45 AM", "10:00 AM - 10:45 AM", "11:00 AM - 11:45 AM", "12:00 PM - 12:45 PM", "1:00 PM - 1:45 PM", "2:00 PM - 2:45 PM", "3:00 PM - 3:45 PM", "4:00 PM - 4:30 PM"],
       "room":["Main", "Room 1", "Room 2", "Room 3"],
       "track_one":["Registration", "Welcome", "Keynote", "", "", "Lunch", "", "" ,"", "Closing"],
       "speaker_track_one":["James Cha-Earley, Jessica Dene Earley-Cha", "Justin Ribeiro"],

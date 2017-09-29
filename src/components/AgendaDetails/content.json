@@ -56,10 +56,16 @@
                     "talkSummary": "Data is core of each organization and with evolution in machine learning, data teams are becoming an integral part of any organization. Learn best practices around how to build your data team using Google Cloud Platform's amazing tools and technologies at your disposal."
         },
         "justin": {
-                    "firstName":"Vikram",
-                    "lastName":"Tiwari",
+                    "firstName":"Justin",
+                    "lastName":"Ribeiro",
                     "talkTitle": "21 Years: Still Failing, Always Learning",
                     "talkSummary": "In this inspired keynote, Justin Ribeiro, Chief Executive Officer at software developer Stickman Ventures Inc and a four area Google Developer Expert, takes a walk through the ups and downs of 21 years developing software, what failure has to offer, and why you should step back from the keyboard every once in awhile to learn a different side of development."
+        },
+        "james-jessica": {
+                    "firstName": "Jessica Dene Earley-Cha",
+                    "lastName": "& James Cha-Earley",
+                    "talkTitle": "Welcome",
+                    "talkSummary": ""
         }
     }
 }

@@ -9,7 +9,6 @@ class AgendaDetails extends Component {
     constructor (props) {
         super(props)
         this.name = props.speakerName
-        this.name2 = props.speakerName2
       }
 
     render() {

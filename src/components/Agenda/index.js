@@ -46,7 +46,7 @@ class Agenda extends Component {
                     offsetSize > 0 && <article className={classNames("tile is-child is-" + offsetSize)}></article>
                   }
                   <article className={classNames("tile is-child box is-" + balanceSize)}>
-                    <p className={classNames("title")}>{time}</p>
+                    <p className={classNames("subtitle")}>{time}</p>
                   </article>
                   {
                     schedule.track_one && (schedule.track_one[index] && schedule.room[0]

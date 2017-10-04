@@ -2,9 +2,8 @@
   "hackathon1": {
     "date": "Saturday, November 4th",
     "schedule": {
-      "times":["9:00 AM", "9:00 AM - 10:00 AM", "10:00 AM", "11:00 AM", "12:00 PM - 1:00 PM", "1:00 PM - 6:30 PM", "6:30 PM - 7:30 PM", "10:00 PM"],
-      "room":["Main", "Room 1"],
-      "track_one":["Registration is open", "Breakfast & coffee is served", "Welcome orientation and idea pitches", "Group forming and hacking begins", "Lunch served", "Hack time!", "Dinner", "End of Night"],
+      "times":["","9:00 AM", "9:00 AM - 10:00 AM", "10:00 AM", "11:00 AM", "12:00 PM - 1:00 PM", "1:00 PM - 6:30 PM", "6:30 PM - 7:30 PM", "10:00 PM"],
+      "track_one":["Main Room","Registration is open", "Breakfast & coffee is served", "Welcome orientation and idea pitches", "Group forming and hacking begins", "Lunch served", "Hack time!", "Dinner", "End of Night"],
       "speaker_track_one":["",""],
       "name_track_one":["",""]
     }
@@ -12,9 +11,8 @@
   "hackathon2": {
     "date": "Sunday, November 5th",
     "schedule": {
-      "times":["9:00 AM - 10:00 AM", "10:00 AM - 12:00 PM", "12:00 PM - 1:00 PM", "1:00 PM - 3:00 PM", "3:00 PM", "3:00 PM - 4:00 PM"],
-      "room":["Main", "Room 1"],
-      "track_one":["Breakfast & coffee is served", "More hacking", "Lunch", "Hacking? But-of-course!", "Submission deadline", "Presentation Rehearsal", "Demo and judging", "Cleanup"],
+      "times":["","9:00 AM - 10:00 AM", "10:00 AM - 12:00 PM", "12:00 PM - 1:00 PM", "1:00 PM - 3:00 PM", "3:00 PM", "3:00 PM - 4:00 PM"],
+      "track_one":["Main Room","Breakfast & coffee is served", "More hacking", "Lunch", "Hacking? But-of-course!", "Submission deadline", "Presentation Rehearsal", "Demo and judging", "Cleanup"],
       "speaker_track_one":["",""],
       "name_track_one":["",""]
     }
@@ -22,32 +20,28 @@
   "codelabs": {
     "date": "Saturday, October 21st",
     "schedule": {
-      "times":["9:30 AM", "10:00 AM"],
-      "room":["Main", "Room 1"],
-      "track_one":["Registration", "Intro"],
+      "times":["","9:30 AM", "10:00 AM"],
+      "track_one":["Main Room","Registration", "Intro"],
       "speaker_track_one":["",""],
-      "name_track_one":["",""],
-      "track_two": [""],
-      "track_three": [""]
+      "name_track_one":["",""]
     }
   },
   "talks": {
     "date": "Saturday, October 28th",
     "schedule": {
-      "times":["8:00 AM", "9:00 AM - 9:20 AM", "9:20 AM - 9:45 AM", "10:00 AM - 10:45 AM", "11:00 AM - 11:45 AM", "12:00 PM - 12:45 PM", "1:00 PM - 1:45 PM", "2:00 PM - 2:45 PM", "3:00 PM - 3:45 PM", "4:00 PM - 4:30 PM"],
-      "room":["Main", "Room 1", "Room 2", "Room 3"],
-      "track_one":["Registration", "Welcome", "Keynote", "", "", "Lunch", "", "" ,"", "Closing"],
-      "speaker_track_one":["James Cha-Earley, Jessica Dene Earley-Cha", "Justin Ribeiro"],
-      "name_track_one":["james-jessica","justin"],
-      "track_two":["","","Firebase", "Data science on Google Cloud Platform", "", "Home s̶w̶e̶e̶t̶ Google Home", "Flutter", "Googler/GDE", "", ""],
-      "speaker_track_two":[ "", "", "Firebase", "Vikram Tiwari", "", "Murat Yener", "Flutter", "Googler/GDE", "", ""],
-      "name_track_two":["","","","vikram","","murat"],
-      "track_three":["", "", "", "Mozella","Fastest Growing Area of Machine Learning Science","","Wings - a tool for customer message management at Netflix","Understanding Gestures on Android","Angular Performance Checklist", ""],
-      "speaker_track_three":["", "", "", "Harald", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Caren Chang", "Minko Gechev", ""],
-      "name_track_three":["","","","harald", "alice", "", "linda", "caren", "minko", ""],
-      "track_four":["", "", "", "Sponsor","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Sponsor", ""],
-      "speaker_track_four":["", "", "", "", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "Sponsor", ""],
-      "name_track_four":["","","","","rapali","", "sneha", "jennifer", "", ""]
+      "times":["","8:00 AM", "9:00 AM - 9:20 AM", "9:20 AM - 9:45 AM", "10:00 AM - 10:45 AM", "11:00 AM - 11:45 AM", "12:00 PM - 12:45 PM", "1:00 PM - 1:45 PM", "2:00 PM - 2:45 PM", "3:00 PM - 3:45 PM", "4:00 PM - 4:30 PM"],
+      "track_one":["Main Room","Registration", "Welcome", "Keynote", "", "", "Lunch", "", "" ,"", "Closing"],
+      "speaker_track_one":["","","James Cha-Earley, Jessica Dene Earley-Cha", "Justin Ribeiro"],
+      "name_track_one":["","","james-jessica","justin"],
+      "track_two":["Room 1","","","","", "Data science on Google Cloud Platform", "", "Home s̶w̶e̶e̶t̶ Google Home", "", "", "", ""],
+      "speaker_track_two":["","","","", "", "Vikram Tiwari", "", "Murat Yener", "", "", "", ""],
+      "name_track_two":["","","","","","vikram","","murat"],
+      "track_three":["Room 2","", "", "", "Mozella","Fastest Growing Area of Machine Learning Science","","Wings - a tool for customer message management at Netflix","Understanding Gestures on Android","Angular Performance Checklist", ""],
+      "speaker_track_three":["","", "", "", "Harald", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Caren Chang", "Minko Gechev", ""],
+      "name_track_three":["","","","","harald", "alice", "", "linda", "caren", "minko", ""],
+      "track_four":["Room 3","", "", "", "","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","", ""],
+      "speaker_track_four":["","", "", "", "", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "", ""],
+      "name_track_four":["","","","","","rapali","", "sneha", "jennifer", "", ""]
     }
   },
   "title": "Agenda"

@@ -49,33 +49,33 @@ class Agenda extends Component {
                     <p className={classNames("subtitle")}>{time}</p>
                   </article>
                   {
-                    schedule.track_one && (schedule.track_one[index] && schedule.room[0]
+                    schedule.track_one && (schedule.track_one[index]
                     ? <article id={event} className={classNames("tile is-child box is-2")} onClick={() => this.handleClick(schedule.name_track_one[index])}>
-                        {schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]} <br /> <p>in room {schedule.room[0]}</p>
+                        {schedule.track_one[index]} <br/> {schedule.speaker_track_one[index]} <br />
                       </article>
                       : <article className={classNames("tile is-child box is-2 is-hidden-mobile")}>
                         </article>)
                   }
                   {
-                    schedule.track_two && (schedule.track_two[index] && schedule.room[1]
+                    schedule.track_two && (schedule.track_two[index]
                     ? <article id={event} className={classNames("tile is-child box is-2")} onClick={() => this.handleClick(schedule.name_track_two[index])}>
-                        {schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]} <br /> <p>in room {schedule.room[1]}</p>
+                        {schedule.track_two[index]} <br/> {schedule.speaker_track_two[index]} <br />
                       </article>
                       : <article className={classNames("tile is-child box is-2 is-hidden-mobile")}>
                         </article>)
                   }
                   {
-                    schedule.track_three && (schedule.track_three[index] && schedule.room[2]
+                    schedule.track_three && (schedule.track_three[index]
                     ? <article id={event} className={classNames("tile is-child box is-2")} onClick={() => this.handleClick(schedule.name_track_three[index])}>
-                        {schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]} <br /> <p>in room {schedule.room[2]}</p>
+                        {schedule.track_three[index]} <br/> {schedule.speaker_track_three[index]} <br />
                       </article>
                       : <article className={classNames("tile is-child box is-2 is-hidden-mobile")}>
                         </article>)
                   }
                   {
-                    schedule.track_four && (schedule.track_four[index] && schedule.room[3]
+                    schedule.track_four && (schedule.track_four[index]
                     ? <article id={event} className={classNames("tile is-child box is-2")} onClick={() => this.handleClick(schedule.name_track_four[index])}>
-                        {schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]} <br /> <p>in room {schedule.room[3]}</p>
+                        {schedule.track_four[index]} <br/> {schedule.speaker_track_four[index]} <br />
                       </article>
                       : <article className={classNames("tile is-child box is-2 is-hidden-mobile")}>
                         </article>)

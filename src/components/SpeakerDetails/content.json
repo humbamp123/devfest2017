@@ -77,11 +77,10 @@
                     "lastName":"Rajana",
                     "profession": "Software Development Engineer",
                     "employer": "Amazon",
-                    "twitter": "https://twitter.com/Vikram_Tiwari",
                     "linkedIn": "https://www.linkedin.com/in/sneha-rajana/",
                     "github": "https://github.com/srajana",
                     "portfolio": "https://srajana.github.io/",
-                    "bio": "I'm Sneha, and I am a Software Development Engineer at Amazon in Seattle, Washington. I graduated from the University of Pennsylvania with a Master's in Computer Science in 2017 and from PES University with a Bachelor's degree in Information Science in 2015, at the age of 20. I have previously worked for Audible, Pluribus Networks, VMware, and Avaya as a Software Engineer Intern. I am passionate about AI and working with data. My research focus at Penn was in the fields of Machine Learning, NLP, and Deep learning. I am also very passionate about supporting women in technology and I'm currently working towards helping students in STEM fields to find mentorship and support.",
+                    "bio": "Sneha is a software development engineer at Amazon in Seattle, WA. She's worked for Audible, Pluribus Networks, VMware, and Avaya. She graduated with a Master's degree in CS from University of Pennsylvania in 2017 and a Bachelor's degree in CS in 2015 and was one of the youngest students in her graduating class. She's passionate about AI and working with data and her research focus at Penn was in the fields of Machine Learning, Natural Language Processing, and Deep Learning.  She has presented her work at notable conferences like the Grace Hopper Celebration for Women in Computing, Mid-Atlantic Student Colloquium on Speech, Language and Learning, and the Annual Meeting of the Association for Computational Linguistics. She is also passionate about supporting women in technology and is currently working on a project that connects disadvantaged girls in developing countries like India who are trying to enter into STEAM fields, to find mentorship and support.",
                     "talkTitle": "Learning negating semantics using a morphology-aware neural network"
         },
         "vikram": {

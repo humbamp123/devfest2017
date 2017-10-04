@@ -51,7 +51,7 @@ Project site: [DevFest site](https://gdg-bayarea-devfest-2017.firebaseapp.com)
 ## Contributors
 GDG Bay Area organizers
 
-(Berkley, Fremont, San Francisco)
+(Berkeley, Fremont, San Francisco)
 
 ## License
 MIT

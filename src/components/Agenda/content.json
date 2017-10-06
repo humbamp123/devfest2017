@@ -38,10 +38,10 @@
       "name_track_two":["","","","","","vikram","","murat"],
       "track_three":["Room 2","", "", "", "Mozella","Fastest Growing Area of Machine Learning Science","","Wings - a tool for customer message management at Netflix","Understanding Gestures on Android","Angular Performance Checklist", ""],
       "speaker_track_three":["","", "", "", "Harald", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Caren Chang", "Minko Gechev", ""],
-      "name_track_three":["","","","","harald", "alice", "", "linda", "caren", "minko", ""],
+      "name_track_three":["","","","","harald", "alicia", "", "linda", "caren", "minko", ""],
       "track_four":["Room 3","", "", "", "","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","", ""],
       "speaker_track_four":["","", "", "", "", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "", ""],
-      "name_track_four":["","","","","","rapali","", "sneha", "jennifer", "", ""]
+      "name_track_four":["","","","","","rupali","", "sneha", "jennifer", "", ""]
     }
   },
   "title": "Agenda"

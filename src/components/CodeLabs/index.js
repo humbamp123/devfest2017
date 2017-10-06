@@ -20,9 +20,9 @@ class CodeLabs extends Component {
               <div className={classNames('container', 'blurbBody')}>
                 <p className={classNames('codeLabsBlurb')}>{c.description}</p>
               </div>
-              <div className={classNames('button', 'registerButton', 'is-large')}>
-                <span>{c.register}</span>
-              </div>
+              <a href={c.eventUrl} className={classNames('button', 'registerButton', 'is-large')}>
+                {c.register}
+              </a>
             </div>
           </div>
         </section>

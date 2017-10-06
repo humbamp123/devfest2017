@@ -8,5 +8,6 @@
     "aboutBody": "NextSpace Berkeley, has established the benchmark for active, supportive, responsible, effective and fulfilling coworking communities. If you're looking for an amazing place where the Internet is fast and the coffee flows like the Rio Grande, NextSpace Berkeley is the place to be.",
     "place": "NextSpace Coworking Berkeley - Powered by Pacific Workplaces",
     "address1": "2081 Center Street",
-    "address2": "Berkeley, CA 94704"
+    "address2": "Berkeley, CA 94704",
+    "eventUrl" : "http://bit.ly/DevFest17"
 }

@@ -28,6 +28,7 @@ export const nina = require('../images/organizers/Nina.jpg')
 export const FortyTwo = require('../images/logos/42_logo.png')
 export const Galvanize = require('../images/logos/galvanize-logo.svg')
 export const Clover = require('../images/logos/Clover_Primary_Gray_RGB.png')
+export const Wolfram = require('../images/logos/wolfram.svg')
 
 /* Assets */
 

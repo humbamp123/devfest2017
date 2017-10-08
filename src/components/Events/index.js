@@ -7,7 +7,7 @@ import './Events.css'
 
 class Events extends Component {
   render() {
-    const index = [0, 1, 2];
+    const index = [0, 1];
     return (
       <section style={{borderBottom: "10px solid #219e5f"}}>
         {

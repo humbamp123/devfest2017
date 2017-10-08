@@ -1,13 +1,12 @@
 {
-    "events": [ "Code Labs", "Talks", "Hack-a-thon"],
-    "groups": [ "GDG Berkeley", "GDG San Francisco", "GDG Fremont" ],
-    "color": [ "10px solid #5491f2", "10px solid #cc0000", "10px solid #fdc02f"],
-    "buttons": [ "moreButton0", "moreButton1", "moreButton2"],
+    "events": [ "Talks + Code Labs", "Hack-a-thon"],
+    "groups": [ "GDG San Francisco", "GDG Fremont" ],
+    "color": [ "10px solid #5491f2", "10px solid #cc0000"],
+    "buttons": [ "moreButton0", "moreButton1"],
     "blurbs": [
-      "Kick off your DevFest with a guided tutorial exploring new Google technologies. With the support of experts, participants will create applications in the process of learning how to use Firebase.",
-      "This all day event will feature back to back speaker sessions on a variety of topics, from introductory to advanced levels. Check back soon for a full schedule and list of speakers.",
+      "This all day event will feature back to back speaker sessions on a variety of topics, from introductory to advanced levels. Also, get some hands on experience with guided Firebase Code Labs.",
       "This event will be the perfect opportunity to put to work all of the new knowledge you'll have after the first two events of DevFest. With the support of experienced mentors, participants will create original projects, competing for prizes and bragging rights. The event will be hosted at 42 Silicon Valley's campus in Fremont, on both Saturday and Sunday." ],
-    "edates": [ "October 28, 2017","October 28, 2017", "November 4, 2017"],
+    "edates": [ "October 28, 2017", "November 4, 2017"],
     "moreInfo": "More Info",
-    "routes": [ "/codelabs", "/talks", "/hackathon" ]
+    "routes": [ "/talks", "/hackathon" ]
 }

@@ -11,3 +11,27 @@
 .sponsorMargin {
   margin: 15px;
 }
+
+.platinum {
+  width: 360px;
+}
+
+.gold {
+  width: 320px;
+}
+
+.silver {
+  width: 280px;
+}
+
+.partners {
+  width: 240px;
+}
+
+.local {
+  width: 220px;
+}
+
+.venue {
+  width: 200px;
+}

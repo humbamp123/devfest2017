@@ -35,7 +35,6 @@ class Menu extends Component {
             </div>
           </div>
           <div className={classNames('navbar-end', 'navbar-menu', 'topMenu', showBurger ? 'is-active':'' )} id="navMenu">
-            <Link to={'/codelabs'} className={classNames('link1', 'navbar-item')} onClick={this.handleToggle}>{c.codelabs}</Link>
             <Link to={'/talks'} className={classNames('link2', 'navbar-item')} onClick={this.handleToggle}>{c.talks}</Link>
             <Link to={'/hackathon'} className={classNames('link3', 'navbar-item')} onClick={this.handleToggle}>{c.hackathon}</Link>
             <Link to={'/speakers'} className={classNames('link4', 'navbar-item')} onClick={this.handleToggle}>{c.speakers}</Link>

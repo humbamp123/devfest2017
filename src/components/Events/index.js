@@ -16,7 +16,7 @@ class Events extends Component {
                 <div className={classNames('hero-body', 'eventContainer', 'has-text-centered')} style={{borderTop: c.color[item]}}>
                   <div className={classNames('container', 'eventMargin')}>
                     <div className={classNames('container', 'eventHeaderTitle')}>
-                      <p className={classNames('title')}>{c.events[item]} by {c.groups[item]}</p>
+                      <p className={classNames('title')}>{c.events[item]}</p>
                       <p className={classNames('subtitle')}>{c.edates[item]}</p>
                     </div>
                     <div className={classNames('container', 'eventBlurbWrapper')}>

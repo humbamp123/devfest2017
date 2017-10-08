@@ -29,6 +29,7 @@ export const FortyTwo = require('../images/logos/42_logo.png')
 export const Galvanize = require('../images/logos/galvanize-logo.svg')
 export const Clover = require('../images/logos/Clover_Primary_Gray_RGB.png')
 export const Wolfram = require('../images/logos/wolfram.png')
+export const Mozilla = require('../images/logos/mozilla_logo.png')
 
 /* Assets */
 

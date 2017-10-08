@@ -6,6 +6,7 @@ import { FortyTwo } from '../../constants/images';
 import { Galvanize } from '../../constants/images';
 import { Clover } from '../../constants/images';
 import { Wolfram } from '../../constants/images';
+import { Mozilla } from '../../constants/images';
 import './Sponsors.css'
 
 class Sponsors extends Component {
@@ -27,6 +28,12 @@ class Sponsors extends Component {
             <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
               <div className={classNames('column is-narrow')} style={{ maxWidth: "250px"}}>
                 <img style={{ width: "80%"}} src={ Wolfram } alt="Wolfram Logo"></img>
+              </div>
+            </div>
+            <div className={classNames('subtitle')}>{c.local}</div>
+            <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
+              <div className={classNames('column is-narrow')} style={{ maxWidth: "250px"}}>
+                <img style={{ width: "70%"}} src={ Mozilla } alt="Mozilla Logo"></img>
               </div>
             </div>
             <div className={classNames('subtitle')}>{c.venue}</div>

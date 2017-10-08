@@ -35,9 +35,9 @@ class Menu extends Component {
             </div>
           </div>
           <div className={classNames('navbar-end', 'navbar-menu', 'topMenu', showBurger ? 'is-active':'' )} id="navMenu">
-            <Link to={'/talks'} className={classNames('link2', 'navbar-item')} onClick={this.handleToggle}>{c.talks}</Link>
-            <Link to={'/hackathon'} className={classNames('link3', 'navbar-item')} onClick={this.handleToggle}>{c.hackathon}</Link>
-            <Link to={'/speakers'} className={classNames('link4', 'navbar-item')} onClick={this.handleToggle}>{c.speakers}</Link>
+            <Link to={'/talks'} className={classNames('link1', 'navbar-item')} onClick={this.handleToggle}>{c.talks}</Link>
+            <Link to={'/hackathon'} className={classNames('link2', 'navbar-item')} onClick={this.handleToggle}>{c.hackathon}</Link>
+            <Link to={'/speakers'} className={classNames('link3', 'navbar-item')} onClick={this.handleToggle}>{c.speakers}</Link>
             <Link to={'/community_guidelines'} className={classNames('link5', 'navbar-item')} onClick={this.handleToggle}>{c.guidelines}</Link>
             <span className={classNames('navbar-item')}>
               <a href={c.eventUrl} target="_blank" className={classNames('button', 'registerButton', 'is-large')} onClick={this.handleToggle}>

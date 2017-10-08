@@ -92,7 +92,7 @@ class Agenda extends Component {
             </div>
           </div>
          {
-            isShowingModal && this.state.name && this.state.name !== "james-jessica" && this.state.name !== "herald" &&
+            isShowingModal && this.state.name && this.state.name !== "james-jessica" && this.state.name !== "harold" &&
             <div className={classNames("modal", "is-active")}>
               <div className={classNames("modal-background")} onClick={this.handleClose}></div>
                 <div className={classNames("modal-content",'modalBox')} onClick={this.handleClose}>

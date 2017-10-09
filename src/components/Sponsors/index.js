@@ -16,7 +16,7 @@ class Sponsors extends Component {
       <div className={'sponsorWrapper'}>
         <section className={classNames('hero', 'is-small', 'is-light')}>
           <div className={classNames('hero-body', 'has-text-centered')}>
-            <div className={classNames('sponsorTitle', 'title')}>{c.platinum}</div>
+            <div className={classNames('sponsorTitle', 'title')}>{c.sponsors}</div>
             <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
               <div className={classNames('column is-narrow platinum')}>
                 <img style={{ width: "100%"}} src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></img>
@@ -25,7 +25,6 @@ class Sponsors extends Component {
                 <img style={{ width: "100%"}} src={ Clover } alt="Clover Logo"></img>
               </div>
             </div>
-            <div className={classNames('subtitle')}>{c.partners}</div>
             <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
               <div className={classNames('column is-narrow platinum')}>
                 <img style={{ width: "80%"}} src={ Wolfram } alt="Wolfram Logo"></img>
@@ -33,13 +32,11 @@ class Sponsors extends Component {
               <div className={classNames('column is-narrow platinum')}>
                 <img style={{ width: "80%"}} src={ InterviewCake } alt="Interview Cake Logo"></img>
               </div>            </div>
-            <div className={classNames('subtitle')}>{c.local}</div>
             <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
               <div className={classNames('column is-narrow local')}>
                 <img style={{ width: "70%"}} src={ Mozilla } alt="Mozilla Logo"></img>
               </div>
             </div>
-            <div className={classNames('subtitle')}>{c.venue}</div>
             <div className={classNames('columns', 'is-vcentered', 'is-centered', 'is-mobile', 'is-multiline')}>
                 <div className={classNames('column', 'is-vcentered', 'is-narrow')}>
                     <div style={{ width: "200px", "backgroundPosition": "center" }}>

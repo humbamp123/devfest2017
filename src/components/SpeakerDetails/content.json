@@ -106,6 +106,30 @@
                     "portfolio": "https://justinribeiro.com",
                     "bio": "Dad. Husband. Software Engineer. CEO. Speaker. Google Developer Expert. Failed voiceover actor who hosts The Web Platform Podcast.",
                     "talkTitle": "21 Years: Still Failing, Always Learning"
+        },
+        "prosper": {
+                    "firstName":"Prosper",
+                    "lastName":"Otemuyiwa",
+                    "profession": "Software Developer",
+                    "employer": "Google Developer Expert",
+                    "facebook": "https://facebook.com/otemuyiwa.prosper",
+                    "twitter": "https://twitter.com/unicodeveloper",
+                    "linkedIn": "https://www.linkedin.com/in/prosperotemuyiwa/",
+                    "github": "https://github.com/unicodeveloper",
+                    "portfolio": "http://www.prosperotemuyiwa.com",
+                    "bio": "Prosper is an avid Open Source Advocate, Evangelist, and a Google Developer Expert in Web Technologies. He is a full stack software engineer who has worked on biometric, health and developer tools. Prosper is a prolific technical writer and works with developers and teams across the globe, building, improving web performance and raising communities that will groom the next generation of world-class software engineers.",
+                    "talkTitle": "Building a Modern Media Experience"
+        },
+        "miguel": {
+                    "firstName":"Miguel",
+                    "lastName":"Montemayor",
+                    "profession": "Developer Advocate",
+                    "employer": "Clover",
+                    "twitter": "https://twitter.com/migmontemayor",
+                    "linkedIn": "https://www.linkedin.com/in/miguel-montemayor/",
+                    "github": "https://github.com/miguelmontemayor",
+                    "bio": "Miguel is a Developer Advocate at Clover, where he works with third-party developers building merchant solutions on one of the largest open point-of-sale platforms. Previously, he’s worked on user experience, accessibility, and world readiness as a Program Manager at Microsoft. In his free time, he likes writing, traveling, and watching college football.",
+                    "talkTitle": "Master Conversationalist: Building Conversational Agents on Google Assistant with API.AI (Dialog)"
         }
     }
 }

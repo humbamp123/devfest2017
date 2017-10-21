@@ -106,6 +106,74 @@
                     "portfolio": "https://justinribeiro.com",
                     "bio": "Dad. Husband. Software Engineer. CEO. Speaker. Google Developer Expert. Failed voiceover actor who hosts The Web Platform Podcast.",
                     "talkTitle": "21 Years: Still Failing, Always Learning"
+        },
+        "miguel": {
+                    "firstName":"Miguel",
+                    "lastName":"Montemayor",
+                    "profession": "Developer Advocate",
+                    "employer": "Clover",
+                    "twitter": "https://twitter.com/migmontemayor",
+                    "linkedIn": "https://www.linkedin.com/in/miguel-montemayor/",
+                    "github": "https://github.com/miguelmontemayor",
+                    "bio": "Miguel is a Developer Advocate at Clover, where he works with third-party developers building merchant solutions on one of the largest open point-of-sale platforms. Previously, he’s worked on user experience, accessibility, and world readiness as a Program Manager at Microsoft. In his free time, he likes writing, traveling, and watching college football.",
+                    "talkTitle": "Master Conversationalist: Building Conversational Agents on Google Assistant with API.AI"
+        },
+        "prosper": {
+                    "firstName":"Prosper",
+                    "lastName":"Otemuyiwa",
+                    "profession": "Software Developer",
+                    "employer": "Google Developer Expert",
+                    "twitter": "https://twitter.com/unicodeveloper",
+                    "linkedIn": "https://www.linkedin.com/in/prosperotemuyiwa/",
+                    "github": "https://github.com/unicodeveloper",
+                    "portfolio": "http://www.prosperotemuyiwa.com",
+                    "bio": "Prosper is an avid Open Source Advocate, Evangelist, and a Google Developer Expert in Web Technologies. He is a full stack software engineer who has worked on biometric, health and developer tools. Prosper is a prolific technical writer and works with developers and teams across the globe, building, improving web performance and raising communities that will groom the next generation of world-class software engineers.",
+                    "talkTitle": "Building a Modern Media Experience"
+        },
+        "abraham": {
+                    "firstName":"Abraham",
+                    "lastName":"Williams",
+                    "profession": "Senior Developer",
+                    "employer": "Bendyworks",
+                    "twitter": "https://twitter.com/abraham",
+                    "github": "https://github.com/abraham",
+                    "portfolio": "https://abrah.am",
+                    "bio": "An experienced developer, start-up founder, and international speaker, Abraham Williams brings a broad range of skills to his current role as a senior developer at Bendyworks. A top 1% contributor at Stack Overflow and an active member of Google Developer Groups, Abraham has been recognized by Google as a Developer Expert for his ability to identify technology problems and provide quality solutions in the community.",
+                    "talkTitle": "Get talking with Actions on Google"
+        },
+        "harald": {
+                    "firstName":"Harald",
+                    "lastName":"Kirschner",
+                    "profession": "Technical Product Manager",
+                    "employer": "Mozilla",
+                    "twitter": "https://twitter.com/digitarald",
+                    "linkedIn": "https://www.linkedin.com/in/digitarald",
+                    "github": "https://github.com/digitarald",
+                    "portfolio": "https://Digitarald.de",
+                    "bio": "Web citizen, craftsman & neonomad who works on Devtools, Performance and Web Platform as Technical Product Manager.",
+                    "talkTitle": "#WebPerf Choreography"
+        },
+        "rubi": {
+                    "firstName":"Rubi",
+                    "lastName":"Sanchez",
+                    "profession": "Product Manager",
+                    "employer": "Atipica",
+                    "twitter": "https://twitter.com/rubivsanchez",
+                    "linkedIn": "https://www.linkedin.com/in/rubisanchez/",
+                    "bio": "Rubi Sanchez is passionate about creating amazing end user experiences for machine learning related technology products that make a real impact in today's world. She currently works at Atipica, an HR talent discovery engine for businesses. Before joining Atipica, she was the co-founder of Cocoon Cam, a computer vision company that went from concept to presenting to President Obama at the White House, to selling hardware product in a year. She is a UC Berkeley graduate with a background in product, strategy, and operations.",
+                    "talkTitle": "Building lasting products"
+        },
+        "jessicap": {
+                    "firstName":"Jessica",
+                    "lastName":"Parsons",
+                    "profession": "documentation engineer",
+                    "employer": "Netlify",
+                    "twitter": "https://twitter.com/verythorough",
+                    "linkedIn": "https://www.linkedin.com/in/verythorough/",
+                    "github": "https://github.com/verythorough",
+                    "portfolio": "https://verythorough.com",
+                    "bio": "Jessica Parsons has spent half her life teaching, and a quarter of it developing for the web. She now combines those passions as a documentation engineer at Netlify. Outside of her day job, she teaches workshops and develops curriculum for Girl Develop It. Away from a computer screen, she's baked and decorated wedding cakes, designed and sewn prize-winning garments, and taken apart and repaired all sorts of home appliances. She has even had someone dress up as *her* for Halloween!",
+                    "talkTitle": "Build a Slack Integration with Google Cloud Functions for Firebase"
         }
     }
 }

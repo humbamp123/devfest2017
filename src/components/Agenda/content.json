@@ -36,9 +36,9 @@
       "track_one":["Main Room","Registration","","","#WebPerf Choreography", "Fastest Growing Area of Machine Learning Science", "", "Wings - a tool for customer message management at Netflix", "Master Conversationalist: Building Conversational Agents on Google Assistant with API.AI", "Angular Performance Checklist", "", ""],
       "speaker_track_one":["","", "", "", "Harald Kirschner", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Miguel Montemayor", "Minko Gechev", ""],
       "name_track_one":["","","","","harald", "alicia", "", "linda", "miguel", "minko", ""],
-      "track_three":["Theater","", "", "", "Building lasting products","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Get talking with Actions on Google", ""],
-      "speaker_track_three":["","", "", "", "Rubi Sanchez", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "Abraham Williams", ""],
-      "name_track_three":["","","","","rubi","rupali","", "sneha", "jennifer", "abraham", ""],
+      "track_three":["Theater","", "", "", "Leveraging Open Data","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Get talking with Actions on Google", ""],
+      "speaker_track_three":["","", "", "", "Tyrone Grandison", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "Abraham Williams", ""],
+      "name_track_three":["","","","","tyrone","rupali","", "sneha", "jennifer", "abraham", ""],
       "track_four":["Classroom","", "", "", "Firebase Code Lab","Firebase Code Lab","","Firebase Code Lab","Firebase Code Lab","", ""],
       "speaker_track_four":["","", "", "", "", "", "", "", "", "", ""],
       "name_track_four":["","","","","","","", "", "", "", ""]

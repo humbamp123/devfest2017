@@ -153,15 +153,15 @@
                     "bio": "Web citizen, craftsman & neonomad who works on Devtools, Performance and Web Platform as Technical Product Manager.",
                     "talkTitle": "#WebPerf Choreography"
         },
-        "rubi": {
-                    "firstName":"Rubi",
-                    "lastName":"Sanchez",
-                    "profession": "Product Manager",
-                    "employer": "Atipica",
-                    "twitter": "https://twitter.com/rubivsanchez",
-                    "linkedIn": "https://www.linkedin.com/in/rubisanchez/",
-                    "bio": "Rubi Sanchez is passionate about creating amazing end user experiences for machine learning related technology products that make a real impact in today's world. She currently works at Atipica, an HR talent discovery engine for businesses. Before joining Atipica, she was the co-founder of Cocoon Cam, a computer vision company that went from concept to presenting to President Obama at the White House, to selling hardware product in a year. She is a UC Berkeley graduate with a background in product, strategy, and operations.",
-                    "talkTitle": "Building lasting products"
+        "tyrone": {
+                    "firstName":"Tyrone",
+                    "lastName":"Grandison",
+                    "profession": "CIO",
+                    "employer": "Institute for Health Metrics and Evaluation",
+                    "twitter": "https://twitter.com/tyrgr",
+                    "portfolio": "www.tyronegrandison.org",
+                    "bio": "Dr. Tyrone W A Grandison is the first-ever Chief Information Officer (CIO) of the Institute of Health Metrics and Evaluation -  an independent global health research center at the University of Washington that provides rigorous and comparable measurement of the world's most important health problems and evaluates the strategies used to address them.  Dr. Grandison also advises the Government of Jamaica on their Information Technology strategy - as a member of the National Information and Communications Technology Advisory Council (2016-18). He served as the first-ever Chief Operating Officer (COO) of Data Driven Industries (2016). He was the Deputy Chief Data Officer (dCDO) at the US Department of Commerce (2015-16), where he co-founded the Commerce Data Service - a data startup within the Department that supported its twelve bureaus - and led the successful rollout of its first 15 products. He was also a White House Presidential Innovation Fellow (2014-15) working with the US Department of Labor and the US CENSUS Bureau on their data and API (application programming interface) initiatives.",
+                    "talkTitle": "Leveraging Open Data"
         },
         "jessicap": {
                     "firstName":"Jessica",

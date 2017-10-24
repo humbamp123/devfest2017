@@ -33,7 +33,7 @@
       "track_two":["Speakeasy","", "Welcome", "Keynote", "Building a Modern Media Experience", "Data science on Google Cloud Platform", "Lunch", "Home s̶w̶e̶e̶t̶ Google Home", "Understanding Gestures on Android" ,"Build a Slack Integration with Google Cloud Functions for Firebase", "Closing"],
       "speaker_track_two":["","","James Cha-Earley, Jessica Dene Earley-Cha", "Justin Ribeiro", "Prosper Otemuyiwa","Vikram Tiwari","","Murat Yener","Caren Chang","Jessica Parsons"],
       "name_track_two":["","","james-jessica","justin","prosper","vikram","","murat","caren","jessicap"],
-      "track_one":["Main Room","Registration","","","#WebPerf Choreography", "Fastest Growing Area of Machine Learning Science", "", "Wings - a tool for customer message management at Netflix", "Master Conversationalist: Building Conversational Agents on Google Assistant with API.AI", "Angular Performance Checklist", "", ""],
+      "track_one":["Main Room","Registration","","","#WebPerf Choreography", "Fastest Growing Area of Machine Learning Science", "", "Wings - a tool for customer message management at Netflix", "Master Conversationalist: Building Conversational Agents on Google Assistant with Dialogflow", "Angular Performance Checklist", "", ""],
       "speaker_track_one":["","", "", "", "Harald Kirschner", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Miguel Montemayor", "Minko Gechev", ""],
       "name_track_one":["","","","","harald", "alicia", "", "linda", "miguel", "minko", ""],
       "track_three":["Theater","", "", "", "Leveraging Open Data","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Get talking with Actions on Google", ""],

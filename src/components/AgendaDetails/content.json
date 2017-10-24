@@ -70,8 +70,8 @@
         "miguel": {
             "firstName":"Miguel",
             "lastName":"Montemayor",
-            "talkTitle": "Master Conversationalist: Building Conversational Agents on Google Assistant with API.AI",
-            "talkSummary": "Conversational assistants like Google Assistant are changing the way people interact with tech. This presentation will teach you key UX design elements that you need to consider when building great conversational experiences.  Using API.AI, Google Cloud Functions, and the Clover REST API, I demonstrate how I created a Google Assistant app that allows store owners to get insights on their store’s performance from the comfort of home."
+            "talkTitle": "Master Conversationalist: Building Conversational Agents on Google Assistant with Dialogflow",
+            "talkSummary": "Conversational assistants like Google Assistant are changing the way people interact with tech. This presentation will teach you key UX design elements that you need to consider when building great conversational experiences.  Using Dialogflow, Google Cloud Functions, and the Clover REST API, I demonstrate how I created a Google Assistant app that allows store owners to get insights on their store’s performance from the comfort of home."
         },
         "prosper": {
             "firstName":"Prosper",

@@ -12,7 +12,7 @@ export const vikram = require('../images/speakers/vikram.jpg')
 export const android = require('../images/speakers/android.png')
 export const abraham = require('../images/speakers/abraham.JPG')
 export const jessicap = require('../images/speakers/jessicap.jpg')
-export const tyrone = require('../images/speakers/tyrone.jpg')
+export const enrique = require('../images/speakers/enrique.jpg')
 export const harald = require('../images/speakers/harald.png')
 export const prosper = require('../images/speakers/prosper.jpg')
 export const miguel = require('../images/speakers/miguel.jpg')
@@ -51,5 +51,5 @@ export const codelabHero = require('../images/assets/hero_nextspace.jpg')
 export const speakersHero = require('../images/assets/hero_speakers.jpg')
 
 
-export const speakers = { alicia, caren, jennifer, justin, linda, minko, murat, rupali, sneha, vikram,miguel,prosper,abraham,harald,tyrone,jessicap, android }
+export const speakers = { alicia, caren, jennifer, justin, linda, minko, murat, rupali, sneha, vikram, miguel, prosper, abraham, harald, enrique, jessicap, android }
 export const group = [ andres, jessica, nathan, queenie, daniella, patti, james, nina, android_2 ]

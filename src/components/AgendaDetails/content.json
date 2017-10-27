@@ -91,11 +91,11 @@
             "talkTitle": "#WebPerf Choreography",
             "talkSummary": "In this session I will show you how modern browsers and sites can coordinate the dance of loading & rendering to deliver a web that is fast where it matters to users. The biggest leaps in browser improvements, including Firefox Quantum, focused on areas like scheduling, breaking up and parallelizing work.  Discover where you can benefit from fine control and what aspects of performance you can leave to the browser. Applying this knowledge will help you build fluid, native-like experiences that can handle the growing complexity of the web."
         },
-        "tyrone": {
-            "firstName":"Tyrone",
-            "lastName":"Grandison",
-            "talkTitle": "Leveraging Open Data",
-            "talkSummary": "Open Data has the potential to transform the lives of ordinary citizens, to provide transparency, to drive innovation, and to help countries  leapfrog technology hurdles. In this talk, the presenters will highlight how to do this; providing examples of how this has been successfully implemented."
+        "enrique": {
+            "firstName":"Enrique",
+            "lastName":"Mogollan",
+            "talkTitle": "Bots from the past, present and future",
+            "talkSummary": "Today you can grab your phone, start a conversation with a bot and get something done.  Sometimes it’s pizza, sometimes it takes away your parking tickets.  How did we get here?  How are bots going to be in the future?  And the most important question, how can we take advantage? This talk will have computer science history, natural language processing, bots and science fiction characters."
         },
         "jessicap": {
             "firstName":"Jessica",

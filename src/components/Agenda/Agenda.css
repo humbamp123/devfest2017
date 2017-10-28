@@ -8,21 +8,27 @@
   margin-bottom: 40px;
 }
 
-#codelabs, #talks, #hackathon {
+#room1, #room2, #room3, #room4 {
   cursor: pointer;
 }
 
-#codelabs:hover {
-  background-color: #5491f2;
-  color: white;
-}
-
-#talks:hover {
+#room1 {
   background-color: #CC0000;
   color: white;
 }
 
-#hackathon:hover {
+#room2 {
+  background-color: #219e5f;
+  color: white;
+}
+
+#room3 {
+  background-color: #5491f2;
+  color: white;
+}
+
+#room4 {
   background-color: #fdc02f;
   color: white;
 }
+

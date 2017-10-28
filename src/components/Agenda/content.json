@@ -29,19 +29,19 @@
   "talks": {
     "date": "Saturday, October 28th",
     "schedule": {
-      "times":["","8:00 AM", "9:00 AM - 9:20 AM", "9:20 AM - 9:45 AM", "10:00 AM - 10:45 AM", "11:00 AM - 11:45 AM", "12:00 PM - 12:45 PM", "1:00 PM - 1:45 PM", "2:00 PM - 2:45 PM", "3:00 PM - 3:45 PM", "4:00 PM - 4:30 PM"],
-      "track_two":["Speakeasy","", "Welcome", "Keynote", "Building a Modern Media Experience", "Data science on Google Cloud Platform", "Lunch", "Home s̶w̶e̶e̶t̶ Google Home", "Understanding Gestures on Android" ,"Build a Slack Integration with Google Cloud Functions for Firebase", "Closing"],
-      "speaker_track_two":["","","James Cha-Earley, Jessica Dene Earley-Cha", "Justin Ribeiro", "Prosper Otemuyiwa","Vikram Tiwari","","Murat Yener","Caren Chang","Jessica Parsons"],
-      "name_track_two":["","","james-jessica","justin","prosper","vikram","","murat","caren","jessicap"],
-      "track_one":["Main Room","Registration","","","#WebPerf Choreography", "Fastest Growing Area of Machine Learning Science", "", "Wings - a tool for customer message management at Netflix", "Master Conversationalist: Building Conversational Agents on Google Assistant with Dialogflow", "Angular Performance Checklist", "", ""],
-      "speaker_track_one":["","", "", "", "Harald Kirschner", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Miguel Montemayor", "Minko Gechev", ""],
-      "name_track_one":["","","","","harald", "alicia", "", "linda", "miguel", "minko", ""],
-      "track_three":["Theater","", "", "", "Bots from the past, present and future","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Get talking with Actions on Google", ""],
-      "speaker_track_three":["","", "", "", "Enrique Mogollan", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "Abraham Williams", ""],
-      "name_track_three":["","","","","enrique","rupali","", "sneha", "jennifer", "abraham", ""],
-      "track_four":["Classroom","", "", "", "Firebase Code Lab","Firebase Code Lab","","Firebase Code Lab","Firebase Code Lab","", ""],
-      "speaker_track_four":["","", "", "", "", "", "", "", "", "", ""],
-      "name_track_four":["","","","","","","", "", "", "", ""]
+      "times":["","8:00 AM", "9:00 AM - 9:45 AM", "10:00 AM - 10:45 AM", "11:00 AM - 11:45 AM", "12:00 PM - 12:45 PM", "1:00 PM - 1:45 PM", "2:00 PM - 2:45 PM", "3:00 PM - 3:45 PM", "4:00 PM - 4:30 PM"],
+      "track_two":["Green Room", "", "", "Building a Modern Media Experience", "Data science on Google Cloud Platform", "", "Home s̶w̶e̶e̶t̶ Google Home", "Understanding Gestures on Android" ,"Build a Slack Integration with Google Cloud Functions for Firebase", "Closing"],
+      "speaker_track_two":["311", "", "", "Prosper Otemuyiwa","Vikram Tiwari","","Murat Yener","Caren Chang","Jessica Parsons"],
+      "name_track_two":["","","","prosper","vikram","","murat","caren","jessicap"],
+      "track_one":["Red Room","Registration & Breakfast","Welcome & Keynote","Firebase Codelab & Lounge", "Firebase Codelab & Lounge", "Lunch", "Firebase Codelab & Lounge", "Firebase Code Lab & Lounge", "", "", "Closing & Raffle"],
+      "speaker_track_one":["Main Lobby", "", "", "", "", "", "", "", "", ""],
+      "name_track_one":["","justin","","", "", "", "", "", "", ""],
+      "track_three":["Blue Room", "", "", "#Webperf Choreography","Fastest Growing Area of Machine Learning Science","","Wings - a tool for customers message management at Netflix","Master Converstationalist: Building Converstational Agents on Goolge Assistant with Dialogflow","Angular Performance Checklist", ""],
+      "speaker_track_three":["#309", "", "", "Harald Kirschner", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Miguel Montemayor", "Minko Gechev", ""],
+      "name_track_three":["","","","harald","alicia","", "linda", "miguel", "minko", ""],
+      "track_four":["Yellow Room", "", "", "Bots from the past, present and future","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Get talking with Actions on Google", ""],
+      "speaker_track_four":["#312", "", "", "Enrique Mogollan", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "Abraham Williams", ""],
+      "name_track_four":["","","","enrique","rupali", "", "sneha", "jennifer", "abraham", ""]
     }
   },
   "title": "Agenda"

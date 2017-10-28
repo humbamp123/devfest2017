@@ -30,10 +30,10 @@
     "date": "Saturday, October 28th",
     "schedule": {
       "times":["","8:00 AM", "9:00 AM - 9:45 AM", "10:00 AM - 10:45 AM", "11:00 AM - 11:45 AM", "12:00 PM - 12:45 PM", "1:00 PM - 1:45 PM", "2:00 PM - 2:45 PM", "3:00 PM - 3:45 PM", "4:00 PM - 4:30 PM"],
-      "track_two":["Green Room", "", "", "Building a Modern Media Experience", "Data science on Google Cloud Platform", "", "Home s̶w̶e̶e̶t̶ Google Home", "Understanding Gestures on Android" ,"Build a Slack Integration with Google Cloud Functions for Firebase", "Closing"],
+      "track_two":["Green Room", "", "", "Building a Modern Media Experience", "Data science on Google Cloud Platform", "", "Home s̶w̶e̶e̶t̶ Google Home", "Understanding Gestures on Android" ,"Build a Slack Integration with Google Cloud Functions for Firebase", ""],
       "speaker_track_two":["311", "", "", "Prosper Otemuyiwa","Vikram Tiwari","","Murat Yener","Caren Chang","Jessica Parsons"],
       "name_track_two":["","","","prosper","vikram","","murat","caren","jessicap"],
-      "track_one":["Red Room","Registration & Breakfast","Welcome & Keynote","Firebase Codelab & Lounge", "Firebase Codelab & Lounge", "Lunch", "Firebase Codelab & Lounge", "Firebase Code Lab & Lounge", "", "", "Closing & Raffle"],
+      "track_one":["Red Room","Registration & Breakfast","Welcome & Keynote","Firebase Codelab & Lounge", "Firebase Codelab & Lounge", "Lunch", "Firebase Codelab & Lounge", "Firebase Code Lab & Lounge", "", "Closing & Raffle"],
       "speaker_track_one":["Main Lobby", "", "", "", "", "", "", "", "", ""],
       "name_track_one":["","justin","","", "", "", "", "", "", ""],
       "track_three":["Blue Room", "", "", "#Webperf Choreography","Fastest Growing Area of Machine Learning Science","","Wings - a tool for customers message management at Netflix","Master Converstationalist: Building Converstational Agents on Goolge Assistant with Dialogflow","Angular Performance Checklist", ""],

@@ -36,9 +36,9 @@
       "track_one":["Red Room","Registration & Breakfast","Welcome & Keynote","Firebase Codelab & Lounge", "Firebase Codelab & Lounge", "Lunch", "Firebase Codelab & Lounge", "Firebase Code Lab & Lounge", "", "Closing & Raffle"],
       "speaker_track_one":["Main Lobby", "", "", "", "", "", "", "", "", ""],
       "name_track_one":["","justin","","", "", "", "", "", "", ""],
-      "track_three":["Blue Room", "", "", "#Webperf Choreography","Fastest Growing Area of Machine Learning Science","","Wings - a tool for customers message management at Netflix","Master Converstationalist: Building Converstational Agents on Goolge Assistant with Dialogflow","Angular Performance Checklist", ""],
-      "speaker_track_three":["#309", "", "", "Harald Kirschner", "Alicia Luchetti", "", "Linda Avendaño-Franco", "Miguel Montemayor", "Minko Gechev", ""],
-      "name_track_three":["","","","harald","alicia","", "linda", "miguel", "minko", ""],
+      "track_three":["Blue Room", "", "", "#Webperf Choreography","","","Wings - a tool for customers message management at Netflix","Master Converstationalist: Building Converstational Agents on Goolge Assistant with Dialogflow","Angular Performance Checklist", ""],
+      "speaker_track_three":["#309", "", "", "Harald Kirschner", "", "", "Linda Avendaño-Franco", "Miguel Montemayor", "Minko Gechev", ""],
+      "name_track_three":["","","","harald","","", "linda", "miguel", "minko", ""],
       "track_four":["Yellow Room", "", "", "Bots from the past, present and future","Services that empower game world","","Learning negating semantics using a morphology-aware neural network","Accessing Accessible Accessibility","Get talking with Actions on Google", ""],
       "speaker_track_four":["#312", "", "", "Enrique Mogollan", "Rupali Sharma", "", "Sneha Rajana", "Jennifer Wong", "Abraham Williams", ""],
       "name_track_four":["","","","enrique","rupali", "", "sneha", "jennifer", "abraham", ""]

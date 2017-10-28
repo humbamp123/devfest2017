@@ -17,12 +17,19 @@ class App extends Component {
     // TODO Add Agenda page back in when we've
     // fleshed out each venues schedules
     // <Route path="/agenda" component={Agenda}/>
+
+	const ScrollToTop = () => {
+	  window.scrollTo(0, 0);
+	    return null;
+		};
+
     return (
       <div className={'appWrapper'}>
         <Router>
           <div>
             <Menu />
-            <Route exact path="/" component={Home}/>
+            <Route component={ScrollToTop} />
+			<Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/codelabs" component={CodeLabs}/>
             <Route path="/talks" component={Talks}/>

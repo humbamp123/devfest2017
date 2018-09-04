@@ -1,4 +1,4 @@
-# GDG Bay Area DevFest 2017
+# GDG Bay Area DevFest 2018
 
 CSS Framework - [Bulma](https://github.com/jgthms/bulma)
 Bootstrapped - [Create React App](https://github.com/facebookincubator/create-react-app)

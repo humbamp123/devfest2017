@@ -13,7 +13,7 @@ Mobile platform - [Firebase](https://firebase.google.com/)
 ## Folder Structure
 
 ```
-devfest2017/
+devfest2018/
   README.md
   node_modules/
   package.json

@@ -1,5 +1,5 @@
 .topMenu {
-  background-color: #363636;
+  background-color: #f9f9f9;
 }
 
 a.logo:hover {
@@ -16,17 +16,6 @@ a.logo:hover {
   color: white;
   border-color: #CC0000;
   background-color: #CC0000;
-}
-
-.registerButton {
-  background-color: #CC0000;
-  border-color: #CC0000;
-  color: #FFF;
-}
-.registerButton:hover {
-  color: #CC0000;
-  border-color: #CC0000;
-  background-color: #FFF;
 }
 
 /* First Link */

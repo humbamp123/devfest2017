@@ -1,18 +1,25 @@
+.font, .blurbTitle, .blurbSubtitle {
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+}
+
 .background {
-  background-color: #172636;
+  background-color: #f9f9f9;
 }
 
 .blurbTitle {
-  font-size: 45px;
-  font-weight: 600;
-  color: white;
-  font-weight: 600;
-  font-style: italic;
+  font-size: 50px;
+  color: #666;
   text-align: center;
 }
 
+.blurbSubtitle {
+  color: #666;
+  font-size: 30px;
+}
+
 .blurbContent {
-  color: white;
+  color: #666;
   font-size: 20px;
   font-weight: 500;
 }
@@ -21,20 +28,22 @@
   max-width: 800px;
   min-width: 210px;
   margin-bottom: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .headerBannerLogo {
-  margin-bottom: 15px;
+  display: inline-block;
+  max-width: 600px;
 }
 
 .registerButton {
-  background-color: #CC0000;
-  border-color: #CC0000;
-  color: #FFF;
-}
-.registerButton:hover {
   color: #CC0000;
   border-color: #CC0000;
   background-color: #FFF;
+}
+
+.registerButton:hover {
+  background-color: #CC0000;
+  border-color: #CC0000;
+  color: #FFF;
 }

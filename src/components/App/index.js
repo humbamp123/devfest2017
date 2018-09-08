@@ -11,6 +11,8 @@ import Talks from '../Talks';
 import Speakers from '../Speakers';
 import Hackathon from '../Hackathon';
 import CommunityGuidelines from '../CommunityGuidelines';
+import 'tachyons/css/tachyons.css';
+import 'bulma/css/bulma.css';
 
 class App extends Component {
   render() {
@@ -18,10 +20,10 @@ class App extends Component {
     // fleshed out each venues schedules
     // <Route path="/agenda" component={Agenda}/>
 
-	const ScrollToTop = () => {
-	  window.scrollTo(0, 0);
-	    return null;
-		};
+  const ScrollToTop = () => {
+    window.scrollTo(0, 0);
+      return null;
+    };
 
     return (
       <div className={'appWrapper'}>
@@ -29,14 +31,14 @@ class App extends Component {
           <div>
             <Menu />
             <Route component={ScrollToTop} />
-			<Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
-            <Route path="/codelabs" component={CodeLabs}/>
-            <Route path="/talks" component={Talks}/>
-            <Route path="/hackathon" component={Hackathon}/>
-            <Route path="/speakers" component={Speakers}/>
-            <Route path="/community_guidelines" component={CommunityGuidelines}/>
-            <Sponsors />
+      <Route exact path="/" component={Home}/>
+      {/* <Route path="/about" component={About}/>
+          <Route path="/codelabs" component={CodeLabs}/>
+          <Route path="/talks" component={Talks}/>
+          <Route path="/hackathon" component={Hackathon}/>
+          <Route path="/speakers" component={Speakers}/>
+          <Route path="/community_guidelines" component={CommunityGuidelines}/> */}
+      {/* <Sponsors /> */}
             <Footer />
           </div>
         </Router>

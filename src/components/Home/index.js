@@ -6,12 +6,11 @@ import s from './Home.css';
 import 'bulma/css/bulma.css';
 
 class Home extends Component {
-  
   render() {
     return (
       <div className={classNames('App', s.wrapper)}>
         <Header />
-        <Events />
+        {/* <Events /> */}
       </div>
     );
   }

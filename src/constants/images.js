@@ -42,8 +42,8 @@ export const InterviewCake = require('../images/logos/interview_cake_logo.png')
 /* Assets */
 
 export const SFbridge = require('../images/assets/joseph-barrientos-7030.jpg')
-export const devFestBanner = require('../images/assets/devfestbanner.png')
-export const devFestLogo = require('../images/assets/devfestlogo.png')
+export const devFestBanner = require('../images/assets/sf_skyline_logo.png')
+export const devFestLogo = require('../images/assets/sf_skyline_logo.png')
 
 export const hackathonHero = require('../images/assets/hero_hackathon.jpg')
 export const talksHero = require('../images/assets/hero_galvanize.jpg')

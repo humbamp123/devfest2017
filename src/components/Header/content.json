@@ -1,8 +1,13 @@
 {
-    "title": "GDG Devfest",
-    "subtitle": "Bay Area 2017",
+    "title": "GDG DevFest 2018",
+    "subtitle": "San Francisco • Fremont",
+    "eventDetails": "October 28, 2018 • Galvanize SF",
     "blurbTitle": "dev·fest",
-    "blurbContent": "A community-run event designed to facilitate the exchange of ideas between developers of all skill levels and backgrounds. Participants will gain access to speaker sessions, a code lab, and a hack-a-thon event over the course of two weekends.",
+    "blurbContent": "A one day community-run event designed to facilitate the exchange of ideas between developers of all skill levels and backgrounds. Participants will gain access to all speaker sessions.",
     "register": "Buy Tickets",
-    "eventUrl" : "http://bit.ly/DevFest17"
+    "eventUrl" : "http://bit.ly/DevFest17",
+    "submitATalkTitle" : "Submit a talk proposal!",
+    "submitContent" : "Interested in giving a talk? Submit a proposal to become one of our speakers. Each sessions will 45 minutes long, with a 15 minute break in between.",
+    "callButton": "Submit a proposal",
+    "callForm": "https://goo.gl/forms/FLG2yhChLmWRslsi1"
 }

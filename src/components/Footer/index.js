@@ -12,14 +12,14 @@ class Footer extends Component {
         <div className={classNames('hero', 'is-small', 'footerColor')}>
             <div className={'hero-body'}>
                 <div className={classNames('container', 'has-text-centered')}>
-                    <div className={classNames('columns', 'is-gapless', 'is-centered')}>
-                      <div className={classNames('column', 'is-2')}>
+                    {/* <div className={classNames('columns', 'is-gapless', 'is-centered')}>
+                        <div className={classNames('column', 'is-2')}>
                         <a className={classNames('footerLinks')} href="mailto:san.francisco.gdg@gmail.com">{c.contact}</a>
-                      </div>
-                      <div className={classNames('column', 'is-2')}>
+                        </div>
+                        <div className={classNames('column', 'is-2')}>
                         <a className={classNames('footerLinks')} href={'/about'}>{c.about}</a>
-                      </div>
-                    </div>
+                        </div>
+                        </div> */}
                     <div className={classNames('columns', 'is-gapless', 'is-centered')}>
                         <Follow className={classNames('column')} username="sf_gdg" options={{size:"large"}}/>
                     </div>

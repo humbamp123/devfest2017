@@ -14,35 +14,24 @@
 }
 
 .codeLabsDate {
-	color: white;
-	font-size: 26px;
-	margin-top: 0px;
-	margin-bottom: 10px;
-}
-
-.registerButton {
-  background-color: #CC0000;
-  border-color: #CC0000;
-  color: #FFF;
-}
-.registerButton:hover {
-  color: #CC0000;
-  border-color: #CC0000;
-  background-color: #FFF;
+  color: white;
+  font-size: 26px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .codeLabsBlurb {
-	color: white;
-	font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .about {
-	background-color: hsl(0, 0%, 96%);
-	padding: 40px 24px;
+  background-color: hsl(0, 0%, 96%);
+  padding: 40px 24px;
 }
 
 .about .container {
-	max-width: 900px;
+  max-width: 900px;
 }
 
 .aboutTitle {
@@ -53,5 +42,5 @@
 }
 
 .aboutBody {
-	color: #333;
+  color: #333;
 }
